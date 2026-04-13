@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Podmínky úhrady onkologické léčby v ČR</title>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --navy: #1e3a5f;
+  --blue: #2563eb;
+  --blue-light: #dbeafe;
+  --green: #059669;
+  --green-light: #d1fae5;
+  --amber: #d97706;
+  --amber-light: #fef3c7;
+  --red: #dc2626;
+  --gray-50: #f8fafc;
+  --gray-100: #f1f5f9;
+  --gray-200: #e2e8f0;
+  --gray-300: #cbd5e1;
+  --gray-400: #94a3b8;
+  --gray-500: #64748b;
+  --gray-600: #475569;
+  --gray-700: #334155;
+  --gray-800: #1e293b;
+  --shadow: 0 1px 3px rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.06);
+  --shadow-md: 0 4px 6px rgba(0,0,0,.07), 0 2px 4px rgba(0,0,0,.06);
+  --radius: 8px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--gray-50);
+  color: var(--gray-800);
+  line-height: 1.6;
+}
+
+/* --- Header --- */
+header {
+  background: var(--navy);
+  color: white;
+  padding: 1.25rem 1.5rem;
+}
+header h1 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: .25rem;
+}
+header .meta {
+  font-size: .8rem;
+  opacity: .75;
+}
+
+/* --- Filters --- */
+.filters {
+  background: white;
+  border-bottom: 1px solid var(--gray-200);
+  padding: .75rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow);
+}
+.filters-row {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filters select, .filters input {
+  padding: .45rem .65rem;
+  border: 1px solid var(--gray-300);
+  border-radius: 6px;
+  font-size: .85rem;
+  background: white;
+  color: var(--gray-700);
+  min-width: 0;
+}
+.filters select { flex: 1; min-width: 140px; max-width: 260px; cursor: pointer; }
+.filters input { flex: 2; min-width: 180px; }
+.filters select:focus, .filters input:focus {
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 0 0 0 2px var(--blue-light);
+}
+.result-count {
+  font-size: .8rem;
+  color: var(--gray-500);
+  padding: .35rem 0 0;
+}
+
+/* --- Main --- */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 1rem 3rem;
+}
+
+/* --- Drug Card --- */
+.drug-card {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-bottom: .75rem;
+  overflow: hidden;
+}
+.drug-header {
+  padding: .85rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  user-select: none;
+  transition: background .15s;
+}
+.drug-header:hover { background: var(--gray-50); }
+
+.drug-chevron {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  transition: transform .2s;
+  color: var(--gray-400);
+}
+.drug-card.open .drug-chevron { transform: rotate(90deg); }
+
+.drug-name {
+  font-weight: 600;
+  font-size: .95rem;
+  flex-grow: 1;
+}
+.drug-substance {
+  font-weight: 400;
+  color: var(--gray-500);
+  font-size: .85rem;
+}
+.drug-atc {
+  font-size: .75rem;
+  color: var(--gray-500);
+  font-family: monospace;
+}
+.badge {
+  display: inline-block;
+  padding: .15rem .5rem;
+  border-radius: 999px;
+  font-size: .7rem;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.badge-imuno { background: var(--green-light); color: var(--green); }
+.badge-cilena { background: var(--amber-light); color: var(--amber); }
+
+/* --- Indications --- */
+.drug-body {
+  display: none;
+  border-top: 1px solid var(--gray-100);
+}
+.drug-card.open .drug-body { display: block; }
+
+.indication {
+  padding: .85rem 1rem;
+  border-bottom: 1px solid var(--gray-100);
+}
+.indication:last-child { border-bottom: none; }
+
+.indication-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3rem;
+  margin-bottom: .5rem;
+}
+.tag {
+  display: inline-block;
+  padding: .1rem .45rem;
+  border-radius: 4px;
+  font-size: .7rem;
+  font-weight: 500;
+  background: var(--blue-light);
+  color: var(--blue);
+  cursor: pointer;
+  transition: background .15s, color .15s;
+  user-select: none;
+}
+.tag:hover { background: var(--blue); color: white; }
+.tag.active { background: var(--blue); color: white; }
+
+.indication-text {
+  font-size: .84rem;
+  line-height: 1.65;
+  color: var(--gray-700);
+  word-break: break-word;
+}
+
+.ind-common {
+  margin-top: .55rem;
+}
+.ind-common-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  cursor: pointer;
+  font-size: .76rem;
+  font-weight: 500;
+  color: var(--gray-500);
+  background: none;
+  border: 1px solid var(--gray-200);
+  border-radius: 4px;
+  padding: .2rem .55rem;
+  transition: background .15s;
+}
+.ind-common-toggle:hover { background: var(--gray-100); }
+.ind-common-toggle svg {
+  width: 12px; height: 12px;
+  transition: transform .2s;
+}
+.ind-common-body {
+  display: none;
+  margin-top: .4rem;
+  padding: .55rem .7rem;
+  background: var(--gray-100);
+  border-radius: 6px;
+  font-size: .78rem;
+  line-height: 1.6;
+  color: var(--gray-600);
+}
+.ind-common.open .ind-common-body { display: block; }
+.ind-common.open .ind-common-toggle svg { transform: rotate(90deg); }
+
+/* --- Grouped indication items --- */
+.ind-items {
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+}
+.ind-item {
+  background: var(--gray-50);
+  border-left: 3px solid var(--blue);
+  border-radius: 0 6px 6px 0;
+  padding: .45rem .7rem;
+  font-size: .82rem;
+  line-height: 1.6;
+}
+.ind-item-meta {
+  display: block;
+  margin-top: .25rem;
+  font-size: .73rem;
+  color: var(--gray-500);
+}
+.ind-count {
+  font-size: .72rem;
+  color: var(--gray-400);
+  font-weight: 400;
+}
+
+.indication-text {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.indication-meta {
+  margin-top: .5rem;
+  font-size: .75rem;
+  color: var(--gray-500);
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.indication-meta .expiring {
+  color: var(--red);
+  font-weight: 600;
+}
+
+.drug-forms {
+  padding: .5rem 1rem;
+  background: var(--gray-50);
+  font-size: .75rem;
+  color: var(--gray-500);
+}
+
+/* --- No drugs with indications message --- */
+.no-indication {
+  padding: .85rem 1rem;
+  font-size: .84rem;
+  color: var(--gray-400);
+  font-style: italic;
+}
+
+/* --- Empty state --- */
+.empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--gray-400);
+}
+.empty h2 { font-size: 1.1rem; margin-bottom: .5rem; }
+
+/* --- Loading --- */
+.loading {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: var(--gray-400);
+}
+.loading .spinner {
+  width: 32px; height: 32px;
+  border: 3px solid var(--gray-200);
+  border-top-color: var(--blue);
+  border-radius: 50%;
+  animation: spin .7s linear infinite;
+  margin: 0 auto 1rem;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* --- Substance index --- */
+.substance-index {
+  max-width: 960px;
+  margin: .75rem auto 0;
+  padding: 0 1rem;
+}
+.substance-index-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  cursor: pointer;
+  font-size: .85rem;
+  font-weight: 500;
+  color: var(--gray-600);
+  padding: .4rem 0;
+  user-select: none;
+}
+.substance-index-toggle:hover { color: var(--blue); }
+.substance-index-toggle .drug-chevron {
+  width: 16px; height: 16px;
+}
+.substance-index.open .substance-index-toggle .drug-chevron { transform: rotate(90deg); }
+.substance-index-body {
+  display: none;
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: .75rem 1rem;
+  margin-top: .35rem;
+  column-count: 2;
+  column-gap: 1.5rem;
+  font-size: .8rem;
+  line-height: 1.9;
+}
+.substance-index.open .substance-index-body { display: block; }
+.substance-entry {
+  break-inside: avoid;
+}
+.substance-entry-name {
+  font-weight: 600;
+  color: var(--gray-800);
+  cursor: pointer;
+}
+.substance-entry-name:hover { color: var(--blue); text-decoration: underline; }
+.substance-entry-brands {
+  color: var(--gray-500);
+  font-weight: 400;
+}
+@media (max-width: 600px) {
+  .substance-index-body { column-count: 1; }
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: .75rem;
+  color: var(--gray-400);
+}
+footer a { color: var(--gray-500); }
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+  header { padding: 1rem; }
+  header h1 { font-size: 1.1rem; }
+  .filters { padding: .65rem .75rem; }
+  .filters select, .filters input { font-size: .8rem; }
+  main { padding: .75rem .5rem 2rem; }
+  .drug-header { padding: .75rem .65rem; }
+  .indication { padding: .75rem .65rem; }
+  .drug-atc { display: none; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Podmínky úhrady onkologické léčby v ČR</h1>
+  <div class="meta" id="header-meta">Načítání dat...</div>
+</header>
+
+<div class="filters">
+  <div class="filters-row">
+    <select id="f-type" title="Typ terapie">
+      <option value="">Všechny typy terapie</option>
+    </select>
+    <select id="f-drug" title="Lék">
+      <option value="">Všechny léky</option>
+    </select>
+    <select id="f-substance" title="Účinná látka">
+      <option value="">Všechny účinné látky</option>
+    </select>
+    <select id="f-cancer" title="Diagnóza">
+      <option value="">Všechny diagnózy</option>
+    </select>
+    <input type="search" id="f-search" placeholder="Hledat v textu..." title="Fulltextové vyhledávání">
+  </div>
+  <div class="result-count" id="result-count"></div>
+</div>
+
+<div id="substance-index" class="substance-index" style="display:none">
+  <div class="substance-index-toggle" onclick="this.parentElement.classList.toggle('open')">
+    <svg class="drug-chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd"/></svg>
+    Přehled účinných látek
+  </div>
+  <div class="substance-index-body" id="substance-index-body"></div>
+</div>
+
+<main id="results">
+  <div class="loading">
+    <div class="spinner"></div>
+    Načítání dat ze SÚKL...
+  </div>
+</main>
+
+<footer>
+  Data: <a href="https://prehledy.sukl.cz/docs/?url=/dlp.api.json#/" target="_blank" rel="noopener">SÚKL API</a>
+  &middot; Zdroj: <a href="https://github.com/ppacas/uhrada_lecby" target="_blank" rel="noopener">GitHub</a>
+</footer>
+
+<script>
+(function() {
+  "use strict";
+
+  let DATA = null;
+
+  const $ = id => document.getElementById(id);
+  const fType      = $("f-type");
+  const fDrug      = $("f-drug");
+  const fSubstance = $("f-substance");
+  const fCancer    = $("f-cancer");
+  const fSearch    = $("f-search");
+  const results = $("results");
+  const countEl = $("result-count");
+  const metaEl  = $("header-meta");
+
+  const chevronSvg = '<svg class="drug-chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd"/></svg>';
+
+  // --- Load data ---
+  fetch("data/drugs.json?v=" + Date.now())
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(init)
+    .catch(err => {
+      results.innerHTML = '<div class="empty"><h2>Nepodařilo se načíst data</h2><p>Soubor data/drugs.json nebyl nalezen. Spusťte fetch_data.py.</p></div>';
+      console.error(err);
+    });
+
+  function init(data) {
+    DATA = data;
+
+    // Header metadata
+    const m = data.metadata;
+    metaEl.textContent = `Data SÚKL platná od ${formatDate(m.scauPlatnostOd)} · Aktualizace: ${formatDate(m.datumAktualizace)} · ${m.pocetLeku} léků`;
+
+    // Populate filters
+    populateSelect(fType, data.filtry.typyTerapie);
+    populateSelect(fCancer, data.filtry.typyNadoru);
+    populateSubstanceSelect();
+    populateDrugSelect();
+
+    // Events
+    fType.addEventListener("change", () => { populateSubstanceSelect(); populateDrugSelect(); render(); });
+    fSubstance.addEventListener("change", () => { populateDrugSelect(); render(); });
+    fDrug.addEventListener("change", render);
+    fCancer.addEventListener("change", render);
+    fSearch.addEventListener("input", debounce(render, 200));
+
+    buildSubstanceIndex();
+    render();
+  }
+
+  function buildSubstanceIndex() {
+    // Group drugs by substance
+    const bySubstance = new Map();
+    for (const drug of DATA.leky) {
+      const sub = (drug.ucinnaLatka || "").toLowerCase();
+      if (!sub) continue;
+      if (!bySubstance.has(sub)) bySubstance.set(sub, []);
+      bySubstance.get(sub).push(drug.nazev);
+    }
+
+    const sorted = [...bySubstance.entries()].sort((a, b) => a[0].localeCompare(b[0], "cs"));
+
+    const container = $("substance-index-body");
+    container.innerHTML = sorted.map(([sub, brands]) => {
+      const brandList = brands.sort().join(", ");
+      // Click on substance selects the first brand in the drug filter
+      return `<div class="substance-entry">
+        <span class="substance-entry-name" onclick="selectDrug('${esc(brands[0])}')">${esc(sub)}</span>
+        <span class="substance-entry-brands"> — ${esc(brandList)}</span>
+      </div>`;
+    }).join("");
+
+    $("substance-index").style.display = "";
+  }
+
+  window.selectDrug = function(name) {
+    fType.value = "";
+    fSubstance.value = "";
+    populateSubstanceSelect();
+    populateDrugSelect();
+    fDrug.value = name;
+    render();
+    // Scroll to results
+    results.scrollIntoView({ behavior: "smooth" });
+  };
+
+  function populateSelect(el, items) {
+    const first = el.options[0];
+    el.innerHTML = "";
+    el.appendChild(first);
+    items.forEach(v => {
+      const o = document.createElement("option");
+      o.value = v; o.textContent = v;
+      el.appendChild(o);
+    });
+  }
+
+  function populateSubstanceSelect() {
+    const typeFilter = fType.value;
+    let drugs = DATA.leky;
+    if (typeFilter) drugs = drugs.filter(d => d.typ === typeFilter);
+    const substances = [...new Set(drugs.map(d => d.ucinnaLatka).filter(Boolean))].sort((a, b) => a.localeCompare(b, "cs"));
+    populateSelect(fSubstance, substances);
+  }
+
+  function populateDrugSelect() {
+    const typeFilter = fType.value;
+    const substanceFilter = fSubstance.value;
+    let drugs = DATA.leky;
+    if (typeFilter) drugs = drugs.filter(d => d.typ === typeFilter);
+    if (substanceFilter) drugs = drugs.filter(d => d.ucinnaLatka === substanceFilter);
+    const names = drugs.map(d => d.nazev).sort();
+    populateSelect(fDrug, names);
+  }
+
+  function render() {
+    const typeVal      = fType.value;
+    const drugVal      = fDrug.value;
+    const substanceVal = fSubstance.value;
+    const cancerVal    = fCancer.value;
+    const searchVal    = fSearch.value.trim().toLowerCase();
+
+    let filtered = DATA.leky;
+
+    if (typeVal)      filtered = filtered.filter(d => d.typ === typeVal);
+    if (substanceVal) filtered = filtered.filter(d => d.ucinnaLatka === substanceVal);
+    if (drugVal)      filtered = filtered.filter(d => d.nazev === drugVal);
+    if (cancerVal)    filtered = filtered.filter(d => d.typyNadoru.includes(cancerVal));
+    if (searchVal)    filtered = filtered.filter(d => drugMatchesSearch(d, searchVal));
+
+    // Only keep drugs that have indications (or matching search)
+    const withIndications = filtered.filter(d => d.indikace.length > 0);
+
+    countEl.textContent = `${withIndications.length} z ${DATA.leky.length} léků`;
+
+    if (withIndications.length === 0) {
+      results.innerHTML = '<div class="empty"><h2>Žádné výsledky</h2><p>Zkuste změnit filtry nebo vyhledávání.</p></div>';
+      return;
+    }
+
+    // Render cards
+    const fragment = document.createDocumentFragment();
+
+    withIndications.forEach(drug => {
+      const card = document.createElement("div");
+      card.className = "drug-card";
+
+      // Filter indications by cancer type if selected
+      let indications = drug.indikace;
+      if (cancerVal) {
+        indications = indications.filter(i => i.typyNadoru.includes(cancerVal));
+      }
+      if (searchVal) {
+        indications = indications.filter(i => i.text.toLowerCase().includes(searchVal));
+        if (indications.length === 0) indications = drug.indikace; // fallback to all if name matched
+      }
+
+      const badgeClass = drug.typ === "Imunoterapie" ? "badge-imuno" : "badge-cilena";
+
+      // Group indications by cancer type
+      const groups = groupByCancer(indications);
+
+      card.innerHTML = `
+        <div class="drug-header" onclick="this.parentElement.classList.toggle('open')">
+          ${chevronSvg}
+          <span class="drug-name">${esc(drug.nazev)}${drug.ucinnaLatka ? ` <span class="drug-substance">(${esc(drug.ucinnaLatka.toLowerCase())})</span>` : ""}</span>
+          <span class="drug-atc">${esc(drug.atcKod)}</span>
+          <span class="badge ${badgeClass}">${esc(drug.typ)}</span>
+        </div>
+        <div class="drug-body">
+          ${groups.map(g => renderCancerGroup(g, searchVal)).join("")}
+          ${drug.formy.length ? `<div class="drug-forms">Formy: ${esc(drug.formy.join(" · "))}</div>` : ""}
+        </div>
+      `;
+
+      fragment.appendChild(card);
+    });
+
+    results.innerHTML = "";
+    results.appendChild(fragment);
+
+    // Auto-expand if single drug selected
+    if (drugVal && results.children.length === 1) {
+      results.children[0].classList.add("open");
+    }
+  }
+
+  function groupByCancer(indications) {
+    const map = new Map();
+    for (const ind of indications) {
+      const label = ind.typyNadoru.join(", ") || "Ostatní";
+      if (!map.has(label)) map.set(label, []);
+      map.get(label).push(ind);
+    }
+    return [...map.entries()].map(([label, items]) => ({ label, items }));
+  }
+
+  function renderCancerGroup(group, searchVal) {
+    const { label, items } = group;
+
+    // Best obecné podmínky from the group (longest)
+    let bestObecne = null;
+    for (const ind of items) {
+      if (ind.obecnePodminky && (!bestObecne || ind.obecnePodminky.length > bestObecne.length)) {
+        bestObecne = ind.obecnePodminky;
+      }
+    }
+
+    let obecneHtml = "";
+    if (bestObecne) {
+      const uid = "op-" + Math.random().toString(36).substring(2, 8);
+      let opText = esc(bestObecne);
+      if (searchVal) opText = highlightSearch(opText, searchVal);
+      obecneHtml = `
+        <div class="ind-common" id="${uid}">
+          <button class="ind-common-toggle" onclick="document.getElementById('${uid}').classList.toggle('open')">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd"/></svg>
+            Obecné podmínky úhrady</button>
+          <div class="ind-common-body">${opText}</div>
+        </div>`;
+    }
+
+    const itemsHtml = items.map(ind => {
+      let text = esc(ind.text);
+      if (searchVal) text = highlightSearch(text, searchVal);
+
+      const metaParts = [];
+      if (ind.uhrada != null) metaParts.push(formatCZK(ind.uhrada));
+      if (ind.platnostDo) {
+        const dateStr = formatDate(ind.platnostDo.substring(0, 10));
+        const isExpiring = new Date(ind.platnostDo) < new Date(Date.now() + 90 * 86400000);
+        metaParts.push(`<span class="${isExpiring ? 'expiring' : ''}">do ${dateStr}</span>`);
+      }
+      const metaHtml = metaParts.length ? `<span class="ind-item-meta">${metaParts.join(" · ")}</span>` : "";
+
+      return `<div class="ind-item"><div class="indication-text">${text}</div>${metaHtml}</div>`;
+    }).join("");
+
+    return `
+      <div class="indication">
+        <div class="indication-tags">
+          <span class="tag">${esc(label)}</span>
+          <span class="ind-count">${items.length > 1 ? items.length + " indikace" : ""}</span>
+        </div>
+        <div class="ind-items">${itemsHtml}</div>
+        ${obecneHtml}
+      </div>
+    `;
+  }
+
+  function drugMatchesSearch(drug, q) {
+    if (drug.nazev.toLowerCase().includes(q)) return true;
+    if (drug.atcKod.toLowerCase().includes(q)) return true;
+    return drug.indikace.some(i => i.text.toLowerCase().includes(q));
+  }
+
+  function highlightSearch(text, q) {
+    if (!q) return text;
+    const regex = new RegExp(`(${escRegex(q)})`, "gi");
+    return text.replace(regex, '<mark>$1</mark>');
+  }
+
+  function esc(s) {
+    if (!s) return "";
+    const d = document.createElement("div");
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  function escRegex(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  function formatDate(s) {
+    if (!s) return "—";
+    const d = new Date(s);
+    return d.toLocaleDateString("cs-CZ");
+  }
+
+  function formatCZK(n) {
+    return n.toLocaleString("cs-CZ", { style: "currency", currency: "CZK", maximumFractionDigits: 0 });
+  }
+
+  function debounce(fn, ms) {
+    let t;
+    return function() { clearTimeout(t); t = setTimeout(fn, ms); };
+  }
+
+})();
+</script>
+</body>
+</html>
