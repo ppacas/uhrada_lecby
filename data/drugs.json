@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "datumAktualizace": "2026-04-14",
+    "datumAktualizace": "2026-04-28",
     "scauPlatnostOd": "2026-04-01",
     "scauVerze": 1,
-    "pocetLeku": 291,
-    "pocetZaznamu": 662
+    "pocetLeku": 296,
+    "pocetZaznamu": 691
   },
   "filtry": {
     "typyTerapie": [
@@ -918,7 +918,8 @@
       ],
       "typyNadoru": [
         "MDS"
-      ]
+      ],
+      "ucinnaLatka": "Monohydrát anagrelid-hydrochloridu"
     },
     {
       "nazev": "ANAGRELIDE TEVA",
@@ -1103,8 +1104,8 @@
       ],
       "indikace": [
         {
-          "text": "V adjuvanci u postmenopauzálních pacientek s karcinomem prsu je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě:\na) kontraindikace tamoxifenu\nb) u pacientek se středním a vysokým rizikem relapsu (dle St. Gallen)\nc) po 2-3 letech podávání tamoxifenu (switch aplikace)\nd) po 5 letech podávání tamoxifenu (prodloužená adjuvance)",
-          "uhrada": 208.36,
+          "text": "1) V adjuvanci u postmenopauzálních pacientek s karcinomem prsu je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě: a) kontraindikace tamoxifenu b) u pacientek se středním a vysokým rizikem relapsu (dle St. Gallen) c) po 2-3 letech podávání tamoxifenu (switch aplikace) d) po 5 letech podávání tamoxifenu (prodloužená adjuvance) 2) v paliativní léčbě metastatického onemocnění je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě kontraindikace tamoxifenu nebo při relapsu do jednoho roku po ukončení léčby tamoxifenem.",
+          "uhrada": 729.25,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -1601,7 +1602,8 @@
         "AML",
         "MDS",
         "Mnohočetný myelom"
-      ]
+      ],
+      "ucinnaLatka": "Azacitidin"
     },
     {
       "nazev": "AZACITIDINE KABI",
@@ -2294,7 +2296,8 @@
       ],
       "typyNadoru": [
         "Karcinom prostaty"
-      ]
+      ],
+      "ucinnaLatka": "Kabazitaxel"
     },
     {
       "nazev": "CABAZITAXEL MSN",
@@ -2316,7 +2319,8 @@
       ],
       "typyNadoru": [
         "Karcinom prostaty"
-      ]
+      ],
+      "ucinnaLatka": "Kabazitaxel"
     },
     {
       "nazev": "CABAZITAXEL SANDOZ",
@@ -2338,7 +2342,8 @@
       ],
       "typyNadoru": [
         "Karcinom prostaty"
-      ]
+      ],
+      "ucinnaLatka": "Monohydrát kabazitaxelu"
     },
     {
       "nazev": "CABOMETYX",
@@ -2380,7 +2385,8 @@
       ],
       "typyNadoru": [
         "Karcinom ledvin"
-      ]
+      ],
+      "ucinnaLatka": "Kabozantinib-malát"
     },
     {
       "nazev": "CAELYX PEGYLATED LIPOSOMAL",
@@ -2425,7 +2431,8 @@
       ],
       "typyNadoru": [
         "CLL/SLL"
-      ]
+      ],
+      "ucinnaLatka": "Akalabrutinib-maleinát"
     },
     {
       "nazev": "CAMCEVI",
@@ -2456,7 +2463,8 @@
       ],
       "typyNadoru": [
         "Karcinom prostaty"
-      ]
+      ],
+      "ucinnaLatka": "Leuprorelin-mesilát"
     },
     {
       "nazev": "CAPECITABINE ACCORD",
@@ -2499,7 +2507,8 @@
         "Karcinom prsu",
         "Karcinom žaludku",
         "Kolorektální karcinom"
-      ]
+      ],
+      "ucinnaLatka": "Kapecitabin"
     },
     {
       "nazev": "CAPECITABINE MEDAC",
@@ -2541,7 +2550,8 @@
         "Karcinom prsu",
         "Karcinom žaludku",
         "Kolorektální karcinom"
-      ]
+      ],
+      "ucinnaLatka": "Kapecitabin"
     },
     {
       "nazev": "CAPECITABINE MYLAN",
@@ -2583,7 +2593,8 @@
         "Karcinom prsu",
         "Karcinom žaludku",
         "Kolorektální karcinom"
-      ]
+      ],
+      "ucinnaLatka": "Kapecitabin"
     },
     {
       "nazev": "CAPECITABINE PHARMAGEN",
@@ -2626,7 +2637,8 @@
         "Karcinom prsu",
         "Karcinom žaludku",
         "Kolorektální karcinom"
-      ]
+      ],
+      "ucinnaLatka": "Kapecitabin"
     },
     {
       "nazev": "CAPECITABINE VIATRIS",
@@ -2691,7 +2703,8 @@
       ],
       "typyNadoru": [
         "Non-Hodgkinův lymfom"
-      ]
+      ],
+      "ucinnaLatka": "Glofitamab"
     },
     {
       "nazev": "COTELLIC",
@@ -2821,12 +2834,14 @@
       "atcKod": "L01EA02",
       "typ": "Cílená léčba",
       "formy": [
-        "50MG TBL FLM"
+        "20MG TBL FLM",
+        "50MG TBL FLM",
+        "70MG TBL FLM"
       ],
       "indikace": [
         {
           "text": "v léčbě pacientů s nově diagnostikovanou bcr-abl pozitivní (Ph+) chronickou myeloidní leukémií (CML), u nichž na základě anamnézy, cíle léčby a aktuálního zdravotního stavu popsaných v klinické dokumentaci není ošetřujícím lékařem indikováno použití imatinibu.",
-          "uhrada": 21345.47,
+          "uhrada": 29883.66,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -2836,7 +2851,8 @@
       ],
       "typyNadoru": [
         "CML"
-      ]
+      ],
+      "ucinnaLatka": "Monohydrát dasatinibu"
     },
     {
       "nazev": "DASATINIB VIATRIS",
@@ -4899,6 +4915,29 @@
       "ucinnaLatka": "Dostarlimab"
     },
     {
+      "nazev": "JEVTANA",
+      "atcKod": "L01CD04",
+      "typ": "Cílená léčba",
+      "formy": [
+        "60MG INF CSL LQF"
+      ],
+      "indikace": [
+        {
+          "text": "Kabazitaxel v kombinaci s prednisonem nebo prednisolonem je hrazen v terapii metastazujícího kastračně rezistentního karcinomu prostaty pacientům se stavem výkonnosti ECOG 0-1 dříve léčeným režimem obsahujícím docetaxel. Pacienti mohou být předléčeni jednou až dvěma liniemi chemoterapie (docetaxelem). Léčba je hrazena do progrese onemocnění (progrese PSA nebo bolesti nebo rentgenologické progrese nádoru nebo výskytu nepříznivé skeletální příhody), maximálně však do 10 podaných cyklů léčivého přípravku. Přípravek není hrazen pacientům s periferní neuropatií nebo stomatitidou 2. či vyššího stupně a pacientům se závažnými komorbiditami (včetně duplicitních malignit).",
+          "uhrada": 57950.33,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prostaty"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Karcinom prostaty"
+      ],
+      "ucinnaLatka": "Kabazitaxel"
+    },
+    {
       "nazev": "KADCYLA",
       "atcKod": "L01FD03",
       "typ": "Cílená léčba",
@@ -5439,7 +5478,7 @@
       "indikace": [
         {
           "text": "V adjuvanci u postmenopauzálních pacientek s karcinomem prsu je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě:  \na) kontraindikace tamoxifenu  \nb) u pacientek se středním a vysokým rizikem relapsu (dle St. Gallen)  \nc) po 2-3 letech podávání tamoxifenu (switch aplikace)  \nd) po 5 letech podávání tamoxifenu (prodloužená adjuvance)",
-          "uhrada": 223.24,
+          "uhrada": 744.14,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -5448,7 +5487,7 @@
         },
         {
           "text": "v paliativní léčbě metastatického onemocnění je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě kontraindikace tamoxifenu nebo při relapsu do jednoho roku po ukončení léčby tamoxifenem.",
-          "uhrada": 223.24,
+          "uhrada": 744.14,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -8706,6 +8745,7 @@
       "atcKod": "L01EA03",
       "typ": "Cílená léčba",
       "formy": [
+        "150MG CPS DUR",
         "200MG CPS DUR"
       ],
       "indikace": [
@@ -8877,6 +8917,30 @@
       "ucinnaLatka": "Temozolomid"
     },
     {
+      "nazev": "TEMOMEDAC",
+      "atcKod": "L01AX03",
+      "typ": "Cílená léčba",
+      "formy": [
+        "100MG CPS DUR",
+        "140MG CPS DUR"
+      ],
+      "indikace": [
+        {
+          "text": "při konkomitantní radiochemoterapii a bezprostředně navazující chemoterapii",
+          "uhrada": 5726.08,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Ostatní"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Ostatní"
+      ],
+      "ucinnaLatka": "Temozolomid"
+    },
+    {
       "nazev": "TEMOZOLOMIDE ACCORD",
       "atcKod": "L01AX03",
       "typ": "Cílená léčba",
@@ -8961,6 +9025,30 @@
         "NSCLC"
       ],
       "ucinnaLatka": "Hydrát tepotinib-hydrochloridu"
+    },
+    {
+      "nazev": "TEYSUNO",
+      "atcKod": "L01BC53",
+      "typ": "Cílená léčba",
+      "formy": [
+        "15MG/4,35MG/11,8MG CPS DUR",
+        "20MG/5,8MG/15,8MG CPS DUR"
+      ],
+      "indikace": [
+        {
+          "text": "Přípravky s obsahem kombinace léčivých látek tegafur, gimeracil a oteracil jsou hrazeny v kombinaci cisplatinou k léčbě pokročilého karcinomu žaludku pro dospělé pacienty.",
+          "uhrada": 10006.19,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom žaludku"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Karcinom žaludku"
+      ],
+      "ucinnaLatka": "Tegafur"
     },
     {
       "nazev": "THROMBOREDUCTIN",
@@ -9618,6 +9706,33 @@
       "ucinnaLatka": "Azacitidin"
     },
     {
+      "nazev": "VIDAZA",
+      "atcKod": "L01BC07",
+      "typ": "Cílená léčba",
+      "formy": [
+        "25MG/ML INJ PLV SUS"
+      ],
+      "indikace": [
+        {
+          "text": "Azacitidin je hrazen z prostředků veřejného zdravotního pojištění v první linii léčby dospělých pacientů se stavem výkonnosti dle ECOG 0-2, kteří nejsou způsobilí k transplantaci hematopoetických kmenových buněk a jejichž klinický stav umožňuje léčbu: \n- myelodysplastických syndromů (MDS) intermediárního rizika 2. stupně a vysokého rizika podle Mezinárodního prognostického skórovacího systému (IPSS);\n- chronické myelomonocytové leukémie (CMML) s 10-29 % blastů v kostní dřeni bez myeloproliferativního onemocnění;\n- akutní myeloidní leukémie (AML) s 20-30 % blastů a dysplazií ve více buněčných liniích, podle klasifikace Světové zdravotnické organizace (WHO).\nTerapie se ukončí kdykoliv z důvodu neakceptovatelné toxicity nebo progrese onemocnění (nárůst počtu blastů v kostní dřeni o více nebo rovno 25 %).\nPo 6 podaných cyklech se terapie ukončí, pokud není dosaženo alespoň hematologického zlepšení (pokles počtu blastů v kostní dřeni o více nebo rovno 25 %).\nPokud po 6 podaných cyklech došlo alespoň k hematologickému zlepšení (pokles počtu blastů v kostní dřeni o více nebo rovno 25 %), pacientům je hrazena terapie do neakceptovatelné toxicity nebo progrese onemocnění (nárůst počtu blastů v kostní dřeni o více nebo rovno 25 %).",
+          "uhrada": 3869.25,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Mnohočetný myelom",
+            "AML",
+            "MDS"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "AML",
+        "MDS",
+        "Mnohočetný myelom"
+      ],
+      "ucinnaLatka": "Azacitidin"
+    },
+    {
       "nazev": "VINORELBINE ACCORD",
       "atcKod": "L01CA04",
       "typ": "Cílená léčba",
@@ -9731,6 +9846,40 @@
         "NSCLC"
       ],
       "ucinnaLatka": "Vinorelbin-ditartarát"
+    },
+    {
+      "nazev": "VOTRIENT",
+      "atcKod": "L01EX03",
+      "typ": "Cílená léčba",
+      "formy": [
+        "200MG TBL FLM",
+        "400MG TBL FLM"
+      ],
+      "indikace": [
+        {
+          "text": "v první linii u nemetastatického karcinomu ledviny T4, N0-1, M0 inoperabilního či s ponechaným pooperačním nádorovým reziduem nebo u metastatického karcinomu ledviny s jakýmkoliv T i N a M1, jedná se o pacienty s nízkým až středním rizikem dle kritérií MSKCC",
+          "uhrada": 10411.88,
+          "platnostDo": null,
+          "obecnePodminky": "Pacienti v obou bodech musí být ve výkonnostním stavu 0-1 dle ECOG, bez CNS metastáz. Léčba je hrazena do progrese onemocnění dle kritérií RECIST.",
+          "typyNadoru": [
+            "Karcinom ledvin"
+          ]
+        },
+        {
+          "text": "ve druhé linii.\nPacienti musí být ve výkonnostním stavu 0-1 dle ECOG. Kontrola progrese onemocnění se provádí vhodnou zobrazovací technikou (dle kritérií RECIST) v tříměsíčních intervalech. Léčba je v obou bodech hrazena do progrese onemocnění.\nB) pacientů starších 18 let s vybranými subtypy pokročilého sarkomu měkkých tkání (vyjma GIST, adipocytárních nádorů a dalších dle SmPC), u kterých: \n1. byla zaznamenána progrese dle kritérií RECIST po předchozí chemoterapii pro metastazující onemocnění (zahrnující antracykliny a/nebo ifosfamid, nebo jejich kombinaci, a to v případě kdy došlo k vyčerpání možnosti této terapie) \nnebo \n2. u nich došlo k progresi onemocnění dle RECIST během 12 měsíců po (neo)adjuvantní terapii (zahrnující antracykliny a/nebo ifosfamid, nebo jejich kombinaci, a to v případě kdy došlo k vyčerpání možnosti této terapie).",
+          "uhrada": 10411.88,
+          "platnostDo": null,
+          "obecnePodminky": "Pacienti v obou bodech musí být ve výkonnostním stavu 0-1 dle ECOG, bez CNS metastáz. Léčba je hrazena do progrese onemocnění dle kritérií RECIST.",
+          "typyNadoru": [
+            "Sarkom"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Karcinom ledvin",
+        "Sarkom"
+      ],
+      "ucinnaLatka": "Pazopanib-hydrochlorid"
     },
     {
       "nazev": "VYLOY",
