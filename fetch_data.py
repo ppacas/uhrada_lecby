@@ -16,7 +16,7 @@ from pathlib import Path
 import requests
 
 API_BASE = "https://prehledy.sukl.cz/dlp/v1"
-ATC_PREFIXES = ("L01", "L02")
+ATC_PREFIXES = ("L01", "L02", "V10X", "V10B")
 MAX_WORKERS = 10
 REQUEST_DELAY = 0.05  # seconds between requests per thread
 
@@ -27,7 +27,7 @@ CANCER_KEYWORDS = {
     "SCLC": [r"(?<!N)SCLC", r"(?<!ne)malobuněčn"],
     "Karcinom prsu": [
         "prsu", "mammae",
-        "fulvestrant", "inhibitor\w* aromatáz", "letrozolem", "anastrozolem",
+        "fulvestrant", r"inhibitor\w* aromatáz", "letrozolem", "anastrozolem",
         "tamoxifen",
     ],
     "Melanom": ["melanom"],
@@ -35,9 +35,12 @@ CANCER_KEYWORDS = {
         "karcinom ledvin", "karcinomem ledvin", "karcinomu ledvin",
         "renáln", r"\bRCC\b",
     ],
-    "Kolorektální karcinom": ["kolorektáln", "tlusté střevo", "tlustého střeva"],
+    "Kolorektální karcinom": [
+        "kolorektáln", "tlusté střevo", "tlustého střeva",
+        "FOLFIRI", "FOLFOX", r"\bmCRC\b",
+    ],
     "Karcinom vaječníků": ["vaječník", "ovari"],
-    "Karcinom prostaty": ["prostat"],
+    "Karcinom prostaty": ["prostat", "kastračně rezistentní", r"\bmCRPC\b"],
     "Karcinom žaludku": ["žaludk", "gastro-ezofageáln", "gastroezofageáln", "GEJ"],
     "Karcinom jícnu": ["jícn", "ezofag"],
     "Karcinom hlavy a krku": ["hlavy a krku", "HNSCC"],
@@ -103,6 +106,8 @@ def is_oncology(detail):
 def classify_type(atc_code):
     if any(atc_code.startswith(p) for p in IMMUNOTHERAPY_ATC):
         return "Imunoterapie"
+    if atc_code.startswith("V10"):
+        return "Radioligandová terapie"
     if atc_code.startswith("L02"):
         return "Hormonální terapie"
     return "Cílená léčba"
@@ -150,140 +155,193 @@ _COMMON_BLOCK_RE = _re.compile(
 )
 
 
-def _split_indication_text(text, uhrada, platnost_do):
-    """Split a multi-indication text into individual indication items.
+_ROMAN_MAP = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6,
+              "VII": 7, "VIII": 8, "IX": 9, "X": 10}
 
-    Returns list of dicts with: text, uhrada, platnostDo, obecnePodminky.
-    Handles numbering patterns: 1), 2)... or 1., 2.... or A), B)...
+
+def _find_sequential_matches(matches, get_value, expected_first=1):
+    """Filter matches that form a sequential run starting at expected_first."""
+    sequential = []
+    expected = expected_first
+    for m in matches:
+        v = get_value(m)
+        if v == expected:
+            sequential.append(m)
+            expected += 1
+    return sequential
+
+
+def _find_top_sections(text):
+    """Detect top-level Roman (I., II., ...) or letter (A., B., ...) sections.
+
+    Sections may start at line beginning, after a colon, or after a sentence
+    boundary (period+space). Sequence filter ensures false matches inside
+    prose ("methoda I. typu") are dropped unless they form a real run.
+    Returns list of section body strings, or None if not found.
     """
-    # Try multiple numbering patterns
-    # Try "1), 2)" pattern first
-    pat = _re.compile(r'(?:^|[\n:;])\s*\d+\)\s*', _re.MULTILINE)
+    # Roman numerals (require trailing space + lowercase verb-like start to
+    # cut down on false matches mid-sentence)
+    roman_pat = _re.compile(
+        r'(?:^|[\n.:;])\s*(X|IX|VI{0,3}|IV|I{1,3})\.\s+(?=[a-zěščřžýáíéůú])',
+        _re.MULTILINE,
+    )
+    matches = list(roman_pat.finditer(text))
+    seq = _find_sequential_matches(matches, lambda m: _ROMAN_MAP.get(m.group(1)))
+    if len(seq) >= 2:
+        return _slice_sections(text, seq)
+
+    # Letter sections: "A. ", "B. ", "C. " — same constraints
+    letter_pat = _re.compile(
+        r'(?:^|[\n.:;])\s*([A-Z])\.\s+(?=[a-zěščřžýáíéůú])',
+        _re.MULTILINE,
+    )
+    matches = list(letter_pat.finditer(text))
+    seq = _find_sequential_matches(
+        matches, lambda m: ord(m.group(1)) - ord('A') + 1
+    )
+    if len(seq) >= 2:
+        return _slice_sections(text, seq)
+
+    return None
+
+
+def _slice_sections(text, matches):
+    """Given matches at section boundaries, return (header, body) per section.
+
+    Header is the marker + first phrase up to first sub-item or sentence end.
+    Body is everything else in that section.
+    """
+    sections = []
+    for i, m in enumerate(matches):
+        start = m.end()
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
+        section_text = text[start:end].strip().rstrip(";").rstrip(".")
+        sections.append(section_text)
+    return sections
+
+
+def _find_subitems(text):
+    """Find numbered sub-items 1) 2) ... or 1. 2. ... in text.
+
+    Matches digit+marker tokens that are not preceded by another digit or
+    word char. Sequential filter ensures false matches mid-prose are dropped
+    unless they form a real run.
+    """
+    # "1) 2) ..." pattern — must be a standalone marker, not part of a word
+    pat = _re.compile(r'(?<![\d\w])(\d+)\)\s+(?=[a-zěščřžýáíéůú])', _re.MULTILINE)
     matches = list(pat.finditer(text))
-    if len(matches) < 2:
-        matches = []
+    seq = _find_sequential_matches(matches, lambda m: int(m.group(1)))
+    if len(seq) >= 2:
+        return seq
 
-    # Try "N. " pattern (e.g. "1. k léčbě...  2. v léčbě...") if nothing found
-    if len(matches) < 2:
-        dot_pat = _re.compile(r'(?:^|[:\n]|(?<=\.\s))\s*(\d+)\.\s+', _re.MULTILINE)
-        candidates = list(dot_pat.finditer(text))
-        if len(candidates) >= 2:
-            sequential = []
-            expected = 1
-            for m in candidates:
-                num = int(m.group(1))
-                if num == expected:
-                    sequential.append(m)
-                    expected += 1
-                elif num > expected:
-                    break
-            if len(sequential) >= 2:
-                matches = sequential
+    # "1. 2. ..." pattern
+    dot_pat = _re.compile(
+        r'(?:^|[:\n]|(?<=\.\s))\s*(\d+)\.\s+(?=[a-zěščřžýáíéůú])',
+        _re.MULTILINE,
+    )
+    matches = list(dot_pat.finditer(text))
+    seq = _find_sequential_matches(matches, lambda m: int(m.group(1)))
+    if len(seq) >= 2:
+        return seq
 
-    # Try "A) ... B) ... C)" pattern — must be sequential A, B, C...
-    if len(matches) < 2:
-        letter_pat = _re.compile(r'(?:^|[\n:.])\s*([A-Z])\)\s*', _re.MULTILINE)
-        candidates = list(letter_pat.finditer(text))
-        if len(candidates) >= 2:
-            sequential = []
-            expected_ord = ord('A')
-            for m in candidates:
-                if ord(m.group(1)) == expected_ord:
-                    sequential.append(m)
-                    expected_ord += 1
-            if len(sequential) >= 2:
-                matches = sequential
+    return []
 
-    # Try Roman numerals: "I. ... II. ... III."
-    if len(matches) < 2:
-        roman_vals = [("I", 1), ("II", 2), ("III", 3), ("IV", 4), ("V", 5), ("VI", 6)]
-        roman_pat = _re.compile(
-            r'(?:^|[\n:.])\s*(I{1,3}V?|IV|VI{0,3})\.\s+',
-            _re.MULTILINE,
-        )
-        candidates = list(roman_pat.finditer(text))
-        roman_map = {r: v for r, v in roman_vals}
-        if len(candidates) >= 2:
-            sequential = []
-            expected = 1
-            for m in candidates:
-                val = roman_map.get(m.group(1))
-                if val == expected:
-                    sequential.append(m)
-                    expected += 1
-            if len(sequential) >= 2:
-                matches = sequential
 
-    if len(matches) < 2:
-        return [{
-            "text": text.strip(),
-            "uhrada": uhrada,
-            "platnostDo": platnost_do,
-        }]
+def _split_section_by_subitems(section_text):
+    """Split a section into items by numbered sub-items, prepending parent prefix.
 
-    # Extract common conditions block first
-    obecne = ""
-    text_for_items = text
-    last_item_start = matches[-1].start()
-    after_last = text[last_item_start:]
+    Returns list of item texts. If no sub-items found, returns [section_text].
+    """
+    matches = _find_subitems(section_text)
+    if not matches:
+        return [section_text.strip()]
+
+    # Pre-text is everything before the first sub-item (parent context)
+    prefix = section_text[:matches[0].start()].strip().rstrip(":").rstrip()
+
+    # Strip trailing common conditions block (applies to all sub-items)
+    text_for_items = section_text
+    obecne_in_tail = None
+    last_start = matches[-1].start()
+    after_last = section_text[last_start:]
     cm = _COMMON_BLOCK_RE.search(after_last)
     if cm:
-        obecne = after_last[cm.start():].strip()
-        text_for_items = text[:last_item_start + cm.start()]
-        # Re-find matches in trimmed text
+        obecne_in_tail = after_last[cm.start():].strip()
+        text_for_items = section_text[:last_start + cm.start()]
         matches = [m for m in matches if m.start() < len(text_for_items)]
 
-    # Extract each numbered item
     items = []
     for i, m in enumerate(matches):
         start = m.end()
         end = matches[i + 1].start() if i + 1 < len(matches) else len(text_for_items)
-        item_text = text_for_items[start:end].strip().rstrip(";")
+        item_body = text_for_items[start:end].strip().rstrip(";").rstrip()
+        # Prepend parent context so each sub-item carries its cancer-type heading
+        if prefix:
+            full = f"{prefix} {item_body}"
+        else:
+            full = item_body
+        items.append(full)
 
-        items.append({
-            "text": item_text,
+    return items, obecne_in_tail
+
+
+def _split_indication_text(text, uhrada, platnost_do):
+    """Split a multi-indication text into individual indication items.
+
+    Strategy:
+      1) Detect top-level Roman/letter sections at line start. If present,
+         each section becomes its own indication and is recursively split
+         by numbered sub-items (1), 2)) with the section heading preserved.
+      2) Otherwise, split by numbered sub-items at any level, prepending
+         the parent prefix (text before the first item) to each item.
+      3) Otherwise, return the text as a single item.
+    """
+    # 1) Top-level Roman/letter sections
+    sections = _find_top_sections(text)
+    if sections:
+        items = []
+        common = None
+        for sec in sections:
+            res = _split_section_by_subitems(sec)
+            if isinstance(res, tuple):
+                sub_items, sec_common = res
+                if sec_common and not common:
+                    common = sec_common
+            else:
+                sub_items = res
+            for it in sub_items:
+                items.append({
+                    "text": it,
+                    "uhrada": uhrada,
+                    "platnostDo": platnost_do,
+                    "obecnePodminky": None,
+                })
+        if common:
+            for it in items:
+                it["obecnePodminky"] = common
+        return items
+
+    # 2) Numbered sub-items at top level — preserve prefix as parent context
+    res = _split_section_by_subitems(text)
+    if isinstance(res, tuple):
+        sub_items, common = res
+    else:
+        sub_items, common = res, None
+
+    if len(sub_items) >= 2:
+        return [{
+            "text": it,
             "uhrada": uhrada,
             "platnostDo": platnost_do,
-            "obecnePodminky": obecne if obecne else None,
-        })
+            "obecnePodminky": common,
+        } for it in sub_items]
 
-    return items
-
-
-def _item_fingerprint(text):
-    """Extract key clinical concepts for dedup matching.
-
-    Extracts the treatment modality and key nouns, ignoring filler words.
-    Two items describing the same treatment for the same cancer should
-    produce the same fingerprint.
-    """
-    norm = _normalize(text).lower()
-    # Extract key clinical terms
-    terms = set()
-    # Treatment modality
-    for kw in ["monoterapii", "kombinaci", "kombinované", "adjuvantní",
-               "neoadjuvantní", "udržovací", "první lini", "1. lini"]:
-        if kw in norm:
-            terms.add(kw.replace("ované", "").replace("aci", ""))
-    # Cancer type / drug combo keywords — synonyms map to canonical term
-    cancer_kws = {
-        "melanom": "melanom", "renáln": "rcc", "ledvin": "rcc",
-        "nsclc": "nsclc", "nemalobuněčn": "nsclc",
-        "urotel": "urotel", "kolorektáln": "crc",
-        "jícn": "jicen", "žaludk": "zaludek", "gastro": "zaludek",
-        "prsu": "prsu", "hlavy a krku": "hnscc", "hodgkin": "hodgkin",
-        "myelom": "myelom", "vaječník": "ovarium", "prostat": "prostata",
-        "ipilimumab": "ipilimumab", "kabozantinib": "kabozantinib",
-        "lenvatinib": "lenvatinib", "cisplatin": "cisplatin",
-        "bevacizumab": "bevacizumab", "trastuzumab": "trastuzumab",
-        "pemetrexed": "pemetrexed", "paklitaxel": "paklitaxel",
-        "gemcitabin": "gemcitabin", "autologní transplant": "autotx",
-        "etoposid": "etoposid",
-    }
-    for kw, canonical in cancer_kws.items():
-        if kw in norm:
-            terms.add(canonical)
-    return frozenset(terms)
+    # 3) Single item
+    return [{
+        "text": text.strip(),
+        "uhrada": uhrada,
+        "platnostDo": platnost_do,
+    }]
 
 
 def process_drugs(details):
@@ -302,6 +360,7 @@ def process_drugs(details):
                 "atcKod": atc,
                 "typ": classify_type(atc),
                 "formy": set(),
+                "baleni": [],
                 "_raw_uhrady": [],
                 "_kodSUKL": d.get("kodSUKL", ""),
             }
@@ -311,6 +370,24 @@ def process_drugs(details):
         forma = d.get("lekovaFormaKod", "")
         if sila and forma:
             drug["formy"].add(f"{sila} {forma}")
+
+        # Per-package info — pick the highest úhrada across this package's
+        # úhrada entries (typically just one) as the package's reimbursement.
+        pkg_uhrada = 0
+        for u in d.get("uhrady", []):
+            val = u.get("uhrada") or 0
+            if val > pkg_uhrada:
+                pkg_uhrada = val
+        drug["baleni"].append({
+            "kodSUKL": d.get("kodSUKL", ""),
+            "sila": sila,
+            "lekovaForma": forma,
+            "baleni": d.get("baleni", ""),
+            "doplnek": d.get("doplnek", ""),
+            "uhrada": pkg_uhrada,
+            "cenaPuvodce": d.get("cenaPuvodce"),
+            "maxCenaLekarna": d.get("maxCenaLekarna"),
+        })
 
         forma_str = f"{d.get('sila', '')} {d.get('lekovaFormaKod', '')}".strip()
         for u in d.get("uhrady", []):
@@ -333,15 +410,24 @@ def process_drugs(details):
             )
             all_items.extend(items)
 
-        # Deduplicate by fingerprint, keep highest price
+        # Deduplicate. Two items collapse only when their normalized text is
+        # nearly identical — distinct sub-items (e.g. "ve druhé linii" vs.
+        # "ve třetí linii") are preserved. Across multiple SUKL packages of
+        # the same drug, identical indication texts collapse to one entry
+        # (keeping the highest úhrada).
+        def _dedup_key(text):
+            # Strip all non-alphanumeric chars for dedup so cross-package
+            # variations (whitespace, "+" vs " ", punctuation) collapse.
+            return _re.sub(r"[^\w]+", "", _normalize(text).lower())
+
         seen = {}
         for item in all_items:
-            fp = _item_fingerprint(item["text"])
-            if fp in seen:
-                if item["uhrada"] > seen[fp]["uhrada"]:
-                    seen[fp] = item
+            key = _dedup_key(item["text"])
+            if key in seen:
+                if item["uhrada"] > seen[key]["uhrada"]:
+                    seen[key] = item
             else:
-                seen[fp] = item
+                seen[key] = item
 
         indikace = []
         for item in seen.values():
@@ -392,10 +478,20 @@ def process_drugs(details):
             continue
 
         drug["formy"] = sorted(drug["formy"])
+        # Sort packages: by strength (numeric if possible), then by package text
+        drug["baleni"] = sorted(
+            drug.get("baleni", []),
+            key=lambda b: (b.get("lekovaForma", ""), b.get("sila", ""), b.get("baleni", "")),
+        )
         all_types = set()
         for ind in drug["indikace"]:
             all_types.update(ind["typyNadoru"])
         drug["typyNadoru"] = sorted(all_types)
+        # Split packages into IV/SC matching the indication split, if SC variant exists
+        if sc_raw:
+            iv_baleni = [b for b in drug["baleni"] if "INJ SOL" not in b.get("lekovaForma", "")]
+            sc_baleni = [b for b in drug["baleni"] if "INJ SOL" in b.get("lekovaForma", "")]
+            drug["baleni"] = iv_baleni
         result.append(drug)
 
         # Create separate SC drug entry if applicable
@@ -407,6 +503,7 @@ def process_drugs(details):
                     "atcKod": drug["atcKod"],
                     "typ": drug["typ"],
                     "formy": sorted(f for f in drug["formy"] if "INJ SOL" in f),
+                    "baleni": sc_baleni,
                     "_kodSUKL": drug["_kodSUKL"],
                     "indikace": sc_indikace,
                 }
@@ -508,6 +605,16 @@ def main():
 
     # 5. Fetch substance names
     fetch_substance_names(drugs)
+
+    # 5b. Merge in radioligands (not in SCAU; curated reference data)
+    radio_path = Path(__file__).parent / "data" / "radioligands.json"
+    if radio_path.exists():
+        with open(radio_path, "r", encoding="utf-8") as f:
+            radio = json.load(f)
+        radio_drugs = radio.get("drugs", [])
+        drugs.extend(radio_drugs)
+        drugs.sort(key=lambda x: x["nazev"])
+        print(f"  + {len(radio_drugs)} radioligandů (ze static reference)")
 
     # Collect filter values
     all_cancers = set()

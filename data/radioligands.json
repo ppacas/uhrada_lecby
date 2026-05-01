@@ -1,0 +1,96 @@
+{
+  "_comment": "Radioligand therapies — these are NOT in the SÚKL public reimbursement list (SCAU). They are typically reimbursed via §16 zákona 48/1997 Sb. (individual exception), ZULP, or contracts with specialized oncology centres (KOC). Indication texts are paraphrased from SPC and current Czech clinical practice — verify against the SPC and your KOC's protocol before applying.",
+  "drugs": [
+    {
+      "nazev": "LUTATHERA",
+      "atcKod": "V10XX04",
+      "typ": "Radioligandová terapie",
+      "ucinnaLatka": "Lutecium (177Lu) oxodotreotid",
+      "formy": ["370MBQ/ML INF SOL"],
+      "baleni": [
+        {"sila": "370 MBq/ml", "lekovaForma": "INF SOL", "baleni": "25 ml lahvička",
+         "doplnek": "1 dávka 7,4 GBq", "uhrada": null}
+      ],
+      "indikace": [
+        {
+          "text": "Léčba neresekovatelných nebo metastatických, progresivních, dobře diferencovaných (G1, G2), somatostatin-receptor pozitivních gastroenteropankreatických neuroendokrinních tumorů (GEP-NETs) u dospělých pacientů. Standardní režim: 4 cykly á 7,4 GBq i.v. v 8týdenních intervalech.",
+          "uhrada": null,
+          "platnostDo": null,
+          "obecnePodminky": "Není v seznamu hrazených léčiv SÚKL. Úhrada individuálně podle §16 zákona č. 48/1997 Sb., případně jako ZULP v centrech specializované péče (KOC s nukleární medicínou).",
+          "typyNadoru": ["Neuroendokrinní nádory"]
+        }
+      ],
+      "typyNadoru": ["Neuroendokrinní nádory"]
+    },
+    {
+      "nazev": "PLUVICTO",
+      "atcKod": "V10XX05",
+      "typ": "Radioligandová terapie",
+      "ucinnaLatka": "Lutecium (177Lu) vipivotid tetraxetan",
+      "formy": ["1000MBQ/ML INF SOL"],
+      "baleni": [
+        {"sila": "1000 MBq/ml", "lekovaForma": "INF SOL", "baleni": "lahvička dle dávky",
+         "doplnek": "1 dávka 7,4 GBq", "uhrada": null}
+      ],
+      "indikace": [
+        {
+          "text": "Léčba dospělých pacientů s progresivním PSMA-pozitivním metastatickým kastračně rezistentním karcinomem prostaty (mCRPC) po předchozí léčbě inhibitorem androgenní receptorové dráhy a chemoterapií taxanem. Standardní režim: až 6 cyklů á 7,4 GBq i.v. v 6týdenních intervalech.",
+          "uhrada": null,
+          "platnostDo": null,
+          "obecnePodminky": "Není v seznamu hrazených léčiv SÚKL. Úhrada individuálně podle §16 zákona č. 48/1997 Sb. v centrech specializované péče.",
+          "typyNadoru": ["Karcinom prostaty"]
+        }
+      ],
+      "typyNadoru": ["Karcinom prostaty"]
+    },
+    {
+      "nazev": "XOFIGO",
+      "atcKod": "V10XX03",
+      "typ": "Radioligandová terapie",
+      "ucinnaLatka": "Radium (223Ra) dichlorid",
+      "formy": ["1100KBQ/ML INJ SOL"],
+      "baleni": [
+        {"sila": "1100 kBq/ml", "lekovaForma": "INJ SOL", "baleni": "6 ml lahvička",
+         "doplnek": "1 dávka 55 kBq/kg", "uhrada": null}
+      ],
+      "indikace": [
+        {
+          "text": "Léčba dospělých pacientů s metastatickým kastračně rezistentním karcinomem prostaty (mCRPC) se symptomatickými kostními metastázami a bez známých viscerálních metastáz, progredujícími po systémové léčbě nebo nezpůsobilými k systémové léčbě. Standardní režim: 6 cyklů á 55 kBq/kg i.v. v 4týdenních intervalech.",
+          "uhrada": null,
+          "platnostDo": null,
+          "obecnePodminky": "Není v seznamu hrazených léčiv SÚKL. Úhrada individuálně podle §16 zákona č. 48/1997 Sb. v centrech specializované péče.",
+          "typyNadoru": ["Karcinom prostaty"]
+        }
+      ],
+      "typyNadoru": ["Karcinom prostaty"]
+    },
+    {
+      "nazev": "NATRIUM-IODID (131I)",
+      "atcKod": "V10XA01",
+      "typ": "Radioligandová terapie",
+      "ucinnaLatka": "Natrium-jodid (131I)",
+      "formy": ["TBL / CPS / SOL"],
+      "baleni": [
+        {"sila": "individuálně dle aktivity", "lekovaForma": "TBL/CPS/SOL", "baleni": "individuální dávka",
+         "doplnek": "ablace 1,1–3,7 GBq, terapie metastáz až 7,4 GBq", "uhrada": null}
+      ],
+      "indikace": [
+        {
+          "text": "Ablace zbytkové štítné žlázy a léčba metastáz diferencovaného (papilárního/folikulárního) karcinomu štítné žlázy po totální tyreoidektomii. Lze opakovat při průkazu jod-vychytávajícího reziduálního nebo metastatického onemocnění (RAI-avid).",
+          "uhrada": null,
+          "platnostDo": null,
+          "obecnePodminky": "Standardně dostupný v centrech nukleární medicíny; úhrada zdravotní pojišťovnou v rámci hospitalizační péče. Není veden v ambulantním seznamu hrazených léčiv SÚKL.",
+          "typyNadoru": ["Karcinom štítné žlázy"]
+        },
+        {
+          "text": "Léčba hyperthyreózy (Gravesova choroba, toxický uzlový struma) a benigních nemaligních onemocnění štítné žlázy.",
+          "uhrada": null,
+          "platnostDo": null,
+          "obecnePodminky": "Mimoonkologická indikace.",
+          "typyNadoru": ["Ostatní"]
+        }
+      ],
+      "typyNadoru": ["Karcinom štítné žlázy", "Ostatní"]
+    }
+  ]
+}

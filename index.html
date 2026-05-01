@@ -154,6 +154,8 @@ main {
 }
 .badge-imuno { background: var(--green-light); color: var(--green); }
 .badge-cilena { background: var(--amber-light); color: var(--amber); }
+.badge-hormon { background: #ede9fe; color: #6d28d9; }
+.badge-radio  { background: #fee2e2; color: #be123c; }
 
 /* --- Indications --- */
 .drug-body {
@@ -280,6 +282,67 @@ main {
   background: var(--gray-50);
   font-size: .75rem;
   color: var(--gray-500);
+}
+
+/* --- Package list --- */
+.drug-packages {
+  padding: .65rem 1rem;
+  background: var(--gray-50);
+  border-top: 1px solid var(--gray-100);
+  font-size: .78rem;
+}
+.drug-packages-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--gray-600);
+  background: none;
+  border: none;
+  padding: 0;
+  user-select: none;
+}
+.drug-packages-toggle svg {
+  width: 12px; height: 12px;
+  transition: transform .2s;
+  color: var(--gray-400);
+}
+.drug-packages.open .drug-packages-toggle svg { transform: rotate(90deg); }
+.drug-packages-body {
+  display: none;
+  margin-top: .5rem;
+}
+.drug-packages.open .drug-packages-body { display: block; }
+.pkg-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .76rem;
+}
+.pkg-table th, .pkg-table td {
+  text-align: left;
+  padding: .35rem .5rem;
+  border-bottom: 1px solid var(--gray-200);
+  vertical-align: top;
+}
+.pkg-table th {
+  font-weight: 600;
+  color: var(--gray-500);
+  background: white;
+}
+.pkg-table td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.pkg-table tr:last-child td { border-bottom: none; }
+.pkg-count {
+  font-size: .72rem;
+  color: var(--gray-400);
+  margin-left: .35rem;
+}
+@media (max-width: 600px) {
+  .pkg-table th, .pkg-table td { padding: .3rem .25rem; font-size: .72rem; }
 }
 
 /* --- No drugs with indications message --- */
@@ -592,7 +655,7 @@ footer a { color: var(--gray-500); }
         if (indications.length === 0) indications = drug.indikace; // fallback to all if name matched
       }
 
-      const badgeClass = drug.typ === "Imunoterapie" ? "badge-imuno" : "badge-cilena";
+      const badgeClass = badgeClassFor(drug.typ);
 
       // Group indications by cancer type
       const groups = groupByCancer(indications);
@@ -606,7 +669,7 @@ footer a { color: var(--gray-500); }
         </div>
         <div class="drug-body">
           ${groups.map(g => renderCancerGroup(g, searchVal)).join("")}
-          ${drug.formy.length ? `<div class="drug-forms">Formy: ${esc(drug.formy.join(" · "))}</div>` : ""}
+          ${renderPackages(drug)}
         </div>
       `;
 
@@ -683,6 +746,59 @@ footer a { color: var(--gray-500); }
         ${obecneHtml}
       </div>
     `;
+  }
+
+  function badgeClassFor(typ) {
+    if (typ === "Imunoterapie") return "badge-imuno";
+    if (typ === "Hormonální terapie") return "badge-hormon";
+    if (typ === "Radioligandová terapie") return "badge-radio";
+    return "badge-cilena";
+  }
+
+  function renderPackages(drug) {
+    const packages = drug.baleni || [];
+    const formy = drug.formy || [];
+    if (!packages.length && !formy.length) return "";
+
+    if (!packages.length) {
+      return `<div class="drug-forms">Formy: ${esc(formy.join(" · "))}</div>`;
+    }
+
+    const rows = packages.map(p => {
+      const sila = esc(p.sila || "—");
+      const forma = esc(p.lekovaForma || "");
+      const baleni = esc(p.baleni || "");
+      const uhrada = (p.uhrada != null && p.uhrada > 0) ? formatCZK(p.uhrada) : "—";
+      const cena = (p.maxCenaLekarna != null && p.maxCenaLekarna > 0) ? formatCZK(p.maxCenaLekarna) : "";
+      return `<tr>
+        <td>${sila}</td>
+        <td>${forma}</td>
+        <td>${baleni}</td>
+        <td class="num">${uhrada}</td>
+        <td class="num">${cena}</td>
+      </tr>`;
+    }).join("");
+
+    const uid = "pkg-" + Math.random().toString(36).substring(2, 8);
+    return `
+      <div class="drug-packages" id="${uid}">
+        <button class="drug-packages-toggle" onclick="document.getElementById('${uid}').classList.toggle('open')">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd"/></svg>
+          Balení a ceny<span class="pkg-count">(${packages.length})</span>
+        </button>
+        <div class="drug-packages-body">
+          <table class="pkg-table">
+            <thead><tr>
+              <th>Síla</th>
+              <th>Forma</th>
+              <th>Balení</th>
+              <th class="num">Úhrada</th>
+              <th class="num">Max. cena</th>
+            </tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      </div>`;
   }
 
   function drugMatchesSearch(drug, q) {
