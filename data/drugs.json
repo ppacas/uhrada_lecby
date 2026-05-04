@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "datumAktualizace": "2026-05-02",
+    "datumAktualizace": "2026-05-04",
     "scauPlatnostOd": "2026-05-01",
     "scauVerze": 1,
-    "pocetLeku": 294,
-    "pocetZaznamu": 663
+    "pocetLeku": 303,
+    "pocetZaznamu": 699
   },
   "filtry": {
     "typyTerapie": [
@@ -152,7 +152,8 @@
         "Kolorektální karcinom",
         "NSCLC",
         "Ostatní"
-      ]
+      ],
+      "ucinnaLatka": "Bevacizumab"
     },
     {
       "nazev": "ABIRATERON PHARMAGEN",
@@ -383,7 +384,8 @@
       ],
       "typyNadoru": [
         "Karcinom prostaty"
-      ]
+      ],
+      "ucinnaLatka": "Abirateron-acetát"
     },
     {
       "nazev": "ABIRATERONE AGMED",
@@ -445,7 +447,8 @@
       ],
       "typyNadoru": [
         "Karcinom prostaty"
-      ]
+      ],
+      "ucinnaLatka": "Abiraterone"
     },
     {
       "nazev": "ABIRATERONE GLENMARK",
@@ -550,7 +553,8 @@
       ],
       "typyNadoru": [
         "Karcinom prostaty"
-      ]
+      ],
+      "ucinnaLatka": "Abirateron-acetát"
     },
     {
       "nazev": "ABIRATERONE KRKA",
@@ -783,7 +787,8 @@
       ],
       "typyNadoru": [
         "Karcinom prostaty"
-      ]
+      ],
+      "ucinnaLatka": "Abirateron-acetát"
     },
     {
       "nazev": "ABIRATERONE ZENTIVA",
@@ -835,7 +840,8 @@
       ],
       "typyNadoru": [
         "Karcinom prostaty"
-      ]
+      ],
+      "ucinnaLatka": "Abirateron-acetát"
     },
     {
       "nazev": "ABRAXANE",
@@ -1706,7 +1712,8 @@
       "typyNadoru": [
         "Karcinom pankreatu",
         "Karcinom prsu"
-      ]
+      ],
+      "ucinnaLatka": "Paklitaxel"
     },
     {
       "nazev": "ARIMIDEX",
@@ -1898,6 +1905,16 @@
       ],
       "baleni": [
         {
+          "kodSUKL": "0230335",
+          "sila": "1MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "100",
+          "doplnek": "1MG TBL FLM 100",
+          "uhrada": 744.14,
+          "cenaPuvodce": 1354.58,
+          "maxCenaLekarna": 1868
+        },
+        {
           "kodSUKL": "0230332",
           "sila": "1MG",
           "lekovaForma": "TBL FLM",
@@ -1910,8 +1927,8 @@
       ],
       "indikace": [
         {
-          "text": "1) V adjuvanci u postmenopauzálních pacientek s karcinomem prsu je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě:\na) kontraindikace tamoxifenu\nb) u pacientek se středním a vysokým rizikem relapsu (dle St. Gallen)\nc) po 2-3 letech podávání tamoxifenu (switch aplikace)\nd) po 5 letech podávání tamoxifenu (prodloužená adjuvance)  \n2) v paliativní léčbě metastatického onemocnění je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě kontraindikace tamoxifenu nebo při relapsu do jednoho roku po ukončení léčby tamoxifenem",
-          "uhrada": 208.36,
+          "text": "1) V adjuvanci u postmenopauzálních pacientek s karcinomem prsu je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě: \na) kontraindikace tamoxifenu \nb) u pacientek se středním a vysokým rizikem relapsu (dle St. Gallen) \nc) po 2-3 letech podávání tamoxifenu (switch aplikace) \nd) po 5 letech podávání tamoxifenu (prodloužená adjuvance) \n2) v paliativní léčbě metastatického onemocnění je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě kontraindikace tamoxifenu nebo při relapsu do jednoho roku po ukončení léčby tamoxifenem.",
+          "uhrada": 744.14,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -2071,7 +2088,8 @@
       ],
       "typyNadoru": [
         "Karcinom ledvin"
-      ]
+      ],
+      "ucinnaLatka": "Axitinib"
     },
     {
       "nazev": "AYVAKYT",
@@ -3270,6 +3288,7 @@
       "atcKod": "L01EL03",
       "typ": "Cílená léčba",
       "formy": [
+        "160MG TBL FLM",
         "80MG CPS DUR"
       ],
       "baleni": [
@@ -3279,6 +3298,16 @@
           "lekovaForma": "CPS DUR",
           "baleni": "120",
           "doplnek": "80MG CPS DUR 120",
+          "uhrada": 127218.88,
+          "cenaPuvodce": 111837.85,
+          "maxCenaLekarna": 128724.52
+        },
+        {
+          "kodSUKL": "0290000",
+          "sila": "160MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "60",
+          "doplnek": "160MG TBL FLM 60",
           "uhrada": 127218.88,
           "cenaPuvodce": 111837.85,
           "maxCenaLekarna": 128724.52
@@ -3336,6 +3365,41 @@
       "ucinnaLatka": "Kabazitaxel"
     },
     {
+      "nazev": "CABAZITAXEL AGMED",
+      "atcKod": "L01CD04",
+      "typ": "Cílená léčba",
+      "formy": [
+        "20MG/ML INF CNC SOL"
+      ],
+      "baleni": [
+        {
+          "kodSUKL": "0288919",
+          "sila": "20MG/ML",
+          "lekovaForma": "INF CNC SOL",
+          "baleni": "1X3ML",
+          "doplnek": "20MG/ML INF CNC SOL 1X3ML",
+          "uhrada": 57950.33,
+          "cenaPuvodce": 94047.65,
+          "maxCenaLekarna": 108401
+        }
+      ],
+      "indikace": [
+        {
+          "text": "Kabazitaxel v kombinaci s prednisonem nebo prednisolonem je hrazen v terapii metastazujícího kastračně rezistentního karcinomu prostaty pacientům se stavem výkonnosti ECOG 0-1 dříve léčeným režimem obsahujícím docetaxel. Pacienti mohou být předléčeni jednou až dvěma liniemi chemoterapie (docetaxelem). Léčba je hrazena do progrese onemocnění (progrese PSA nebo bolesti nebo rentgenologické progrese nádoru nebo výskytu nepříznivé skeletální příhody), maximálně však do 10 podaných cyklů léčivého přípravku. Přípravek není hrazen pacientům s periferní neuropatií nebo stomatitidou 2. či vyššího stupně a pacientům se závažnými komorbiditami (včetně duplicitních malignit).",
+          "uhrada": 57950.33,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prostaty"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Karcinom prostaty"
+      ],
+      "ucinnaLatka": "Cabazitaxel"
+    },
+    {
       "nazev": "CABAZITAXEL EVER PHARMA",
       "atcKod": "L01CD04",
       "typ": "Cílená léčba",
@@ -3389,6 +3453,16 @@
           "lekovaForma": "INF CNC SOL",
           "baleni": "1X6ML",
           "doplnek": "10MG/ML INF CNC SOL 1X6ML",
+          "uhrada": 57950.33,
+          "cenaPuvodce": 94047.65,
+          "maxCenaLekarna": 108401
+        },
+        {
+          "kodSUKL": "0259352",
+          "sila": "10MG/ML",
+          "lekovaForma": "INF CNC SOL",
+          "baleni": "1X6ML+POUZDRO",
+          "doplnek": "10MG/ML INF CNC SOL 1X6ML+POUZDRO",
           "uhrada": 57950.33,
           "cenaPuvodce": 94047.65,
           "maxCenaLekarna": 108401
@@ -4095,7 +4169,8 @@
         "Karcinom prsu",
         "Karcinom žaludku",
         "Kolorektální karcinom"
-      ]
+      ],
+      "ucinnaLatka": "Capecitabine"
     },
     {
       "nazev": "COLUMVI",
@@ -4252,7 +4327,8 @@
       ],
       "typyNadoru": [
         "CML"
-      ]
+      ],
+      "ucinnaLatka": "Dasatinib"
     },
     {
       "nazev": "DASATINIB MSN",
@@ -4468,9 +4544,21 @@
       "atcKod": "L01EA02",
       "typ": "Cílená léčba",
       "formy": [
-        "50MG TBL FLM"
+        "20MG TBL FLM",
+        "50MG TBL FLM",
+        "70MG TBL FLM"
       ],
       "baleni": [
+        {
+          "kodSUKL": "0226979",
+          "sila": "20MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "60X1",
+          "doplnek": "20MG TBL FLM 60X1",
+          "uhrada": 11964.07,
+          "cenaPuvodce": 22487.57,
+          "maxCenaLekarna": 26650.76
+        },
         {
           "kodSUKL": "0287141",
           "sila": "50MG",
@@ -4480,12 +4568,22 @@
           "uhrada": 21345.47,
           "cenaPuvodce": 72988.42,
           "maxCenaLekarna": 84342.93
+        },
+        {
+          "kodSUKL": "0226984",
+          "sila": "70MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "60X1",
+          "doplnek": "70MG TBL FLM 60X1",
+          "uhrada": 29883.66,
+          "cenaPuvodce": 43941.19,
+          "maxCenaLekarna": 51159.38
         }
       ],
       "indikace": [
         {
           "text": "Dasatinib je hrazen v léčbě pacientů s nově diagnostikovanou bcr-abl pozitivní (Ph+) chronickou myeloidní leukémií (CML), u nichž na základě anamnézy, cíle léčby a aktuálního zdravotního stavu popsaných v klinické dokumentaci není ošetřujícím lékařem indikováno použití imatinibu.",
-          "uhrada": 21345.47,
+          "uhrada": 29883.66,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -4493,8 +4591,8 @@
           ]
         },
         {
-          "text": "Dasatinib je hrazen jako léčba 2. linie po selhání či intoleranci léčby imatinibem nebo nilotinibem při CML: \na) v chronické fázi, \nb) v akcelerované fázi, \nc) v myeloblastickém nebo lymfoblastickém zvratu. \nV obou uvedených indikacích je léčba hrazena do progrese onemocnění nebo selhání léčby.",
-          "uhrada": 21345.47,
+          "text": "Dasatinib je hrazen jako léčba 2. linie po selhání či intoleranci léčby imatinibem nebo nilotinibem při CML:\na) v chronické fázi,\nb) v akcelerované fázi,\nc) v myeloblastickém nebo lymfoblastickém zvratu.\nV obou uvedených indikacích je léčba hrazena do progrese onemocnění nebo selhání léčby.",
+          "uhrada": 29883.66,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -4504,7 +4602,8 @@
       ],
       "typyNadoru": [
         "CML"
-      ]
+      ],
+      "ucinnaLatka": "Monohydrát dasatinibu"
     },
     {
       "nazev": "DASATINIB VIATRIS",
@@ -4569,7 +4668,8 @@
       ],
       "typyNadoru": [
         "CML"
-      ]
+      ],
+      "ucinnaLatka": "Dasatinib"
     },
     {
       "nazev": "DASATINIB VIVANTA GENERICS",
@@ -4680,7 +4780,8 @@
       ],
       "typyNadoru": [
         "Ostatní"
-      ]
+      ],
+      "ucinnaLatka": "Triptorelin-acetát"
     },
     {
       "nazev": "DIPHERELINE S.R.",
@@ -4892,7 +4993,8 @@
         "Karcinom prsu",
         "NSCLC",
         "Ostatní"
-      ]
+      ],
+      "ucinnaLatka": "Docetaxel"
     },
     {
       "nazev": "DOCETAXEL EBEWE",
@@ -4966,7 +5068,8 @@
         "Karcinom prsu",
         "NSCLC",
         "Ostatní"
-      ]
+      ],
+      "ucinnaLatka": "Docetaxel"
     },
     {
       "nazev": "DOCETAXEL KABI",
@@ -5076,7 +5179,8 @@
       ],
       "typyNadoru": [
         "Karcinom prsu"
-      ]
+      ],
+      "ucinnaLatka": "Letrozol"
     },
     {
       "nazev": "ECANSYA",
@@ -5130,7 +5234,8 @@
         "Karcinom prsu",
         "Karcinom žaludku",
         "Kolorektální karcinom"
-      ]
+      ],
+      "ucinnaLatka": "Kapecitabin"
     },
     {
       "nazev": "EGISTROZOL",
@@ -5284,7 +5389,8 @@
       ],
       "typyNadoru": [
         "Karcinom prostaty"
-      ]
+      ],
+      "ucinnaLatka": "Leuprorelin-acetát"
     },
     {
       "nazev": "EMPLICITI",
@@ -5329,7 +5435,8 @@
       ],
       "typyNadoru": [
         "Mnohočetný myelom"
-      ]
+      ],
+      "ucinnaLatka": "Elotuzumab"
     },
     {
       "nazev": "ENHERTU",
@@ -5372,7 +5479,8 @@
       ],
       "typyNadoru": [
         "Karcinom prsu"
-      ]
+      ],
+      "ucinnaLatka": "Trastuzumab deruxtekan"
     },
     {
       "nazev": "ERBITUX",
@@ -5554,7 +5662,8 @@
       ],
       "typyNadoru": [
         "NSCLC"
-      ]
+      ],
+      "ucinnaLatka": "Erlotinib-hydrochlorid"
     },
     {
       "nazev": "ERLOTINIB VIPHARM",
@@ -5749,6 +5858,72 @@
       "ucinnaLatka": "Everolimus"
     },
     {
+      "nazev": "EVEROLIMUS SANDOZ",
+      "atcKod": "L01EG02",
+      "typ": "Cílená léčba",
+      "formy": [
+        "10MG TBL NOB",
+        "5MG TBL NOB"
+      ],
+      "baleni": [
+        {
+          "kodSUKL": "0227470",
+          "sila": "10MG",
+          "lekovaForma": "TBL NOB",
+          "baleni": "30",
+          "doplnek": "10MG TBL NOB 30",
+          "uhrada": 25136.9,
+          "cenaPuvodce": 53680.25,
+          "maxCenaLekarna": 62285.28
+        },
+        {
+          "kodSUKL": "0227464",
+          "sila": "5MG",
+          "lekovaForma": "TBL NOB",
+          "baleni": "30",
+          "doplnek": "5MG TBL NOB 30",
+          "uhrada": 12568.44,
+          "cenaPuvodce": 39880.78,
+          "maxCenaLekarna": 46520.76
+        }
+      ],
+      "indikace": [
+        {
+          "text": "Everolimus je hrazen maximálně ve 3. linii terapie (včetně terapie cytokiny) u pacientů s metastatickým renálním karcinomem (předléčených sunitinibem nebo pazopanibem, případně též axitinibem či sorafenibem), u kterých došlo k progresi podle RECIST kritérií během VEGF-cílené terapie nebo po ní.",
+          "uhrada": 25136.9,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom ledvin"
+          ]
+        },
+        {
+          "text": "Everolimus je hrazen v kombinaci s exemestanem v léčbě postmenopauzálních žen s hormonálně pozitivním HER2 negativním pokročilým karcinomem prsu bez symptomatického viscerálního postižení s recidivou nebo progresí onemocnění po předchozí léčbě nesteroidním inhibitorem aromatáz.",
+          "uhrada": 25136.9,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prsu"
+          ]
+        },
+        {
+          "text": "Everolimus je hrazen v léčbě neresekovatelných nebo metastazujících dobře a středně diferencovaných pankreatických neuroendokrinních tumorů s progresí během předchozích 12 měsíců. \nPacienti nesmí prodělat arteriální embolizaci v játrech v předchozích 6 měsících, kryoablaci nebo radiofrekvenční ablaci hepatální metastázy v předchozích 2 měsících nebo být dlouhodobě léčeni kortikoidy či jinými imunosupresivy. \nVe výše uvedených indikacích musí být klinický status pacienta dle ECOG 0-2. Léčba je ukončena při progresi onemocnění podle RECIST kritérií.",
+          "uhrada": 25136.9,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Neuroendokrinní nádory"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Karcinom ledvin",
+        "Karcinom prsu",
+        "Neuroendokrinní nádory"
+      ],
+      "ucinnaLatka": "Everolimus"
+    },
+    {
       "nazev": "EVEROLIMUS VIPHARM",
       "atcKod": "L01EG02",
       "typ": "Cílená léčba",
@@ -5811,7 +5986,8 @@
         "Karcinom ledvin",
         "Karcinom prsu",
         "Neuroendokrinní nádory"
-      ]
+      ],
+      "ucinnaLatka": "Everolimus"
     },
     {
       "nazev": "EXEMESTAN MYLAN",
@@ -5865,6 +6041,16 @@
           "uhrada": 223.24,
           "cenaPuvodce": 1145.42,
           "maxCenaLekarna": 1593.92
+        },
+        {
+          "kodSUKL": "0286693",
+          "sila": "25MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "30",
+          "doplnek": "25MG TBL FLM 30",
+          "uhrada": 223.24,
+          "cenaPuvodce": 1145.42,
+          "maxCenaLekarna": 1593.92
         }
       ],
       "indikace": [
@@ -5880,14 +6066,16 @@
       ],
       "typyNadoru": [
         "Karcinom prsu"
-      ]
+      ],
+      "ucinnaLatka": "Exemestan"
     },
     {
       "nazev": "FIRMAGON",
       "atcKod": "L02BX02",
       "typ": "Hormonální terapie",
       "formy": [
-        "120MG INJ PSO LQF"
+        "120MG INJ PSO LQF",
+        "80MG INJ PSO LQF"
       ],
       "baleni": [
         {
@@ -5899,9 +6087,55 @@
           "uhrada": 3516.85,
           "cenaPuvodce": 4827.8,
           "maxCenaLekarna": 6341.1
+        },
+        {
+          "kodSUKL": "0500646",
+          "sila": "80MG",
+          "lekovaForma": "INJ PSO LQF",
+          "baleni": "1+1X4,2ML ISP+AD+J",
+          "doplnek": "80MG INJ PSO LQF 1+1X4,2ML ISP+AD+J",
+          "uhrada": 3516.85,
+          "cenaPuvodce": 2644.96,
+          "maxCenaLekarna": 3554.04
         }
       ],
       "indikace": [
+        {
+          "text": "Degarelix o síle 80 mg je hrazen v pokračující terapii navazující na úvodní dávku degarelixu (240 mg) v terapii nemocných s karcinomem prostaty, a to v neoadjuvanci před radioterapií či konkomitantně s ní u primárně lokálně pokročilého karcinomu prostaty",
+          "uhrada": 3516.85,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prostaty"
+          ]
+        },
+        {
+          "text": "Degarelix o síle 80 mg je hrazen v pokračující terapii navazující na úvodní dávku degarelixu (240 mg) v terapii nemocných s karcinomem prostaty, a to při biochemickém relapsu po radikální prostatektomii nebo radioterapii po dobu maximálně 6 měsíců",
+          "uhrada": 3516.85,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prostaty"
+          ]
+        },
+        {
+          "text": "Degarelix o síle 80 mg je hrazen v pokračující terapii navazující na úvodní dávku degarelixu (240 mg) v terapii nemocných s karcinomem prostaty, a to jako součást androgenní deprivace u lokálně pokročilého karcinomu prostaty u nemocných s vysokou hodnotou PSA, u kterých není vhodné lokální řešení s kurativním záměrem (chirurgický zákrok nebo radioterapie), kontinuální monoterapie nesmí přesáhnout 3 roky",
+          "uhrada": 3516.85,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prostaty"
+          ]
+        },
+        {
+          "text": "Degarelix o síle 80 mg je hrazen v pokračující terapii navazující na úvodní dávku degarelixu (240 mg) v terapii nemocných s karcinomem prostaty, a to jako součást androgenní deprivace u metastatického karcinomu prostaty TxNxM1,\nkontinuální monoterapie nesmí přesáhnout 3 roky\nZ prostředků veřejného zdravotního pojištění není přípravek hrazen u symptomatických pacientů s mnohočetnou generalizací a v neoadjuvantní léčbě před radikální prostatektomií (RAPE).",
+          "uhrada": 3516.85,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prostaty"
+          ]
+        },
         {
           "text": "Degarelix o síle 120 mg je hrazen jako úvodní dávka v terapii nemocných s karcinomem prostaty, a to v neoadjuvanci před radioterapií či konkomitantně s ní u primárně lokálně pokročilého karcinomu prostaty",
           "uhrada": 3516.85,
@@ -6148,6 +6382,16 @@
           "uhrada": 1358.91,
           "cenaPuvodce": 1551.54,
           "maxCenaLekarna": 2126.1
+        },
+        {
+          "kodSUKL": "0160676",
+          "sila": "40MG/ML",
+          "lekovaForma": "INF CNC SOL",
+          "baleni": "1X5ML I",
+          "doplnek": "40MG/ML INF CNC SOL 1X5ML I",
+          "uhrada": 135.88,
+          "cenaPuvodce": 144.61,
+          "maxCenaLekarna": 221.89
         }
       ],
       "indikace": [
@@ -7417,6 +7661,16 @@
       ],
       "baleni": [
         {
+          "kodSUKL": "0167602",
+          "sila": "250MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "30",
+          "doplnek": "250MG TBL FLM 30",
+          "uhrada": 14327.04,
+          "cenaPuvodce": 41708.53,
+          "maxCenaLekarna": 48608.78
+        },
+        {
           "kodSUKL": "0149263",
           "sila": "250MG",
           "lekovaForma": "TBL FLM",
@@ -7581,6 +7835,16 @@
         "20MG/ML INF CNC SOL"
       ],
       "baleni": [
+        {
+          "kodSUKL": "0260193",
+          "sila": "20MG/ML",
+          "lekovaForma": "INF CNC SOL",
+          "baleni": "1X2ML",
+          "doplnek": "20MG/ML INF CNC SOL 1X2ML",
+          "uhrada": 229.16,
+          "cenaPuvodce": 918.71,
+          "maxCenaLekarna": 1294.11
+        },
         {
           "kodSUKL": "0260197",
           "sila": "20MG/ML",
@@ -7863,6 +8127,41 @@
         "Karcinom endometria"
       ],
       "ucinnaLatka": "Dostarlimab"
+    },
+    {
+      "nazev": "JEVTANA",
+      "atcKod": "L01CD04",
+      "typ": "Cílená léčba",
+      "formy": [
+        "60MG INF CSL LQF"
+      ],
+      "baleni": [
+        {
+          "kodSUKL": "0168043",
+          "sila": "60MG",
+          "lekovaForma": "INF CSL LQF",
+          "baleni": "1+1X4,5ML",
+          "doplnek": "60MG INF CSL LQF 1+1X4,5ML",
+          "uhrada": 57950.33,
+          "cenaPuvodce": 94047.65,
+          "maxCenaLekarna": 108401
+        }
+      ],
+      "indikace": [
+        {
+          "text": "Kabazitaxel v kombinaci s prednisonem nebo prednisolonem je hrazen v terapii metastazujícího kastračně rezistentního karcinomu prostaty pacientům se stavem výkonnosti ECOG 0-1 dříve léčeným režimem obsahujícím docetaxel. Pacienti mohou být předléčeni jednou až dvěma liniemi chemoterapie (docetaxelem). Léčba je hrazena do progrese onemocnění (progrese PSA nebo bolesti nebo rentgenologické progrese nádoru nebo výskytu nepříznivé skeletální příhody), maximálně však do 10 podaných cyklů léčivého přípravku. Přípravek není hrazen pacientům s periferní neuropatií nebo stomatitidou 2. či vyššího stupně a pacientům se závažnými komorbiditami (včetně duplicitních malignit).",
+          "uhrada": 57950.33,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prostaty"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Karcinom prostaty"
+      ],
+      "ucinnaLatka": "Kabazitaxel"
     },
     {
       "nazev": "KADCYLA",
@@ -8541,7 +8840,8 @@
       ],
       "typyNadoru": [
         "NSCLC"
-      ]
+      ],
+      "ucinnaLatka": "Lazertinib"
     },
     {
       "nazev": "LENVATINIB ACCORD",
@@ -8584,8 +8884,8 @@
           ]
         },
         {
-          "text": "Lenvatinib je hrazen jako monoterapie u dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění. Rezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
-          "uhrada": 18891.26,
+          "text": "Lenvatinib je hrazen v léčbě dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění. Rezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
+          "uhrada": 19467.84,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -8593,8 +8893,8 @@
           ]
         },
         {
-          "text": "Lenvatinib je hrazen v léčbě dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění. Rezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
-          "uhrada": 19467.84,
+          "text": "Lenvatinib je hrazen jako monoterapie u dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění. Rezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
+          "uhrada": 18891.26,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -8605,7 +8905,8 @@
       "typyNadoru": [
         "Hepatocelulární karcinom",
         "Karcinom štítné žlázy"
-      ]
+      ],
+      "ucinnaLatka": "Lenvatinib"
     },
     {
       "nazev": "LENVIMA",
@@ -8775,6 +9076,51 @@
         },
         {
           "kodSUKL": "0268934",
+          "sila": "2,5MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "30",
+          "doplnek": "2,5MG TBL FLM 30",
+          "uhrada": 223.24,
+          "cenaPuvodce": 1800,
+          "maxCenaLekarna": 2451.68
+        }
+      ],
+      "indikace": [
+        {
+          "text": "1) V adjuvanci u postmenopauzálních pacientek s karcinomem prsu je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě:  \na) kontraindikace tamoxifenu  \nb) u pacientek se středním a vysokým rizikem relapsu (dle St. Gallen)  \nc) po 2-3 letech podávání tamoxifenu (switch aplikace)  \nd) po 5 letech podávání tamoxifenu (prodloužená adjuvance)  \n2) v paliativní léčbě metastatického onemocnění je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě kontraindikace tamoxifenu nebo při relapsu do jednoho roku po ukončení léčby tamoxifenem.",
+          "uhrada": 744.14,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prsu"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Karcinom prsu"
+      ],
+      "ucinnaLatka": "Letrozol"
+    },
+    {
+      "nazev": "LETROVENA",
+      "atcKod": "L02BG04",
+      "typ": "Hormonální terapie",
+      "formy": [
+        "2,5MG TBL FLM"
+      ],
+      "baleni": [
+        {
+          "kodSUKL": "0229884",
+          "sila": "2,5MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "100",
+          "doplnek": "2,5MG TBL FLM 100",
+          "uhrada": 744.14,
+          "cenaPuvodce": 5706.78,
+          "maxCenaLekarna": 7384.22
+        },
+        {
+          "kodSUKL": "0229883",
           "sila": "2,5MG",
           "lekovaForma": "TBL FLM",
           "baleni": "30",
@@ -10072,7 +10418,8 @@
       "typyNadoru": [
         "Karcinom pankreatu",
         "Karcinom prsu"
-      ]
+      ],
+      "ucinnaLatka": "Paklitaxel"
     },
     {
       "nazev": "NERLYNX",
@@ -10225,7 +10572,8 @@
       ],
       "typyNadoru": [
         "CML"
-      ]
+      ],
+      "ucinnaLatka": "Nilotinib"
     },
     {
       "nazev": "NILOTINIB STADA",
@@ -10279,7 +10627,8 @@
       ],
       "typyNadoru": [
         "CML"
-      ]
+      ],
+      "ucinnaLatka": "Nilotinib"
     },
     {
       "nazev": "NILOTINIB VIATRIS",
@@ -10333,7 +10682,8 @@
       ],
       "typyNadoru": [
         "CML"
-      ]
+      ],
+      "ucinnaLatka": "Nilotinib"
     },
     {
       "nazev": "NILOTINIB ZENTIVA",
@@ -10387,7 +10737,8 @@
       ],
       "typyNadoru": [
         "CML"
-      ]
+      ],
+      "ucinnaLatka": "Nilotinib"
     },
     {
       "nazev": "NINLARO",
@@ -10498,8 +10849,8 @@
       ],
       "indikace": [
         {
-          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s jinými chronickými fibrotizujícími intersticiálními plicními onemocněními (ILD) s progresivním fenotypem navzdory stávajícímu individualizovanému léčebnému postupu, přičemž progresivní fenotyp je definován jako relativní pokles FVC o alespoň 10 % ve srovnání s předchozí hodnotou nebo relativní pokles FVC o alespoň 5 % ve srovnání s předchozí hodnotou se současným zhoršováním respiračních symptomů či zvětšováním fibrotického postižení plic, nebo zhoršování respiračních symptomů a současně zvětšování fibrotického postižení plic; vše hodnoceno kdykoli během posledních 24 měsíců před zahájením léčby nintedanibem. Diagnóza ILD musí být potvrzena multidisciplinárním týmem příslušného specializovaného centra. Pacienti musí dále mít FVC alespoň 45 % predikovaných hodnot, TLCO alespoň 30 % a dominující fibrotické změny na HRCT.",
-          "uhrada": 12766.17,
+          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s idiopatickou plicní fibrózou (IPF), kteří dodržují zákaz kouření.",
+          "uhrada": 23835.41,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -10507,8 +10858,8 @@
           ]
         },
         {
-          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s idiopatickou plicní fibrózou (IPF), kteří dodržují zákaz kouření.",
-          "uhrada": 23835.41,
+          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s jinými chronickými fibrotizujícími intersticiálními plicními onemocněními (ILD) s progresivním fenotypem navzdory stávajícímu individualizovanému léčebnému postupu, přičemž progresivní fenotyp je definován jako relativní pokles FVC o alespoň 10 % ve srovnání s předchozí hodnotou nebo relativní pokles FVC o alespoň 5 % ve srovnání s předchozí hodnotou se současným zhoršováním respiračních symptomů či zvětšováním fibrotického postižení plic, nebo zhoršování respiračních symptomů a současně zvětšování fibrotického postižení plic; vše hodnoceno kdykoli během posledních 24 měsíců před zahájením léčby nintedanibem. Diagnóza ILD musí být potvrzena multidisciplinárním týmem příslušného specializovaného centra. Pacienti musí dále mít FVC alespoň 45 % predikovaných hodnot, TLCO alespoň 30 % a dominující fibrotické změny na HRCT.",
+          "uhrada": 12766.17,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -10593,7 +10944,8 @@
       ],
       "typyNadoru": [
         "Ostatní"
-      ]
+      ],
+      "ucinnaLatka": "Nintedanib"
     },
     {
       "nazev": "NINTEDANIB TEVA",
@@ -10647,8 +10999,8 @@
       ],
       "indikace": [
         {
-          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s idiopatickou plicní fibrózou (IPF), kteří dodržují zákaz kouření.",
-          "uhrada": 23835.41,
+          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s jinými chronickými fibrotizujícími intersticiálními plicními onemocněními (ILD) s progresivním fenotypem navzdory stávajícímu individualizovanému léčebnému postupu, přičemž progresivní fenotyp je definován jako relativní pokles FVC o alespoň 10 % ve srovnání s předchozí hodnotou nebo relativní pokles FVC o alespoň 5 % ve srovnání s předchozí hodnotou se současným zhoršováním respiračních symptomů či zvětšováním fibrotického postižení plic, nebo zhoršování respiračních symptomů a současně zvětšování fibrotického postižení plic; vše hodnoceno kdykoli během posledních 24 měsíců před zahájením léčby nintedanibem. Diagnóza ILD musí být potvrzena multidisciplinárním týmem příslušného specializovaného centra. Pacienti musí dále mít FVC alespoň 45 % predikovaných hodnot, TLCO alespoň 30 % a dominující fibrotické změny na HRCT.",
+          "uhrada": 12766.17,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -10656,8 +11008,8 @@
           ]
         },
         {
-          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s jinými chronickými fibrotizujícími intersticiálními plicními onemocněními (ILD) s progresivním fenotypem navzdory stávajícímu individualizovanému léčebnému postupu, přičemž progresivní fenotyp je definován jako relativní pokles FVC o alespoň 10 % ve srovnání s předchozí hodnotou nebo relativní pokles FVC o alespoň 5 % ve srovnání s předchozí hodnotou se současným zhoršováním respiračních symptomů či zvětšováním fibrotického postižení plic, nebo zhoršování respiračních symptomů a současně zvětšování fibrotického postižení plic; vše hodnoceno kdykoli během posledních 24 měsíců před zahájením léčby nintedanibem. Diagnóza ILD musí být potvrzena multidisciplinárním týmem příslušného specializovaného centra. Pacienti musí dále mít FVC alespoň 45 % predikovaných hodnot, TLCO alespoň 30 % a dominující fibrotické změny na HRCT.",
-          "uhrada": 12766.17,
+          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s idiopatickou plicní fibrózou (IPF), kteří dodržují zákaz kouření.",
+          "uhrada": 23835.41,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -11474,7 +11826,8 @@
       ],
       "typyNadoru": [
         "Karcinom prostaty"
-      ]
+      ],
+      "ucinnaLatka": "Relugolix"
     },
     {
       "nazev": "OXALIPLATIN ACCORD",
@@ -11563,7 +11916,8 @@
       ],
       "typyNadoru": [
         "Kolorektální karcinom"
-      ]
+      ],
+      "ucinnaLatka": "Oxaliplatin"
     },
     {
       "nazev": "OXALIPLATIN KABI",
@@ -11662,7 +12016,8 @@
       ],
       "typyNadoru": [
         "Kolorektální karcinom"
-      ]
+      ],
+      "ucinnaLatka": "Oxaliplatina"
     },
     {
       "nazev": "OXALIPLATIN TEVA",
@@ -11706,7 +12061,8 @@
       ],
       "typyNadoru": [
         "Kolorektální karcinom"
-      ]
+      ],
+      "ucinnaLatka": "Oxaliplatina"
     },
     {
       "nazev": "OYAVAS",
@@ -12132,12 +12488,20 @@
       ],
       "indikace": [
         {
-          "text": "Pazopanib je hrazen k léčbě: A) pacientů s pokročilým nemetastatickým nebo metastatickým karcinomem ledvin: 1. v první linii u nemetastatického karcinomu ledviny T4, N0-1, M0 inoperabilního či s ponechaným pooperačním nádorovým reziduem nebo u metastatického karcinomu ledviny s jakýmkoliv T i N a M1, jedná se o pacienty s nízkým až středním rizikem dle kritérií MSKCC; 2. ve druhé linii. Pacienti musí být ve výkonnostním stavu 0-1 dle ECOG. Kontrola progrese onemocnění se provádí vhodnou zobrazovací technikou (dle kritérií RECIST) v tříměsíčních intervalech. Léčba je v obou bodech hrazena do progrese onemocnění. B) pacientů starších 18 let s vybranými subtypy pokročilého sarkomu měkkých tkání (vyjma GIST, adipocytárních nádorů a dalších dle SmPC), u kterých: 1. byla zaznamenána progrese dle kritérií RECIST po předchozí chemoterapii pro metastazující onemocnění (zahrnující antracykliny a/nebo ifosfamid, nebo jejich kombinaci, a to v případě kdy došlo k vyčerpání možnosti této terapie) nebo 2. u nich došlo k progresi onemocnění dle RECIST během 12 měsíců po (neo)adjuvantní terapii (zahrnující antracykliny a/nebo ifosfamid, nebo jejich kombinaci, a to v případě kdy došlo k vyčerpání možnosti této terapie). Pacienti v obou bodech musí být ve výkonnostním stavu 0-1 dle ECOG, bez CNS metastáz. Léčba je hrazena do progrese onemocnění dle kritérií RECIST.",
+          "text": "pacientů s pokročilým nemetastatickým nebo metastatickým karcinomem ledvin: 1. v první linii u nemetastatického karcinomu ledviny T4, N0-1, M0 inoperabilního či s ponechaným pooperačním nádorovým reziduem nebo u metastatického karcinomu ledviny s jakýmkoliv T i N a M1, jedná se o pacienty s nízkým až středním rizikem dle kritérií MSKCC; 2. ve druhé linii. Pacienti musí být ve výkonnostním stavu 0-1 dle ECOG. Kontrola progrese onemocnění se provádí vhodnou zobrazovací technikou (dle kritérií RECIST) v tříměsíčních intervalech. Léčba je v obou bodech hrazena do progrese onemocnění",
           "uhrada": 10411.88,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
-            "Karcinom ledvin",
+            "Karcinom ledvin"
+          ]
+        },
+        {
+          "text": "pacientů starších 18 let s vybranými subtypy pokročilého sarkomu měkkých tkání (vyjma GIST, adipocytárních nádorů a dalších dle SmPC), u kterých: 1. byla zaznamenána progrese dle kritérií RECIST po předchozí chemoterapii pro metastazující onemocnění (zahrnující antracykliny a/nebo ifosfamid, nebo jejich kombinaci, a to v případě kdy došlo k vyčerpání možnosti této terapie) nebo 2. u nich došlo k progresi onemocnění dle RECIST během 12 měsíců po (neo)adjuvantní terapii (zahrnující antracykliny a/nebo ifosfamid, nebo jejich kombinaci, a to v případě kdy došlo k vyčerpání možnosti této terapie). Pacienti v obou bodech musí být ve výkonnostním stavu 0-1 dle ECOG, bez CNS metastáz. Léčba je hrazena do progrese onemocnění dle kritérií RECIST",
+          "uhrada": 10411.88,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
             "Sarkom"
           ]
         }
@@ -12145,7 +12509,8 @@
       "typyNadoru": [
         "Karcinom ledvin",
         "Sarkom"
-      ]
+      ],
+      "ucinnaLatka": "Pazopanib-hydrochlorid"
     },
     {
       "nazev": "PEMAZYRE",
@@ -12662,12 +13027,20 @@
       ],
       "indikace": [
         {
-          "text": "Pazopanib je hrazen k léčbě: A) pacientů s pokročilým nemetastatickým nebo metastatickým karcinomem ledvin: 1. v první linii u nemetastatického karcinomu ledviny T4, N0-1, M0 inoperabilního či s ponechaným pooperačním nádorovým reziduem nebo u metastatického karcinomu ledviny s jakýmkoliv T i N a M1, jedná se o pacienty s nízkým až středním rizikem dle kritérií MSKCC; 2. ve druhé linii. Pacienti musí být ve výkonnostním stavu 0-1 dle ECOG. Kontrola progrese onemocnění se provádí vhodnou zobrazovací technikou (dle kritérií RECIST) v tříměsíčních intervalech. Léčba je v obou bodech hrazena do progrese onemocnění. B) pacientů starších 18 let s vybranými subtypy pokročilého sarkomu měkkých tkání (vyjma GIST, adipocytárních nádorů a dalších dle SmPC), u kterých: 1. byla zaznamenána progrese dle kritérií RECIST po předchozí chemoterapii pro metastazující onemocnění (zahrnující antracykliny a/nebo ifosfamid, nebo jejich kombinaci, a to v případě kdy došlo k vyčerpání možnosti této terapie) nebo 2. u nich došlo k progresi onemocnění dle RECIST během 12 měsíců po (neo)adjuvantní terapii (zahrnující antracykliny a/nebo ifosfamid, nebo jejich kombinaci, a to v případě kdy došlo k vyčerpání možnosti této terapie). Pacienti v obou bodech musí být ve výkonnostním stavu 0-1 dle ECOG, bez CNS metastáz. Léčba je hrazena do progrese onemocnění dle kritérií RECIST.",
+          "text": "pacientů s pokročilým nemetastatickým nebo metastatickým karcinomem ledvin: 1. v první linii u nemetastatického karcinomu ledviny T4, N0-1, M0 inoperabilního či s ponechaným pooperačním nádorovým reziduem nebo u metastatického karcinomu ledviny s jakýmkoliv T i N a M1, jedná se o pacienty s nízkým až středním rizikem dle kritérií MSKCC; 2. ve druhé linii. Pacienti musí být ve výkonnostním stavu 0-1 dle ECOG. Kontrola progrese onemocnění se provádí vhodnou zobrazovací technikou (dle kritérií RECIST) v tříměsíčních intervalech. Léčba je v obou bodech hrazena do progrese onemocnění",
           "uhrada": 6640.17,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
-            "Karcinom ledvin",
+            "Karcinom ledvin"
+          ]
+        },
+        {
+          "text": "pacientů starších 18 let s vybranými subtypy pokročilého sarkomu měkkých tkání (vyjma GIST, adipocytárních nádorů a dalších dle SmPC), u kterých: 1. byla zaznamenána progrese dle kritérií RECIST po předchozí chemoterapii pro metastazující onemocnění (zahrnující antracykliny a/nebo ifosfamid, nebo jejich kombinaci, a to v případě kdy došlo k vyčerpání možnosti této terapie) nebo 2. u nich došlo k progresi onemocnění dle RECIST během 12 měsíců po (neo)adjuvantní terapii (zahrnující antracykliny a/nebo ifosfamid, nebo jejich kombinaci, a to v případě kdy došlo k vyčerpání možnosti této terapie). Pacienti v obou bodech musí být ve výkonnostním stavu 0-1 dle ECOG, bez CNS metastáz. Léčba je hrazena do progrese onemocnění dle kritérií RECIST",
+          "uhrada": 6640.17,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
             "Sarkom"
           ]
         }
@@ -12710,7 +13083,8 @@
       ],
       "typyNadoru": [
         "GIST"
-      ]
+      ],
+      "ucinnaLatka": "Ripretinib"
     },
     {
       "nazev": "RESELIGO",
@@ -13388,7 +13762,8 @@
       ],
       "typyNadoru": [
         "NSCLC"
-      ]
+      ],
+      "ucinnaLatka": "Amivantamab"
     },
     {
       "nazev": "RYDAPT",
@@ -13576,7 +13951,8 @@
       "typyNadoru": [
         "Hepatocelulární karcinom",
         "Karcinom ledvin"
-      ]
+      ],
+      "ucinnaLatka": "Sorafenib-tosilát"
     },
     {
       "nazev": "SORAFENIB SANDOZ",
@@ -13713,6 +14089,70 @@
         },
         {
           "text": "v léčbě dospělých pacientů dosud neléčených pro karcinom štítné žlázy cílenou terapií, thalidomidem nebo chemoterapií o stavu výkonnosti dle ECOG 0-1 s progresivním, lokálně pokročilým nebo metastazujícím diferencovaným (papilární/folikulární/z Hürthleho buněk) karcinomem štítné žlázy, který je rezistentní na léčbu radiojodem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapii, embolizaci, intraluminální radiofrekvenční termoablaci). \nRezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo kumulativní dávka RAI je větší nebo rovna 22,2 GBq nebo progrese po RAI léčbě během 16 měsíců od zařazení nebo po dvou léčbách pomocí RAI s odstupem 16 měsíců. Terapie je hrazena do progrese onemocnění",
+          "uhrada": 48577.3,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom štítné žlázy"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Hepatocelulární karcinom",
+        "Karcinom ledvin",
+        "Karcinom štítné žlázy"
+      ],
+      "ucinnaLatka": "Sorafenib-tosilát"
+    },
+    {
+      "nazev": "SORAFENIB TEVA",
+      "atcKod": "L01EX02",
+      "typ": "Cílená léčba",
+      "formy": [
+        "200MG TBL FLM"
+      ],
+      "baleni": [
+        {
+          "kodSUKL": "0252492",
+          "sila": "200MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "112X1 I",
+          "doplnek": "200MG TBL FLM 112X1 I",
+          "uhrada": 48577.3,
+          "cenaPuvodce": 79623.21,
+          "maxCenaLekarna": 91922.52
+        }
+      ],
+      "indikace": [
+        {
+          "text": "v léčbě inoperabilního nebo metastazujícího hepatocelulárního karcinomu s omezením na Child-Pugh třídu A nebo B, u pacientů, u kterých lokoregionální léčba (TACE) nepředstavuje léčebnou možnost. Léčba je hrazena do progrese onemocnění. Přípravek je podáván pacientům, kteří vykazují ECOG performance status 0-2",
+          "uhrada": 48577.3,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Hepatocelulární karcinom"
+          ]
+        },
+        {
+          "text": "v terapii metastazujícího karcinomu ledviny u pacientů, kteří vykazují ECOG performance status 0 - 1 a jsou bez aktivních CNS metastáz ve druhé linii po selhání cytokinové léčby,",
+          "uhrada": 48577.3,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom ledvin"
+          ]
+        },
+        {
+          "text": "v terapii metastazujícího karcinomu ledviny u pacientů, kteří vykazují ECOG performance status 0 - 1 a jsou bez aktivních CNS metastáz ve třetí linii u pacientů předléčených VEGF inhibitorem a mTOR inhibitorem",
+          "uhrada": 48577.3,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom ledvin"
+          ]
+        },
+        {
+          "text": "v léčbě dospělých pacientů dosud neléčených pro karcinom štítné žlázy cílenou terapií, thalidomidem nebo chemoterapií o stavu výkonnosti dle ECOG 0-1 s progresivním, lokálně pokročilým nebo metastazujícím diferencovaným (papilární/folikulární/z Hürthleho buněk) karcinomem štítné žlázy, který je rezistentní na léčbu radiojodem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapii, embolizaci, intraluminální radiofrekvenční termoablaci). Rezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo kumulativní dávka RAI je větší nebo rovna 22,2 GBq nebo progrese po RAI léčbě během 16 měsíců od zařazení nebo po dvou léčbách pomocí RAI s odstupem 16 měsíců. Terapie je hrazena do progrese onemocnění",
           "uhrada": 48577.3,
           "platnostDo": null,
           "obecnePodminky": null,
@@ -14379,7 +14819,8 @@
       "typyNadoru": [
         "GIST",
         "Karcinom ledvin"
-      ]
+      ],
+      "ucinnaLatka": "Sunitinib"
     },
     {
       "nazev": "SUNITINIB VIPHARM",
@@ -14907,9 +15348,30 @@
       "atcKod": "L01EA03",
       "typ": "Cílená léčba",
       "formy": [
+        "150MG CPS DUR",
         "200MG CPS DUR"
       ],
       "baleni": [
+        {
+          "kodSUKL": "0167973",
+          "sila": "150MG",
+          "lekovaForma": "CPS DUR",
+          "baleni": "112(4X28) I",
+          "doplnek": "150MG CPS DUR 112(4X28) I",
+          "uhrada": 27604.92,
+          "cenaPuvodce": 52983.93,
+          "maxCenaLekarna": 61489.8
+        },
+        {
+          "kodSUKL": "0168959",
+          "sila": "200MG",
+          "lekovaForma": "CPS DUR",
+          "baleni": "112(4X28) I",
+          "doplnek": "200MG CPS DUR 112(4X28) I",
+          "uhrada": 33108.3,
+          "cenaPuvodce": 65185.23,
+          "maxCenaLekarna": 75428.57
+        },
         {
           "kodSUKL": "0029246",
           "sila": "200MG",
@@ -15194,6 +15656,61 @@
       "ucinnaLatka": "Temozolomid"
     },
     {
+      "nazev": "TEMOMEDAC",
+      "atcKod": "L01AX03",
+      "typ": "Cílená léčba",
+      "formy": [
+        "100MG CPS DUR",
+        "140MG CPS DUR"
+      ],
+      "baleni": [
+        {
+          "kodSUKL": "0167377",
+          "sila": "100MG",
+          "lekovaForma": "CPS DUR",
+          "baleni": "5",
+          "doplnek": "100MG CPS DUR 5",
+          "uhrada": 4090.06,
+          "cenaPuvodce": 3064.77,
+          "maxCenaLekarna": 4090.06
+        },
+        {
+          "kodSUKL": "0167379",
+          "sila": "140MG",
+          "lekovaForma": "CPS DUR",
+          "baleni": "5",
+          "doplnek": "140MG CPS DUR 5",
+          "uhrada": 5726.08,
+          "cenaPuvodce": 4346.12,
+          "maxCenaLekarna": 5726.09
+        }
+      ],
+      "indikace": [
+        {
+          "text": "Temozolomid je hrazen v terapii glioblastomu, anaplastického astrocytomu při konkomitantní radiochemoterapii a bezprostředně navazující chemoterapii",
+          "uhrada": 5726.08,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Gliom"
+          ]
+        },
+        {
+          "text": "Temozolomid je hrazen v terapii glioblastomu, anaplastického astrocytomu při samostatné chemoterapii ve druhé linii léčby.",
+          "uhrada": 5726.08,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Gliom"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Gliom"
+      ],
+      "ucinnaLatka": "Temozolomid"
+    },
+    {
       "nazev": "TEMOZOLOMIDE ACCORD",
       "atcKod": "L01AX03",
       "typ": "Cílená léčba",
@@ -15206,6 +15723,16 @@
       ],
       "baleni": [
         {
+          "kodSUKL": "0167484",
+          "sila": "100MG",
+          "lekovaForma": "CPS DUR",
+          "baleni": "5",
+          "doplnek": "100MG CPS DUR 5",
+          "uhrada": 4090.06,
+          "cenaPuvodce": 10300,
+          "maxCenaLekarna": 12727.68
+        },
+        {
           "kodSUKL": "0186972",
           "sila": "100MG",
           "lekovaForma": "CPS DUR",
@@ -15214,6 +15741,16 @@
           "uhrada": 4090.06,
           "cenaPuvodce": 10300,
           "maxCenaLekarna": 12727.68
+        },
+        {
+          "kodSUKL": "0167488",
+          "sila": "140MG",
+          "lekovaForma": "CPS DUR",
+          "baleni": "5",
+          "doplnek": "140MG CPS DUR 5",
+          "uhrada": 5726.08,
+          "cenaPuvodce": 14500,
+          "maxCenaLekarna": 17525.76
         },
         {
           "kodSUKL": "0186964",
@@ -15226,6 +15763,16 @@
           "maxCenaLekarna": 17525.76
         },
         {
+          "kodSUKL": "0167492",
+          "sila": "180MG",
+          "lekovaForma": "CPS DUR",
+          "baleni": "5",
+          "doplnek": "180MG CPS DUR 5",
+          "uhrada": 7362.1,
+          "cenaPuvodce": 18720.02,
+          "maxCenaLekarna": 22346.71
+        },
+        {
           "kodSUKL": "0186966",
           "sila": "180MG",
           "lekovaForma": "CPS DUR",
@@ -15236,6 +15783,16 @@
           "maxCenaLekarna": 22346.71
         },
         {
+          "kodSUKL": "0167480",
+          "sila": "20MG",
+          "lekovaForma": "CPS DUR",
+          "baleni": "5",
+          "doplnek": "20MG CPS DUR 5",
+          "uhrada": 818.01,
+          "cenaPuvodce": 1850,
+          "maxCenaLekarna": 2517.2
+        },
+        {
           "kodSUKL": "0186970",
           "sila": "20MG",
           "lekovaForma": "CPS DUR",
@@ -15244,6 +15801,16 @@
           "uhrada": 818.01,
           "cenaPuvodce": 1850,
           "maxCenaLekarna": 2517.2
+        },
+        {
+          "kodSUKL": "0167496",
+          "sila": "250MG",
+          "lekovaForma": "CPS DUR",
+          "baleni": "5",
+          "doplnek": "250MG CPS DUR 5",
+          "uhrada": 10225.14,
+          "cenaPuvodce": 26000,
+          "maxCenaLekarna": 30663.36
         },
         {
           "kodSUKL": "0186968",
@@ -15412,6 +15979,52 @@
         "NSCLC"
       ],
       "ucinnaLatka": "Hydrát tepotinib-hydrochloridu"
+    },
+    {
+      "nazev": "TEYSUNO",
+      "atcKod": "L01BC53",
+      "typ": "Cílená léčba",
+      "formy": [
+        "15MG/4,35MG/11,8MG CPS DUR",
+        "20MG/5,8MG/15,8MG CPS DUR"
+      ],
+      "baleni": [
+        {
+          "kodSUKL": "0168076",
+          "sila": "15MG/4,35MG/11,8MG",
+          "lekovaForma": "CPS DUR",
+          "baleni": "126",
+          "doplnek": "15MG/4,35MG/11,8MG CPS DUR 126",
+          "uhrada": 10006.19,
+          "cenaPuvodce": 8406.98,
+          "maxCenaLekarna": 10529.41
+        },
+        {
+          "kodSUKL": "0168078",
+          "sila": "20MG/5,8MG/15,8MG",
+          "lekovaForma": "CPS DUR",
+          "baleni": "84",
+          "doplnek": "20MG/5,8MG/15,8MG CPS DUR 84",
+          "uhrada": 8894.39,
+          "cenaPuvodce": 7407.62,
+          "maxCenaLekarna": 9365.36
+        }
+      ],
+      "indikace": [
+        {
+          "text": "Přípravky s obsahem kombinace léčivých látek tegafur, gimeracil a oteracil jsou hrazeny v kombinaci cisplatinou k léčbě pokročilého karcinomu žaludku pro dospělé pacienty.",
+          "uhrada": 10006.19,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom žaludku"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Karcinom žaludku"
+      ],
+      "ucinnaLatka": "Tegafur"
     },
     {
       "nazev": "THROMBOREDUCTIN",
@@ -16055,6 +16668,16 @@
       ],
       "baleni": [
         {
+          "kodSUKL": "0168322",
+          "sila": "250MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "70",
+          "doplnek": "250MG TBL FLM 70",
+          "uhrada": 27072.34,
+          "cenaPuvodce": 22856.6,
+          "maxCenaLekarna": 27072.34
+        },
+        {
           "kodSUKL": "0500356",
           "sila": "250MG",
           "lekovaForma": "TBL FLM",
@@ -16443,7 +17066,7 @@
       ],
       "indikace": [
         {
-          "text": "P: Abemaciklib je hrazen: \nA) v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s letrozolem nebo anastrozolem jako (iniciální) hormonální terapie u postmenopauzálních žen, které dosud nebyly léčeny hormonální ani jinou systémovou léčbou pro pokročilé onemocnění. U pacientek po předchozí hormonální adjuvantní léčbě muselo dojít k relapsu onemocnění nejdříve 12 měsíců po ukončení adjuvantní hormonální léčby.",
+          "text": "v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s letrozolem nebo anastrozolem jako (iniciální) hormonální terapie u postmenopauzálních žen, které dosud nebyly léčeny hormonální ani jinou systémovou léčbou pro pokročilé onemocnění. U pacientek po předchozí hormonální adjuvantní léčbě muselo dojít k relapsu onemocnění nejdříve 12 měsíců po ukončení adjuvantní hormonální léčby.",
           "uhrada": 22828.3,
           "platnostDo": null,
           "obecnePodminky": null,
@@ -16452,7 +17075,16 @@
           ]
         },
         {
-          "text": "P: Abemaciklib je hrazen: \nA) v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s fulvestrantem a) u žen, u kterých došlo v průběhu nebo do 12 měsíců od ukončení předchozí adjuvantní nebo neoadjuvantní hormonální léčby k relapsu onemocnění, a které dosud nebyly pro pokročilé nebo metastatické onemocnění léčeny, b) u žen, které dostávaly předchozí hormonální léčbu pro pokročilé onemocnění a jsou s ohledem na celkový stav vhodné k podání intenzivnější/účinnější kombinační léčby (podání monoterapie inhibitorem aromatázy by u nich znamenalo nedostatečnou léčbu). U pre- nebo perimenopauzálních žen je třeba endokrinní léčbu kombinovat s agonistou hormonu uvolňujícího luteinizační hormon (LHRH - luteinizing hormone releasing hormone). \nPro oba body platí: léčba je hrazena do progrese onemocnění.\nB) v indikaci adjuvantní léčby časného stádia karcinomu prsu pozitivního na hormonální receptory (HR+) a negativního na receptor HER2 (HER2-) s postižením uzlin a vysokým rizikem rekurence definovaným buď jako přítomnost nejméně 4 pozitivních axilárních lymfatických uzlin (pALN), nebo 1-3 pALN a alespoň jedno z následujících kritérií: a) velikost nádoru nejméně 5 cm nebo b) histologický stupeň (grade) 3, a to v kombinaci s endokrinní terapií u dospělých pacientů ve výkonnostním stavu dle ECOG 0-1. Terapie abemaciklibem v rámci adjuvantní léčby je hrazena v maximální délce 24 měsíců. U pre- nebo perimenopauzálních žen je třeba endokrinní léčbu kombinovat s LHRH agonistou.",
+          "text": "v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s fulvestrantem a) u žen, u kterých došlo v průběhu nebo do 12 měsíců od ukončení předchozí adjuvantní nebo neoadjuvantní hormonální léčby k relapsu onemocnění, a které dosud nebyly pro pokročilé nebo metastatické onemocnění léčeny, b) u žen, které dostávaly předchozí hormonální léčbu pro pokročilé onemocnění a jsou s ohledem na celkový stav vhodné k podání intenzivnější/účinnější kombinační léčby (podání monoterapie inhibitorem aromatázy by u nich znamenalo nedostatečnou léčbu). U pre- nebo perimenopauzálních žen je třeba endokrinní léčbu kombinovat s agonistou hormonu uvolňujícího luteinizační hormon (LHRH - luteinizing hormone releasing hormone). \nPro oba body platí: léčba je hrazena do progrese onemocnění",
+          "uhrada": 22828.3,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prsu"
+          ]
+        },
+        {
+          "text": "v indikaci adjuvantní léčby časného stádia karcinomu prsu pozitivního na hormonální receptory (HR+) a negativního na receptor HER2 (HER2-) s postižením uzlin a vysokým rizikem rekurence definovaným buď jako přítomnost nejméně 4 pozitivních axilárních lymfatických uzlin (pALN), nebo 1-3 pALN a alespoň jedno z následujících kritérií: a) velikost nádoru nejméně 5 cm nebo b) histologický stupeň (grade) 3, a to v kombinaci s endokrinní terapií u dospělých pacientů ve výkonnostním stavu dle ECOG 0-1. Terapie abemaciklibem v rámci adjuvantní léčby je hrazena v maximální délce 24 měsíců. U pre- nebo perimenopauzálních žen je třeba endokrinní léčbu kombinovat s LHRH agonistou",
           "uhrada": 22828.3,
           "platnostDo": null,
           "obecnePodminky": null,
@@ -16764,6 +17396,80 @@
       "ucinnaLatka": "Vinorelbin-ditartarát"
     },
     {
+      "nazev": "VOTRIENT",
+      "atcKod": "L01EX03",
+      "typ": "Cílená léčba",
+      "formy": [
+        "200MG TBL FLM",
+        "400MG TBL FLM"
+      ],
+      "baleni": [
+        {
+          "kodSUKL": "0167725",
+          "sila": "200MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "30",
+          "doplnek": "200MG TBL FLM 30",
+          "uhrada": 2602.96,
+          "cenaPuvodce": 15707.75,
+          "maxCenaLekarna": 18905.49
+        },
+        {
+          "kodSUKL": "0167728",
+          "sila": "400MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "60",
+          "doplnek": "400MG TBL FLM 60",
+          "uhrada": 10411.88,
+          "cenaPuvodce": 61849.46,
+          "maxCenaLekarna": 71617.78
+        }
+      ],
+      "indikace": [
+        {
+          "text": "pacientů s pokročilým nemetastatickým nebo metastatickým karcinomem ledvin v první linii u nemetastatického karcinomu ledviny T4, N0-1, M0 inoperabilního či s ponechaným pooperačním nádorovým reziduem nebo u metastatického karcinomu ledviny s jakýmkoliv T i N a M1, jedná se o pacienty s nízkým až středním rizikem dle kritérií MSKCC",
+          "uhrada": 10411.88,
+          "platnostDo": null,
+          "obecnePodminky": "Pacienti v obou bodech musí být ve výkonnostním stavu 0-1 dle ECOG, bez CNS metastáz. Léčba je hrazena do progrese onemocnění dle kritérií RECIST",
+          "typyNadoru": [
+            "Karcinom ledvin"
+          ]
+        },
+        {
+          "text": "pacientů s pokročilým nemetastatickým nebo metastatickým karcinomem ledvin ve druhé linii.\nPacienti musí být ve výkonnostním stavu 0-1 dle ECOG. Kontrola progrese onemocnění se provádí vhodnou zobrazovací technikou (dle kritérií RECIST) v tříměsíčních intervalech. Léčba je v obou bodech hrazena do progrese onemocnění",
+          "uhrada": 10411.88,
+          "platnostDo": null,
+          "obecnePodminky": "Pacienti v obou bodech musí být ve výkonnostním stavu 0-1 dle ECOG, bez CNS metastáz. Léčba je hrazena do progrese onemocnění dle kritérií RECIST",
+          "typyNadoru": [
+            "Karcinom ledvin"
+          ]
+        },
+        {
+          "text": "pacientů starších 18 let s vybranými subtypy pokročilého sarkomu měkkých tkání (vyjma GIST, adipocytárních nádorů a dalších dle SmPC), u kterých byla zaznamenána progrese dle kritérií RECIST po předchozí chemoterapii pro metastazující onemocnění (zahrnující antracykliny a/nebo ifosfamid, nebo jejich kombinaci, a to v případě kdy došlo k vyčerpání možnosti této terapie) \nnebo",
+          "uhrada": 10411.88,
+          "platnostDo": null,
+          "obecnePodminky": "Pacienti v obou bodech musí být ve výkonnostním stavu 0-1 dle ECOG, bez CNS metastáz. Léčba je hrazena do progrese onemocnění dle kritérií RECIST",
+          "typyNadoru": [
+            "Sarkom"
+          ]
+        },
+        {
+          "text": "pacientů starších 18 let s vybranými subtypy pokročilého sarkomu měkkých tkání (vyjma GIST, adipocytárních nádorů a dalších dle SmPC), u kterých u nich došlo k progresi onemocnění dle RECIST během 12 měsíců po (neo)adjuvantní terapii (zahrnující antracykliny a/nebo ifosfamid, nebo jejich kombinaci, a to v případě kdy došlo k vyčerpání možnosti této terapie).",
+          "uhrada": 10411.88,
+          "platnostDo": null,
+          "obecnePodminky": "Pacienti v obou bodech musí být ve výkonnostním stavu 0-1 dle ECOG, bez CNS metastáz. Léčba je hrazena do progrese onemocnění dle kritérií RECIST",
+          "typyNadoru": [
+            "Sarkom"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Karcinom ledvin",
+        "Sarkom"
+      ],
+      "ucinnaLatka": "Pazopanib-hydrochlorid"
+    },
+    {
       "nazev": "VYLOY",
       "atcKod": "L01FX31",
       "typ": "Cílená léčba",
@@ -16797,7 +17503,8 @@
       "typyNadoru": [
         "Karcinom jícnu",
         "Karcinom žaludku"
-      ]
+      ],
+      "ucinnaLatka": "Zolbetuximab"
     },
     {
       "nazev": "VYXEOS LIPOSOMAL",
@@ -17185,7 +17892,8 @@
         "Karcinom ledvin",
         "Mnohočetný myelom",
         "Non-Hodgkinův lymfom"
-      ]
+      ],
+      "ucinnaLatka": "Mannitolester bortezomibu"
     },
     {
       "nazev": "ZEJULA",
@@ -17242,6 +17950,41 @@
         "Karcinom vaječníků"
       ],
       "ucinnaLatka": "Monohydrát niraparib-tosilátu"
+    },
+    {
+      "nazev": "ZELBORAF",
+      "atcKod": "L01EC01",
+      "typ": "Cílená léčba",
+      "formy": [
+        "240MG TBL FLM"
+      ],
+      "baleni": [
+        {
+          "kodSUKL": "0168973",
+          "sila": "240MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "56X1",
+          "doplnek": "240MG TBL FLM 56X1",
+          "uhrada": 34961.7,
+          "cenaPuvodce": 31256.21,
+          "maxCenaLekarna": 36668.05
+        }
+      ],
+      "indikace": [
+        {
+          "text": "Vemurafenib je hrazen v monoterapii nebo v kombinaci s cobimetinibem k léčbě dospělých pacientů s neresekovatelným nebo metastatickým melanomem s mutací V600 genu BRAF (potvrzenou validním testem), kteří nebyli v minulosti léčeni systémovou terapií pro inoperabilní pokročilé či metastatické onemocnění (předchozí adjuvantní terapie je povolená). \nTerapie je hrazena pouze za předpokladu kumulativního splnění následujících podmínek: \na) pacient má před zahájením léčby vemurafenibem potvrzenou mutaci V600 genu BRAF pomocí validovaného testu\nb) pacient má výkonnostní stav 0 - 1 dle ECOG; \nc) pacient nevykazuje přítomnost symptomatických mozkových metastáz, primárního okulárního melanomu; \nd) pacientova předpokládaná délka života je delší než 4 měsíce; \ne) pacient má laboratorní hodnoty krevního obrazu a biochemické hodnoty jaterních a ledvinových funkcí umožňující léčbu. \nTerapie je hrazena do progrese onemocnění.",
+          "uhrada": 34961.7,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Melanom"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Melanom"
+      ],
+      "ucinnaLatka": "Vemurafenib a acetát-sukcinát hypromelosy"
     },
     {
       "nazev": "ZERCEPAC",

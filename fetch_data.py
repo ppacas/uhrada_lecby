@@ -202,6 +202,18 @@ def _find_top_sections(text):
     if len(seq) >= 2:
         return _slice_sections(text, seq)
 
+    # Letter+paren sections: "A) ", "B) ", "C) " (used by pazopanib etc.)
+    paren_pat = _re.compile(
+        r'(?:^|[\n.:;])\s*([A-Z])\)\s+(?=[a-zěščřžýáíéůú])',
+        _re.MULTILINE,
+    )
+    matches = list(paren_pat.finditer(text))
+    seq = _find_sequential_matches(
+        matches, lambda m: ord(m.group(1)) - ord('A') + 1
+    )
+    if len(seq) >= 2:
+        return _slice_sections(text, seq)
+
     return None
 
 
@@ -534,16 +546,74 @@ def _fetch_substance(kod_sukl):
     return None
 
 
+# Known manufacturer suffixes — when the API has no slozeni data, the first
+# word of the drug name (with these suffixes stripped) is typically the INN.
+_MANUFACTURER_SUFFIXES = {
+    "ACCORD", "ACCORDPHARMA", "ACTAVIS", "AGMED", "ALVOGEN", "ANGELINI",
+    "ARROW", "AUROBINDO", "AUROVITAS", "BLUEPHARMA", "DR.MAX", "FAIR-MED",
+    "FAIRMED", "FRESENIUS", "GENEPHARM", "GENERICS", "GLENMARK", "HEALTHCARE",
+    "HEXAL", "KABI", "KRKA", "MEDAC", "MYLAN", "PFIZER", "POLPHARMA",
+    "PRO.MED.CS", "RATIOPHARM", "SANDOZ", "STADA", "SYNTHON", "TEVA",
+    "VIATRIS", "ZENTIVA",
+}
+
+
+def _substance_from_name(nazev):
+    """Heuristic fallback: extract substance from drug name like 'INN MANUFACTURER'."""
+    if not nazev:
+        return None
+    parts = nazev.split()
+    if len(parts) < 2:
+        return None  # single-word brand name — can't reliably extract INN
+    # Strip trailing manufacturer tokens
+    while len(parts) > 1 and parts[-1].upper() in _MANUFACTURER_SUFFIXES:
+        parts.pop()
+    candidate = parts[0]
+    # Must look like an INN: alphabetic (with optional hyphen), 5+ chars
+    if not _re.fullmatch(r"[A-Za-zÁ-ž\-]{5,}", candidate):
+        return None
+    return candidate.capitalize()
+
+
+# ATC → substance fallback for brand-only names where the API has no slozeni
+# data and the drug name doesn't contain the INN. Add entries here when a
+# new brand-only oncology drug shows up missing its substance.
+_ATC_TO_SUBSTANCE = {
+    "L01CD01": "Paklitaxel",        # Apexelsin
+    "L01EB09": "Lazertinib",        # Lazcluze
+    "L01FX31": "Zolbetuximab",      # Vyloy
+}
+
+
+def _fetch_substance_for_drug(drug):
+    """Try each known package's SUKL code until one yields a substance name.
+    Falls back to parsing the INN from the drug name when the API has no data."""
+    codes = []
+    primary = drug.get("_kodSUKL", "")
+    if primary:
+        codes.append(primary)
+    for pkg in drug.get("baleni", []):
+        kod = pkg.get("kodSUKL", "")
+        if kod and kod not in codes:
+            codes.append(kod)
+    for kod in codes:
+        name = _fetch_substance(kod)
+        if name:
+            return name
+    # Heuristic 1: parse INN from name like "INN MANUFACTURER"
+    name = _substance_from_name(drug.get("nazev", ""))
+    if name:
+        return name
+    # Heuristic 2: ATC-based static fallback for brand-only names
+    return _ATC_TO_SUBSTANCE.get(drug.get("atcKod", ""))
+
+
 def fetch_substance_names(drugs):
     """Fetch active substance names for all drugs."""
     print(f"Stahování názvů účinných látek ({len(drugs)} léků)...")
     done = 0
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
-        futures = {}
-        for drug in drugs:
-            kod = drug.get("_kodSUKL", "")
-            if kod:
-                futures[ex.submit(_fetch_substance, kod)] = drug
+        futures = {ex.submit(_fetch_substance_for_drug, drug): drug for drug in drugs}
         for f in as_completed(futures):
             drug = futures[f]
             name = f.result()
