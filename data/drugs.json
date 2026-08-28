@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "datumAktualizace": "2026-06-28",
-    "scauPlatnostOd": "2026-06-01",
-    "scauVerze": 1,
-    "pocetLeku": 302,
-    "pocetZaznamu": 701
+    "datumAktualizace": "2026-08-28",
+    "scauPlatnostOd": "2026-08-01",
+    "scauVerze": 2,
+    "pocetLeku": 299,
+    "pocetZaznamu": 699
   },
   "filtry": {
     "typyTerapie": [
@@ -242,59 +242,6 @@
           "lekovaForma": "TBL FLM",
           "baleni": "60 II",
           "doplnek": "500MG TBL FLM 60 II",
-          "uhrada": 6697.24,
-          "cenaPuvodce": 66464.22,
-          "maxCenaLekarna": 76889.68
-        }
-      ],
-      "indikace": [
-        {
-          "text": "Abirateron acetát je hrazen v kombinaci s prednisonem nebo prednisolonem u pacientů s metastatickým kastračně rezistentním karcinomem prostaty se stavem výkonnosti 0-2 dle ECOG dříve léčených docetaxelem, u kterých došlo k progresi onemocnění. Pacienti mohou být předléčeni jednou až dvěma liniemi chemoterapie (docetaxelem). Léčba je hrazena do progrese onemocnění (rentgenologické progrese nebo výskytu nepříznivé skeletální příhody)",
-          "uhrada": 6697.24,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Karcinom prostaty"
-          ]
-        },
-        {
-          "text": "Abirateron acetát je hrazen v kombinaci s prednisonem nebo prednisolonem u pacientů s metastatickým kastračně rezistentním karcinomem prostaty se stavem výkonnosti dle ECOG 0-1, kteří jsou asymptomatičtí nebo mírně symptomatičtí po selhání androgenní deprivační léčby a u nichž dosud nebyla chemoterapie klinicky indikována, a u nichž bolest způsobená maligním onemocněním dosahuje na škále BPI (Brief Pain Inventory) pouze hodnot 0-1 (tj. bez symptomů bolesti). Terapie abirateronem je hrazena do progrese onemocnění.",
-          "uhrada": 6697.24,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Karcinom prostaty"
-          ]
-        },
-        {
-          "text": "Abirateron acetát je hrazen v kombinaci s prednisonem nebo prednisolonem v kombinaci s androgen deprivační terapií (ADT) u pacientů s nově diagnostikovaným metastatickým hormonálně senzitivním karcinomem prostaty (mHSPC) s vysokým rizikem (podmínka splnění 2 ze 3 následujících kritérií: Gleason skóre větší nebo rovno 8, přítomnost 3 a více kostních metastáz, přítomnost viscerálních metastáz), kteří ADT dosud nebyli léčeni nebo u nichž byla léčba zahájena během posledních 3 měsíců, o stavu výkonnosti ECOG PS 0-1. Léčba je hrazena do progrese (klinické nebo radiologické) nebo do výskytu nezvládnutelné toxicity.",
-          "uhrada": 6697.24,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Karcinom prostaty"
-          ]
-        }
-      ],
-      "typyNadoru": [
-        "Karcinom prostaty"
-      ],
-      "ucinnaLatka": "Abirateron-acetát"
-    },
-    {
-      "nazev": "ABIRATERON TEVA",
-      "atcKod": "L02BX03",
-      "typ": "Hormonální terapie",
-      "formy": [
-        "500MG TBL FLM"
-      ],
-      "baleni": [
-        {
-          "kodSUKL": "0252003",
-          "sila": "500MG",
-          "lekovaForma": "TBL FLM",
-          "baleni": "60X1",
-          "doplnek": "500MG TBL FLM 60X1",
           "uhrada": 6697.24,
           "cenaPuvodce": 66464.22,
           "maxCenaLekarna": 76889.68
@@ -1161,12 +1108,22 @@
           "uhrada": 208.36,
           "cenaPuvodce": 1000,
           "maxCenaLekarna": 1403.36
+        },
+        {
+          "kodSUKL": "0187542",
+          "sila": "1MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "300",
+          "doplnek": "1MG TBL FLM 300",
+          "uhrada": 5604,
+          "cenaPuvodce": 9000,
+          "maxCenaLekarna": 11220.16
         }
       ],
       "indikace": [
         {
-          "text": "1) V adjuvanci u postmenopauzálních pacientek s karcinomem prsu je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě:\na) kontraindikace tamoxifenu\nb) u pacientek se středním a vysokým rizikem relapsu (dle St. Gallen)\nc) po 2-3 letech podávání tamoxifenu (switch aplikace)\nd) po 5 letech podávání tamoxifenu (prodloužená adjuvance)  \n2) v paliativní léčbě metastatického onemocnění je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě kontraindikace tamoxifenu nebo při relapsu do jednoho roku po ukončení léčby tamoxifenem.",
-          "uhrada": 744.14,
+          "text": "1) V adjuvanci u postmenopauzálních pacientek s karcinomem prsu je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě: a) kontraindikace tamoxifenu b) u pacientek se středním a vysokým rizikem relapsu (dle St. Gallen) c) po 2-3 letech podávání tamoxifenu (switch aplikace) d) po 5 letech podávání tamoxifenu (prodloužená adjuvance) 2) v paliativní léčbě metastatického onemocnění je lékem první volby tamoxifen. Inhibitory aromatáz jsou hrazeny v případě kontraindikace tamoxifenu nebo při relapsu do jednoho roku po ukončení léčby tamoxifenem.",
+          "uhrada": 5604,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -2503,8 +2460,8 @@
           "baleni": "5X4ML",
           "doplnek": "25MG/ML INF CNC SOL 5X4ML",
           "uhrada": 21869.56,
-          "cenaPuvodce": 35724,
-          "maxCenaLekarna": 41772.06
+          "cenaPuvodce": 13168.86,
+          "maxCenaLekarna": 16005.07
         },
         {
           "kodSUKL": "0241291",
@@ -2513,8 +2470,8 @@
           "baleni": "20X25MG",
           "doplnek": "2,5MG/ML INF PLV CSL 20X25MG",
           "uhrada": 21869.56,
-          "cenaPuvodce": 35724,
-          "maxCenaLekarna": 41772.06
+          "cenaPuvodce": 24242.78,
+          "maxCenaLekarna": 28655.91
         },
         {
           "kodSUKL": "0241293",
@@ -2523,8 +2480,8 @@
           "baleni": "5X100MG",
           "doplnek": "2,5MG/ML INF PLV CSL 5X100MG",
           "uhrada": 21869.56,
-          "cenaPuvodce": 35724,
-          "maxCenaLekarna": 41772.06
+          "cenaPuvodce": 23029.73,
+          "maxCenaLekarna": 27270.12
         },
         {
           "kodSUKL": "0241289",
@@ -2533,8 +2490,8 @@
           "baleni": "5X25MG",
           "doplnek": "2,5MG/ML INF PLV CSL 5X25MG",
           "uhrada": 5467.39,
-          "cenaPuvodce": 8931,
-          "maxCenaLekarna": 11139.79
+          "cenaPuvodce": 6060.7,
+          "maxCenaLekarna": 7796.46
         }
       ],
       "indikace": [
@@ -2578,8 +2535,8 @@
           "baleni": "1X100MG",
           "doplnek": "2,5MG/ML INF PLV CSL 1X100MG",
           "uhrada": 4373.91,
-          "cenaPuvodce": 4858.46,
-          "maxCenaLekarna": 6380.24
+          "cenaPuvodce": 4720.89,
+          "maxCenaLekarna": 6204.59
         },
         {
           "kodSUKL": "0235078",
@@ -2588,8 +2545,8 @@
           "baleni": "1X25MG",
           "doplnek": "2,5MG/ML INF PLV CSL 1X25MG",
           "uhrada": 1093.48,
-          "cenaPuvodce": 1214.62,
-          "maxCenaLekarna": 1684.6
+          "cenaPuvodce": 1099.4,
+          "maxCenaLekarna": 1533.61
         }
       ],
       "indikace": [
@@ -2889,8 +2846,8 @@
           "baleni": "28",
           "doplnek": "50MG TBL FLM 28",
           "uhrada": 210.64,
-          "cenaPuvodce": 102.26,
-          "maxCenaLekarna": 156.91
+          "cenaPuvodce": 137.28,
+          "maxCenaLekarna": 210.64
         }
       ],
       "indikace": [
@@ -3841,8 +3798,8 @@
           "baleni": "60 II",
           "doplnek": "150MG TBL FLM 60 II",
           "uhrada": 252.17,
-          "cenaPuvodce": 451.1,
-          "maxCenaLekarna": 663.45
+          "cenaPuvodce": 430.11,
+          "maxCenaLekarna": 634.3
         },
         {
           "kodSUKL": "0194648",
@@ -3851,8 +3808,8 @@
           "baleni": "60X1 II",
           "doplnek": "150MG TBL FLM 60X1 II",
           "uhrada": 252.17,
-          "cenaPuvodce": 451.1,
-          "maxCenaLekarna": 663.45
+          "cenaPuvodce": 430.11,
+          "maxCenaLekarna": 634.3
         },
         {
           "kodSUKL": "0193298",
@@ -3861,8 +3818,8 @@
           "baleni": "120 II",
           "doplnek": "500MG TBL FLM 120 II",
           "uhrada": 1681.18,
-          "cenaPuvodce": 2500.56,
-          "maxCenaLekarna": 3369.68
+          "cenaPuvodce": 2096.8,
+          "maxCenaLekarna": 2840.61
         },
         {
           "kodSUKL": "0194655",
@@ -3871,63 +3828,8 @@
           "baleni": "120X1 II",
           "doplnek": "500MG TBL FLM 120X1 II",
           "uhrada": 1681.18,
-          "cenaPuvodce": 2500.56,
-          "maxCenaLekarna": 3369.68
-        }
-      ],
-      "indikace": [
-        {
-          "text": "Kapecitabin je hrazen a u pacientů s lokálně pokročilým nebo metastazujícím karcinomem prsu \na) po selhání adjuvantní chemoterapie, v kombinaci (docetaxel, vinorelbin). Předchozí terapie by měla zahrnovat antracyklin;\nb) po selhání chemoterapie pokročilého onemocnění zahrnující taxany a antracykliny nebo u pacientů, u kterých není další léčba antracykliny indikovaná, a to v monoterapii nebo (u HER2-pozitivního onemocnění) v kombinaci s lapatinibem.",
-          "uhrada": 1681.18,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Karcinom prsu"
-          ]
-        },
-        {
-          "text": "Kapecitabin je hrazen u pacientů s pokročilým karcinomem žaludku v kombinaci s platinovým derivátem v první linii",
-          "uhrada": 1681.18,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Karcinom žaludku"
-          ]
-        },
-        {
-          "text": "Kapecitabin je hrazen u pacientů s kolorektálním karcinomem\na) u metastazujícího a lokálně pokročilého (inoperabilního) onemocnění v monoterapii nebo v kombinaci s chemoterapií,\nb) u kolorektálního karcinomu stadia III a stádia II s vysokým rizikem relapsu v adjuvantní léčbě v monoterapii a u stádia III též v kombinaci s oxaliplatinou,\nc) u karcinomu rekta stádia II a III v neoadjuvantní terapii v kombinaci s radioterapií; \nV indikacích karcinomu kolorekta není kapecitabin v monoterapii po selhání kombinovaných režimů s 5-FU účinný a neměl by být v těchto indikacích podáván.",
-          "uhrada": 1681.18,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Kolorektální karcinom"
-          ]
-        }
-      ],
-      "typyNadoru": [
-        "Karcinom prsu",
-        "Karcinom žaludku",
-        "Kolorektální karcinom"
-      ],
-      "ucinnaLatka": "Kapecitabin"
-    },
-    {
-      "nazev": "CAPECITABINE MEDAC",
-      "atcKod": "L01BC06",
-      "typ": "Cílená léčba",
-      "formy": [
-        "500MG TBL FLM"
-      ],
-      "baleni": [
-        {
-          "kodSUKL": "0186119",
-          "sila": "500MG",
-          "lekovaForma": "TBL FLM",
-          "baleni": "120 I",
-          "doplnek": "500MG TBL FLM 120 I",
-          "uhrada": 1681.18,
-          "cenaPuvodce": 3055.94,
-          "maxCenaLekarna": 4078.78
+          "cenaPuvodce": 2096.8,
+          "maxCenaLekarna": 2840.61
         }
       ],
       "indikace": [
@@ -5061,6 +4963,16 @@
       ],
       "baleni": [
         {
+          "kodSUKL": "0122499",
+          "sila": "1MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "20",
+          "doplnek": "1MG TBL FLM 20",
+          "uhrada": 373.6,
+          "cenaPuvodce": 600,
+          "maxCenaLekarna": 865.76
+        },
+        {
           "kodSUKL": "0122502",
           "sila": "1MG",
           "lekovaForma": "TBL FLM",
@@ -6136,41 +6048,6 @@
       "ucinnaLatka": "Obinutuzumab"
     },
     {
-      "nazev": "GEFITINIB ZENTIVA",
-      "atcKod": "L01EB01",
-      "typ": "Cílená léčba",
-      "formy": [
-        "250MG TBL FLM"
-      ],
-      "baleni": [
-        {
-          "kodSUKL": "0253950",
-          "sila": "250MG",
-          "lekovaForma": "TBL FLM",
-          "baleni": "30X1",
-          "doplnek": "250MG TBL FLM 30X1",
-          "uhrada": 14327.04,
-          "cenaPuvodce": 40563.81,
-          "maxCenaLekarna": 47301.06
-        }
-      ],
-      "indikace": [
-        {
-          "text": "Gefitinib je hrazen v první linii léčby pacientů s lokálně pokročilým nebo metastazujícím nemalobuněčným karcinomem plic (stádium IIIB nebo stádium IV), starších 18 let, u kterých byly relevantní molekulárně biologickou metodou prokázány aktivační mutace EGFR. Terapie je hrazena do progrese onemocnění. Pacienti nemají symptomatické CNS metastázy. Přípravek je hrazen pro pacienty v celkovém stavu (PS) 0-2 dle ECOG.",
-          "uhrada": 14327.04,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "NSCLC"
-          ]
-        }
-      ],
-      "typyNadoru": [
-        "NSCLC"
-      ],
-      "ucinnaLatka": "Gefitinib"
-    },
-    {
       "nazev": "GEMCITABIN EBEWE",
       "atcKod": "L01BC05",
       "typ": "Cílená léčba",
@@ -6711,8 +6588,8 @@
           "baleni": "1X5ML",
           "doplnek": "600MG INJ SOL VIA 1X5ML",
           "uhrada": 18312.36,
-          "cenaPuvodce": 37574.31,
-          "maxCenaLekarna": 43885.85
+          "cenaPuvodce": 22172.86,
+          "maxCenaLekarna": 26291.24
         }
       ],
       "indikace": [
@@ -6755,8 +6632,8 @@
           "baleni": "1",
           "doplnek": "150MG INF PLV CSL 1",
           "uhrada": 6104.11,
-          "cenaPuvodce": 9022.58,
-          "maxCenaLekarna": 11246.46
+          "cenaPuvodce": 4245.98,
+          "maxCenaLekarna": 5598.23
         }
       ],
       "indikace": [
@@ -6796,6 +6673,40 @@
         "Karcinom žaludku"
       ],
       "ucinnaLatka": "Trastuzumab"
+    },
+    {
+      "nazev": "HETRONIFLY",
+      "atcKod": "L01FF12",
+      "typ": "Imunoterapie",
+      "formy": [
+        "10MG/ML INF CNC SOL"
+      ],
+      "baleni": [
+        {
+          "kodSUKL": "0286082",
+          "sila": "10MG/ML",
+          "lekovaForma": "INF CNC SOL",
+          "baleni": "1X10ML",
+          "doplnek": "10MG/ML INF CNC SOL 1X10ML",
+          "uhrada": 30828.48,
+          "cenaPuvodce": 28283.48,
+          "maxCenaLekarna": 33272.01
+        }
+      ],
+      "indikace": [
+        {
+          "text": "Serplulimab je hrazen v kombinaci s etoposidem a karboplatinou v první linii léčby dospělých pacientů s pokročilým stádiem malobuněčného karcinomu plic (ES-SCLC) splňujících následující podmínky:\na) pacient má výkonnostní stav 0-1 dle ECOG;\nb) pacient nevykazuje přítomnost symptomatických mozkových metastáz nebo jsou metastázy adekvátně léčené;\nc) pacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně či jeho ekvivalentu nebo jinou imunosupresivní léčbou;\nd) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\ne) pacient netrpí aktivním intersticiálním onemocněním plic.\nLéčba je hrazena do progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4 - 8 týdnů z důvodu odlišného mechanismu účinku imunoonkologické terapie a/nebo neakceptovatelné toxicity.",
+          "uhrada": 30828.48,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "SCLC"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "SCLC"
+      ]
     },
     {
       "nazev": "HYDROXYCARBAMIDE PHARMACENTER",
@@ -6875,24 +6786,6 @@
       ],
       "indikace": [
         {
-          "text": "Palbociklib je hrazen v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s letrozolem jako (iniciální) hormonální terapie u postmenopauzálních žen, které dosud nebyly léčeny hormonální ani jinou systémovou terapií pro pokročilé onemocnění. U pacientek po předchozí hormonální adjuvantní léčbě pomocí nesteroidního inhibitoru aromatázy muselo dojít k relapsu onemocnění nejdříve 12 měsíců po ukončení adjuvantní hormonální léčby.",
-          "uhrada": 36599.14,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Karcinom prsu"
-          ]
-        },
-        {
-          "text": "Palbociklib je hrazen v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s fulvestrantem u žen, které vykazovaly senzitivitu na předchozí hormonální léčbu a jsou s ohledem na celkový stav vhodné k podání intenzivnější/účinnější kombinační léčby (podání monoterapie inhibitorem aromatázy by u nich znamenalo nedostatečnou léčbu). Senzitivita na předchozí hormonální léčbu je definována jako dosažení kompletní či parciální odpovědi nebo alespoň 24 týdnů trvající stabilizace onemocnění nejméně na jeden předchozí režim endokrinní léčby u metastatického onemocnění nebo podávání adjuvantní léčby po dobu nejméně 24 měsíců do výskytu rekurence onemocnění. U pre- nebo perimenopauzálních žen je třeba endokrinní léčbu kombinovat s agonistou hormonu uvolňujícího luteinizační hormon (LHRH - luteinizing hormone releasing hormone).\nPro oba body platí: léčba je hrazena do progrese onemocnění.",
-          "uhrada": 36599.14,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Karcinom prsu"
-          ]
-        },
-        {
           "text": "Palbociklib je hrazen v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s letrozolem jako (iniciální) hormonální terapie u postmenopauzálních žen a mužů, kteří dosud nebyli léčeni hormonální ani jinou systémovou terapií pro pokročilé onemocnění. U pacientů po předchozí hormonální adjuvantní léčbě pomocí nesteroidního inhibitoru aromatázy muselo dojít k relapsu onemocnění nejdříve 12 měsíců po ukončení adjuvantní hormonální léčby.",
           "uhrada": 41431.49,
           "platnostDo": null,
@@ -6904,6 +6797,24 @@
         {
           "text": "Palbociklib je hrazen v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s fulvestrantem u pacientů, kteří dostávali předchozí hormonální léčbu pro pokročilé onemocnění a jsou s ohledem na celkový stav vhodní k podání intenzivnější/účinnější kombinační léčby (podání monoterapie inhibitorem aromatázy by u nich znamenalo nedostatečnou léčbu). \nU pre-/peri-menopauzálních žen je třeba léčbu kombinovat s agonistou LHRH. U mužů je třeba léčbu kombinovat s kastrací (farmakologickou pomocí agonisty GnRH nebo chirurgickou). \nPro oba body platí: léčba je hrazena do progrese onemocnění.",
           "uhrada": 41431.49,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prsu"
+          ]
+        },
+        {
+          "text": "Palbociklib je hrazen v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s letrozolem jako (iniciální) hormonální terapie u postmenopauzálních žen, které dosud nebyly léčeny hormonální ani jinou systémovou terapií pro pokročilé onemocnění. U pacientek po předchozí hormonální adjuvantní léčbě pomocí nesteroidního inhibitoru aromatázy muselo dojít k relapsu onemocnění nejdříve 12 měsíců po ukončení adjuvantní hormonální léčby.",
+          "uhrada": 36599.14,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prsu"
+          ]
+        },
+        {
+          "text": "Palbociklib je hrazen v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s fulvestrantem u žen, které vykazovaly senzitivitu na předchozí hormonální léčbu a jsou s ohledem na celkový stav vhodné k podání intenzivnější/účinnější kombinační léčby (podání monoterapie inhibitorem aromatázy by u nich znamenalo nedostatečnou léčbu). Senzitivita na předchozí hormonální léčbu je definována jako dosažení kompletní či parciální odpovědi nebo alespoň 24 týdnů trvající stabilizace onemocnění nejméně na jeden předchozí režim endokrinní léčby u metastatického onemocnění nebo podávání adjuvantní léčby po dobu nejméně 24 měsíců do výskytu rekurence onemocnění. U pre- nebo perimenopauzálních žen je třeba endokrinní léčbu kombinovat s agonistou hormonu uvolňujícího luteinizační hormon (LHRH - luteinizing hormone releasing hormone).\nPro oba body platí: léčba je hrazena do progrese onemocnění.",
+          "uhrada": 36599.14,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -7353,19 +7264,19 @@
       ],
       "indikace": [
         {
-          "text": "Durvalumab je hrazen v monoterapii v léčbě dospělých pacientů s lokálně pokročilým, neoperovatelným nemalobuněčným karcinomem plic (NSCLC) exprimujícím PD-L1 na 1 a více % nádorových buněk, u kterých nedošlo k progresi onemocnění po konkomitantní chemo-radiační léčbě na bázi platiny",
-          "uhrada": 47272.44,
+          "text": "Durvalumab je hrazen v monoterapii v léčbě dospělých pacientů s lokálně pokročilým, neoperovatelným nemalobuněčným karcinomem plic exprimujícím PD-L1 na 1 a více % nádorových buněk, u kterých nedošlo k progresi onemocnění po konkomitantní chemo-radiační léčbě na bázi platiny, za kumulativního splnění následujících podmínek:\na)\tpacient má výkonnostní stav 0 - 1 dle ECOG;\nb)\tdurvalumab je podaný nejpozději 6 týdnů po ukončení chemoradioterapie;\nc)\tpacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nd)\tpacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\ne)\tpacient nevykazuje přítomnost intersticiální plicní choroby;\nf)\tpacient nemá prokázanou přítomnost aktivačních mutací EGFR nebo ALK (v případě známého stavu přítomnosti aktivačních mutací v tomto stadiu onemocnění).\n\nLéčba je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4 - 8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie nebo nepřijatelné toxicity, maximálně po dobu 12 měsíců.",
+          "uhrada": 16193.98,
           "platnostDo": null,
-          "obecnePodminky": "Pro úhradu ve všech indikacích musí být kumulativně splněny následující podmínky (pokud není dále uvedeno jinak): \na) pacient má výkonnostní stav 0 - 1 dle ECOG;\nb) pacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nc) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\nd) pacient nevykazuje přítomnost intersticiální plicní choroby;\ne) u pacientů s NSCLC je durvalumab podaný nejpozději 6 týdnů po ukončení chemoradioterapie a zároveň nebyly prokázány aktivační mutace EGFR nebo ALK (v případě známého stavu přítomnosti aktivačních mutací v tomto stadiu onemocnění).\nLéčba je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4 - 8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie nebo nepřijatelné toxicity, v léčbě NSCLC maximálně po dobu 12 měsíců.",
+          "obecnePodminky": null,
           "typyNadoru": [
             "NSCLC"
           ]
         },
         {
-          "text": "Durvalumab je hrazen v monoterapii v léčbě dospělých pacientů s lokálně pokročilým, neoperovatelným nemalobuněčným karcinomem plic exprimujícím PD-L1 na 1 a více % nádorových buněk, u kterých nedošlo k progresi onemocnění po konkomitantní chemo-radiační léčbě na bázi platiny, za kumulativního splnění následujících podmínek:\na)\tpacient má výkonnostní stav 0 - 1 dle ECOG;\nb)\tdurvalumab je podaný nejpozději 6 týdnů po ukončení chemoradioterapie;\nc)\tpacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nd)\tpacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\ne)\tpacient nevykazuje přítomnost intersticiální plicní choroby;\nf)\tpacient nemá prokázanou přítomnost aktivačních mutací EGFR nebo ALK (v případě známého stavu přítomnosti aktivačních mutací v tomto stadiu onemocnění).\n\nLéčba je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4 - 8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie nebo nepřijatelné toxicity, maximálně po dobu 12 měsíců.",
-          "uhrada": 16193.98,
+          "text": "Durvalumab je hrazen v monoterapii v léčbě dospělých pacientů s lokálně pokročilým, neoperovatelným nemalobuněčným karcinomem plic (NSCLC) exprimujícím PD-L1 na 1 a více % nádorových buněk, u kterých nedošlo k progresi onemocnění po konkomitantní chemo-radiační léčbě na bázi platiny",
+          "uhrada": 47272.44,
           "platnostDo": null,
-          "obecnePodminky": null,
+          "obecnePodminky": "Pro úhradu ve všech indikacích musí být kumulativně splněny následující podmínky (pokud není dále uvedeno jinak): \na) pacient má výkonnostní stav 0 - 1 dle ECOG;\nb) pacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nc) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\nd) pacient nevykazuje přítomnost intersticiální plicní choroby;\ne) u pacientů s NSCLC je durvalumab podaný nejpozději 6 týdnů po ukončení chemoradioterapie a zároveň nebyly prokázány aktivační mutace EGFR nebo ALK (v případě známého stavu přítomnosti aktivačních mutací v tomto stadiu onemocnění).\nLéčba je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4 - 8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie nebo nepřijatelné toxicity, v léčbě NSCLC maximálně po dobu 12 měsíců.",
           "typyNadoru": [
             "NSCLC"
           ]
@@ -8063,9 +7974,9 @@
           ]
         },
         {
-          "text": "Pembrolizumab je hrazen v kombinaci s chemoterapií (zahrnující platinový derivát + paklitaxel) s nebo bez bevacizumabu v léčbě perzistentního, recidivujícího nebo metastazujícího karcinomu děložního hrdla s expresí PD-L1 s CPS více nebo rovno 1 u dospělých pacientek s výkonnostním stavem 0-1 dle ECOG, které nebyly dříve léčeny systémovou chemoterapií pro rekurentní nebo metastatické onemocnění a současně nejsou vhodné ke kurativní léčbě (operační léčba a/nebo radioterapie). Kombinace pembrolizumabu se samotnou chemoterapií je hrazena pouze pacientkám nevhodným k léčbě bevacizumabem. \nLéčba pembrolizumabem se ukončuje po vyčerpání maxima 35 cyklů terapie nebo při zjištění progrese verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie či při netoleranci léčby pembrolizumabem. V případě nutnosti ukončení léčby jedné složky z podávané kombinace z důvodu její netolerance je možné pokračovat v podávání ostatních léčiv.",
-          "uhrada": 62645.42,
-          "platnostDo": "2026-07-01T00:00:00",
+          "text": "Pembrolizumab je hrazen v kombinaci s chemoterapií (zahrnující platinový derivát + paklitaxel) s nebo bez bevacizumabu v léčbě perzistentního, recidivujícího nebo metastazujícího karcinomu děložního hrdla s expresí PD-L1 s CPS více nebo rovno 1 u dospělých pacientek s výkonnostním stavem 0-1 dle ECOG, které nebyly dříve léčeny systémovou chemoterapií pro rekurentní nebo metastatické onemocnění a současně nejsou vhodné ke kurativní léčbě (operační léčba a/nebo radioterapie). Kombinace pembrolizumabu se samotnou chemoterapií je hrazena pouze pacientkám nevhodným k léčbě bevacizumabem. Léčba pembrolizumabem se ukončuje po vyčerpání maxima 35 cyklů terapie nebo při zjištění progrese verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie či při netoleranci léčby pembrolizumabem. V případě nutnosti ukončení léčby jedné složky z podávané kombinace z důvodu její netolerance je možné pokračovat v podávání ostatních léčiv.",
+          "uhrada": 58289.52,
+          "platnostDo": "2028-07-01T00:00:00",
           "obecnePodminky": null,
           "typyNadoru": [
             "Karcinom děložního hrdla"
@@ -8405,73 +8316,6 @@
         "Karcinom prsu"
       ],
       "ucinnaLatka": "Ribociklib-sukcinát"
-    },
-    {
-      "nazev": "KLERTIS",
-      "atcKod": "L01EX01",
-      "typ": "Cílená léčba",
-      "formy": [
-        "12,5MG CPS DUR",
-        "25MG CPS DUR",
-        "50MG CPS DUR"
-      ],
-      "baleni": [
-        {
-          "kodSUKL": "0245900",
-          "sila": "12,5MG",
-          "lekovaForma": "CPS DUR",
-          "baleni": "28",
-          "doplnek": "12,5MG CPS DUR 28",
-          "uhrada": 3644.15,
-          "cenaPuvodce": 23870.21,
-          "maxCenaLekarna": 28230.29
-        },
-        {
-          "kodSUKL": "0245902",
-          "sila": "25MG",
-          "lekovaForma": "CPS DUR",
-          "baleni": "28",
-          "doplnek": "25MG CPS DUR 28",
-          "uhrada": 7288.32,
-          "cenaPuvodce": 47639.12,
-          "maxCenaLekarna": 55383.89
-        },
-        {
-          "kodSUKL": "0245904",
-          "sila": "50MG",
-          "lekovaForma": "CPS DUR",
-          "baleni": "28",
-          "doplnek": "50MG CPS DUR 28",
-          "uhrada": 14576.64,
-          "cenaPuvodce": 95165.25,
-          "maxCenaLekarna": 109677.74
-        }
-      ],
-      "indikace": [
-        {
-          "text": "Sunitinib je hrazen v léčbě pacientů s gastrointestinálním stromálním tumorem (GIST) po selhání léčby imatinibem pro neúčinnost nebo intoleranci, kteří vykazují ECOG performance status 0-1.",
-          "uhrada": 14576.64,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "GIST"
-          ]
-        },
-        {
-          "text": "Sunitinib je hrazen v léčbě pacientů s nemetastatickým karcinomem ledviny T4, N0 - 1, M0 inoperabilním či s ponechaným pooperačním nádorovým reziduem, nebo s metastatickým karcinomem ledviny s jakýmkoliv T i N a M1, a) u pacientů s nízkým a středním rizikem v 1. linii léčby, b) ve 2. linii léčby. Pacienti musejí být ve výkonnostním stavu ECOG 0-1. Kontrola účinnosti léčby u pokročilého či metastatického karcinomu ledviny u pacientů se provádí 1x za 3 cykly jakoukoliv dostupnou zobrazovací metodou. Indikací k ukončení léčby je progrese onemocnění.",
-          "uhrada": 14576.64,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Karcinom ledvin"
-          ]
-        }
-      ],
-      "typyNadoru": [
-        "GIST",
-        "Karcinom ledvin"
-      ],
-      "ucinnaLatka": "Sunitinib cyklamát"
     },
     {
       "nazev": "KOSELUGO",
@@ -8885,8 +8729,8 @@
           ]
         },
         {
-          "text": "Lenvatinib je hrazen jako monoterapie u dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění.\nRezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
-          "uhrada": 31229.18,
+          "text": "Lenvatinib je hrazen v léčbě dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění.\nRezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
+          "uhrada": 31805.76,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -8894,8 +8738,8 @@
           ]
         },
         {
-          "text": "Lenvatinib je hrazen v léčbě dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění.\nRezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
-          "uhrada": 31805.76,
+          "text": "Lenvatinib je hrazen jako monoterapie u dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění.\nRezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
+          "uhrada": 31229.18,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -10776,8 +10620,8 @@
       ],
       "indikace": [
         {
-          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s jinými chronickými fibrotizujícími intersticiálními plicními onemocněními (ILD) s progresivním fenotypem navzdory stávajícímu individualizovanému léčebnému postupu, přičemž progresivní fenotyp je definován jako relativní pokles FVC o alespoň 10 % ve srovnání s předchozí hodnotou nebo relativní pokles FVC o alespoň 5 % ve srovnání s předchozí hodnotou se současným zhoršováním respiračních symptomů či zvětšováním fibrotického postižení plic, nebo zhoršování respiračních symptomů a současně zvětšování fibrotického postižení plic; vše hodnoceno kdykoli během posledních 24 měsíců před zahájením léčby nintedanibem. Diagnóza ILD musí být potvrzena multidisciplinárním týmem příslušného specializovaného centra. Pacienti musí dále mít FVC alespoň 45 % predikovaných hodnot, TLCO alespoň 30 % a dominující fibrotické změny na HRCT.",
-          "uhrada": 12766.17,
+          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s idiopatickou plicní fibrózou (IPF), kteří dodržují zákaz kouření.",
+          "uhrada": 23835.41,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -10785,8 +10629,8 @@
           ]
         },
         {
-          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s idiopatickou plicní fibrózou (IPF), kteří dodržují zákaz kouření.",
-          "uhrada": 23835.41,
+          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s jinými chronickými fibrotizujícími intersticiálními plicními onemocněními (ILD) s progresivním fenotypem navzdory stávajícímu individualizovanému léčebnému postupu, přičemž progresivní fenotyp je definován jako relativní pokles FVC o alespoň 10 % ve srovnání s předchozí hodnotou nebo relativní pokles FVC o alespoň 5 % ve srovnání s předchozí hodnotou se současným zhoršováním respiračních symptomů či zvětšováním fibrotického postižení plic, nebo zhoršování respiračních symptomů a současně zvětšování fibrotického postižení plic; vše hodnoceno kdykoli během posledních 24 měsíců před zahájením léčby nintedanibem. Diagnóza ILD musí být potvrzena multidisciplinárním týmem příslušného specializovaného centra. Pacienti musí dále mít FVC alespoň 45 % predikovaných hodnot, TLCO alespoň 30 % a dominující fibrotické změny na HRCT.",
+          "uhrada": 12766.17,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -11278,8 +11122,8 @@
           "baleni": "1X10ML",
           "doplnek": "10MG/ML INF CNC SOL 1X10ML",
           "uhrada": 31803.35,
-          "cenaPuvodce": 24713.49,
-          "maxCenaLekarna": 29193.65
+          "cenaPuvodce": 24594.03,
+          "maxCenaLekarna": 29057.18
         },
         {
           "kodSUKL": "0255268",
@@ -11288,8 +11132,8 @@
           "baleni": "1X12ML",
           "doplnek": "10MG/ML INF CNC SOL 1X12ML",
           "uhrada": 33915.71,
-          "cenaPuvodce": 29794.91,
-          "maxCenaLekarna": 34998.67
+          "cenaPuvodce": 29718.62,
+          "maxCenaLekarna": 34911.51
         },
         {
           "kodSUKL": "0223046",
@@ -11298,8 +11142,8 @@
           "baleni": "1X24ML",
           "doplnek": "10MG/ML INF CNC SOL 1X24ML",
           "uhrada": 65537.88,
-          "cenaPuvodce": 60690.07,
-          "maxCenaLekarna": 70293.3
+          "cenaPuvodce": 60175.12,
+          "maxCenaLekarna": 69705.02
         },
         {
           "kodSUKL": "0210772",
@@ -11308,8 +11152,8 @@
           "baleni": "1X4ML",
           "doplnek": "10MG/ML INF CNC SOL 1X4ML",
           "uhrada": 13297.91,
-          "cenaPuvodce": 9630.41,
-          "maxCenaLekarna": 11954.46
+          "cenaPuvodce": 9729.09,
+          "maxCenaLekarna": 12069.4
         }
       ],
       "indikace": [
@@ -11333,9 +11177,9 @@
         },
         {
           "text": "Nivolumab je hrazen v monoterapii skvamózního karcinomu hlavy a krku (karcinomu dutiny ústní, faryngu a laryngu) u dospělých pacientů, kteří progredovali v průběhu nebo do šesti měsíců po ukončení léčby založené na platinových derivátech a kteří nebyli v minulosti léčeni cetuximabem",
-          "uhrada": 26873.56,
+          "uhrada": 28263.09,
           "platnostDo": null,
-          "obecnePodminky": "Pro úhradu ve všech indikacích musí být kumulativně splněny následující podmínky (pokud není dále uvedeno jinak):\na) pacient má výkonnostní stav 0-1 dle ECOG;\nb) pacient nevykazuje přítomnost klinicky aktivních mozkových metastáz anebo mozkové metastázy jsou adekvátně léčené;\nc) pacient nevykazuje přítomnost primárního okulárního melanomu nebo primárního melanomu CNS (při použití v léčbě maligního melanomu);\nd) pro úhradu kombinované léčby v indikaci pokročilého melanomu musí u pacienta být přítomen alespoň jeden z níže uvedených stavů: 1. hladina LDH u pacienta je větší než ULN 2. stádium nemoci M1b a vyšší 3. dva a více zasažených orgánů metastázami 4. slizniční melanom;\ne) pacient netrpí aktivním intersticiálním onemocněním plic (při použití v léčbě NSCLC);\nf) u pacientů s neskvamózním NSCLC nebyly prokázány aktivační mutace EGFR ani přítomnost anaplastické lymfomové kinázy (ALK);\ng) pacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nh) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\ni) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu je menší nebo rovna 1,5x ULN, pro indikaci renálního karcinomu menší nebo rovna 3x ULN, hladina bilirubinu menší nebo rovna 1,5x ULN, u pacientů s Gilbertovým syndromem menší nebo rovna 3x ULN, hladina AST a ALT menší nebo rovna 3x ULN, v případě přítomnosti jaterních metastáz menší nebo rovna 5x ULN), a současně uspokojivé hodnoty krevního obrazu (hladina hemoglobinu větší nebo rovna 90 g/l, počet leukocytů větší nebo roven 2,5 x 10 na devátou /l, počet neutrofilů větší nebo roven 1,5 x 10 na devátou /l, počet trombocytů větší nebo roven 100 x 10 na devátou /l);\nj) pacient je indikován (s ohledem na stav a komorbidity) k léčbě inhibitory kontrolních bodů.\nLéčba nivolumabem je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie. V monoterapii karcinomu hlavy a krku, renálního karcinomu a NSCLC je hrazeno podání maximálně 52 cyklů léčby nivolumabem v režimu dávkování 240 mg každé dva týdny, nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny. V adjuvantní léčbě dospělých pacientů s maligním melanomem, uroteliálním karcinomem nebo karcinomem jícnu nebo gastroezofageální junkce je hrazena délka léčby maximálně po dobu 12 měsíců od jejího zahájení. V rámci kombinační terapie s ipilimumabem u pokročilého karcinomu ledviny a maligního melanomu je z prostředků veřejného zdravotního pojištění hrazeno podání maximálně 4 dávek ipilimumabu. V rámci kombinační terapie je léčba hrazena maximálně po dobu 60 měsíců (u kombinační terapie karcinomu ledviny), resp. 52 cyklů v režimu dávkování 240 mg každé dva týdny nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny (u kombinační terapie maligního melanomu), resp. maximálně po dobu 24 měsíců u kombinační terapie s ipilimumabem a chemoterapií na bázi platiny (u metastatického NSCLC). V případě předčasného ukončení léčby ipilimumabem z důvodu jeho toxicity je nadále hrazena terapie nivolumabem dle výše uvedených podmínek. V rámci kombinační terapie s kabozantinibem u pokročilého karcinomu ledviny je z prostředků veřejného zdravotního pojištění léčba nivolumabem hrazena maximálně po dobu 24 měsíců.",
+          "obecnePodminky": "Pro úhradu ve všech indikacích musí být kumulativně splněny následující podmínky (pokud není dále uvedeno jinak):\na) pacient má výkonnostní stav 0-1 dle ECOG;\nb) pacient nevykazuje přítomnost klinicky aktivních mozkových metastáz anebo mozkové metastázy jsou adekvátně léčené;\nc) pacient nevykazuje přítomnost primárního okulárního melanomu nebo primárního melanomu CNS (při použití v léčbě maligního melanomu);\nd) pro úhradu kombinované léčby v indikaci pokročilého melanomu musí u pacienta být přítomen alespoň jeden z níže uvedených stavů: 1. hladina LDH u pacienta je větší než ULN 2. stádium nemoci M1b a vyšší 3. dva a více zasažených orgánů metastázami 4. slizniční melanom;\ne) pacient netrpí aktivním intersticiálním onemocněním plic (při použití v léčbě NSCLC);\nf) u pacientů s neskvamózním NSCLC nebyly prokázány aktivační mutace EGFR ani přítomnost anaplastické lymfomové kinázy (ALK);\ng) pacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nh) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\ni) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu je menší nebo rovna 1,5x ULN, pro indikaci renálního karcinomu menší nebo rovna 3x ULN, hladina bilirubinu menší nebo rovna 1,5x ULN, u pacientů s Gilbertovým syndromem menší nebo rovna 3x ULN, hladina AST a ALT menší nebo rovna 3x ULN, v případě přítomnosti jaterních metastáz menší nebo rovna 5x ULN), a současně uspokojivé hodnoty krevního obrazu (hladina hemoglobinu větší nebo rovna 90 g/l, počet leukocytů větší nebo roven 2,5 x 10 na devátou /l, počet neutrofilů větší nebo roven 1,5 x 10 na devátou /l, počet trombocytů větší nebo roven 100 x 10 na devátou /l);\nj) pacient je indikován (s ohledem na stav a komorbidity) k léčbě inhibitory kontrolních bodů.\nLéčba nivolumabem je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie. V monoterapii karcinomu hlavy a krku, renálního karcinomu a NSCLC je hrazeno podání maximálně 52 cyklů léčby nivolumabem v režimu dávkování 240 mg každé dva týdny, nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny. V adjuvantní léčbě dospělých pacientů s maligním melanomem, uroteliálním karcinomem nebo karcinomem jícnu nebo gastroezofageální junkce je hrazena délka léčby maximálně po dobu 12 měsíců od jejího zahájení. V rámci kombinační terapie s ipilimumabem u pokročilého karcinomu ledviny a maligního melanomu je z prostředků veřejného zdravotního pojištění hrazeno podání maximálně 4 dávek ipilimumabu. V rámci kombinační terapie je léčba hrazena maximálně po dobu 60 měsíců (u kombinační terapie karcinomu ledviny), resp. 52 cyklů v režimu dávkování 240 mg každé dva týdny nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny (u kombinační terapie maligního melanomu), resp. maximálně po dobu 24 měsíců u kombinační terapie s ipilimumabem a chemoterapií na bázi platiny (u metastatického NSCLC). V léčbě metastatického kolorektálního karcinomu jsou hrazeny 4 cykly kombinované léčby s ipilimumabem, následně je hrazen nivolumab v monoterapii do progrese onemocnění nebo projevů nepřijatelné toxicity, pokud nastanou dříve. V případě předčasného ukončení léčby ipilimumabem z důvodu jeho toxicity je nadále hrazena terapie nivolumabem dle výše uvedených podmínek. V rámci kombinační terapie s kabozantinibem u pokročilého karcinomu ledviny je z prostředků veřejného zdravotního pojištění léčba nivolumabem hrazena maximálně po dobu 24 měsíců.",
           "typyNadoru": [
             "Karcinom hlavy a krku"
           ]
@@ -11350,10 +11194,10 @@
           ]
         },
         {
-          "text": "Nivolumab je hrazen v kombinaci s ipilimumabem nebo v kombinaci s chemoterapií na bázi fluorpyrimidinu a platiny k léčbě v první linii u dospělých pacientů s neresekovatelným pokročilým, rekurentním nebo metastazujícím skvamózním karcinomem jícnu s expresí PD-L1 na nádorových buňkách větším nebo rovným 1 %",
-          "uhrada": 62247.12,
-          "platnostDo": "2026-08-01T00:00:00",
-          "obecnePodminky": "Pro obě indikace platí následující: Pacienti musí mít výkonnostní stav ECOG 0-1. Léčba je hrazena do progrese onemocnění (verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imunoonkologické terapie) nebo maximálně po dobu 24 měsíců. \nV případě ukončení léčby jedné složky z kombinace nivolumabu z důvodu její toxicity je nadále hrazena terapie ostatními složkami kombinace dle výše uvedených podmínek.",
+          "text": "Nivolumab je hrazen v kombinaci s ipilimumabem nebo v kombinaci s chemoterapií na bázi fluorpyrimidinu a platiny k léčbě v první linii u dospělých pacientů o velmi dobrém stavu výkonnosti (ECOG 0-1) s neresekovatelným pokročilým, rekurentním nebo metastazujícím skvamózním karcinomem jícnu s expresí PD-L1 na nádorových buňkách větším nebo rovným 1 %.\nLéčba je hrazena do progrese onemocnění (verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imunoonkologické terapie) nebo maximálně po dobu 24 měsíců. V případě předčasného ukončení léčby ipilimumabem z důvodu jeho toxicity je nadále hrazena terapie nivolumabem dle výše uvedených podmínek. V případě ukončení léčby jedné složky z kombinace nivolumabu a chemoterapie z důvodu její toxicity je nadále hrazena terapie ostatními složkami kombinace.",
+          "uhrada": 65537.88,
+          "platnostDo": "2028-08-01T00:00:00",
+          "obecnePodminky": null,
           "typyNadoru": [
             "Karcinom jícnu"
           ]
@@ -11378,9 +11222,9 @@
         },
         {
           "text": "Nivolumab je hrazen v kombinaci s kabozantinibem v první linii léčby u dospělých pacientů s pokročilým světlobuněčným renálním karcinomem a příznivou prognózou (za absence rizikových faktorů dle kritérií IMDC)",
-          "uhrada": 26873.56,
+          "uhrada": 28263.09,
           "platnostDo": null,
-          "obecnePodminky": "Pro úhradu ve všech indikacích musí být kumulativně splněny následující podmínky (pokud není dále uvedeno jinak):\na) pacient má výkonnostní stav 0-1 dle ECOG;\nb) pacient nevykazuje přítomnost klinicky aktivních mozkových metastáz anebo mozkové metastázy jsou adekvátně léčené;\nc) pacient nevykazuje přítomnost primárního okulárního melanomu nebo primárního melanomu CNS (při použití v léčbě maligního melanomu);\nd) pro úhradu kombinované léčby v indikaci pokročilého melanomu musí u pacienta být přítomen alespoň jeden z níže uvedených stavů: 1. hladina LDH u pacienta je větší než ULN 2. stádium nemoci M1b a vyšší 3. dva a více zasažených orgánů metastázami 4. slizniční melanom;\ne) pacient netrpí aktivním intersticiálním onemocněním plic (při použití v léčbě NSCLC);\nf) u pacientů s neskvamózním NSCLC nebyly prokázány aktivační mutace EGFR ani přítomnost anaplastické lymfomové kinázy (ALK);\ng) pacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nh) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\ni) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu je menší nebo rovna 1,5x ULN, pro indikaci renálního karcinomu menší nebo rovna 3x ULN, hladina bilirubinu menší nebo rovna 1,5x ULN, u pacientů s Gilbertovým syndromem menší nebo rovna 3x ULN, hladina AST a ALT menší nebo rovna 3x ULN, v případě přítomnosti jaterních metastáz menší nebo rovna 5x ULN), a současně uspokojivé hodnoty krevního obrazu (hladina hemoglobinu větší nebo rovna 90 g/l, počet leukocytů větší nebo roven 2,5 x 10 na devátou /l, počet neutrofilů větší nebo roven 1,5 x 10 na devátou /l, počet trombocytů větší nebo roven 100 x 10 na devátou /l);\nj) pacient je indikován (s ohledem na stav a komorbidity) k léčbě inhibitory kontrolních bodů.\nLéčba nivolumabem je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie. V monoterapii karcinomu hlavy a krku, renálního karcinomu a NSCLC je hrazeno podání maximálně 52 cyklů léčby nivolumabem v režimu dávkování 240 mg každé dva týdny, nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny. V adjuvantní léčbě dospělých pacientů s maligním melanomem, uroteliálním karcinomem nebo karcinomem jícnu nebo gastroezofageální junkce je hrazena délka léčby maximálně po dobu 12 měsíců od jejího zahájení. V rámci kombinační terapie s ipilimumabem u pokročilého karcinomu ledviny a maligního melanomu je z prostředků veřejného zdravotního pojištění hrazeno podání maximálně 4 dávek ipilimumabu. V rámci kombinační terapie je léčba hrazena maximálně po dobu 60 měsíců (u kombinační terapie karcinomu ledviny), resp. 52 cyklů v režimu dávkování 240 mg každé dva týdny nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny (u kombinační terapie maligního melanomu), resp. maximálně po dobu 24 měsíců u kombinační terapie s ipilimumabem a chemoterapií na bázi platiny (u metastatického NSCLC). V případě předčasného ukončení léčby ipilimumabem z důvodu jeho toxicity je nadále hrazena terapie nivolumabem dle výše uvedených podmínek. V rámci kombinační terapie s kabozantinibem u pokročilého karcinomu ledviny je z prostředků veřejného zdravotního pojištění léčba nivolumabem hrazena maximálně po dobu 24 měsíců.",
+          "obecnePodminky": "Pro úhradu ve všech indikacích musí být kumulativně splněny následující podmínky (pokud není dále uvedeno jinak):\na) pacient má výkonnostní stav 0-1 dle ECOG;\nb) pacient nevykazuje přítomnost klinicky aktivních mozkových metastáz anebo mozkové metastázy jsou adekvátně léčené;\nc) pacient nevykazuje přítomnost primárního okulárního melanomu nebo primárního melanomu CNS (při použití v léčbě maligního melanomu);\nd) pro úhradu kombinované léčby v indikaci pokročilého melanomu musí u pacienta být přítomen alespoň jeden z níže uvedených stavů: 1. hladina LDH u pacienta je větší než ULN 2. stádium nemoci M1b a vyšší 3. dva a více zasažených orgánů metastázami 4. slizniční melanom;\ne) pacient netrpí aktivním intersticiálním onemocněním plic (při použití v léčbě NSCLC);\nf) u pacientů s neskvamózním NSCLC nebyly prokázány aktivační mutace EGFR ani přítomnost anaplastické lymfomové kinázy (ALK);\ng) pacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nh) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\ni) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu je menší nebo rovna 1,5x ULN, pro indikaci renálního karcinomu menší nebo rovna 3x ULN, hladina bilirubinu menší nebo rovna 1,5x ULN, u pacientů s Gilbertovým syndromem menší nebo rovna 3x ULN, hladina AST a ALT menší nebo rovna 3x ULN, v případě přítomnosti jaterních metastáz menší nebo rovna 5x ULN), a současně uspokojivé hodnoty krevního obrazu (hladina hemoglobinu větší nebo rovna 90 g/l, počet leukocytů větší nebo roven 2,5 x 10 na devátou /l, počet neutrofilů větší nebo roven 1,5 x 10 na devátou /l, počet trombocytů větší nebo roven 100 x 10 na devátou /l);\nj) pacient je indikován (s ohledem na stav a komorbidity) k léčbě inhibitory kontrolních bodů.\nLéčba nivolumabem je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie. V monoterapii karcinomu hlavy a krku, renálního karcinomu a NSCLC je hrazeno podání maximálně 52 cyklů léčby nivolumabem v režimu dávkování 240 mg každé dva týdny, nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny. V adjuvantní léčbě dospělých pacientů s maligním melanomem, uroteliálním karcinomem nebo karcinomem jícnu nebo gastroezofageální junkce je hrazena délka léčby maximálně po dobu 12 měsíců od jejího zahájení. V rámci kombinační terapie s ipilimumabem u pokročilého karcinomu ledviny a maligního melanomu je z prostředků veřejného zdravotního pojištění hrazeno podání maximálně 4 dávek ipilimumabu. V rámci kombinační terapie je léčba hrazena maximálně po dobu 60 měsíců (u kombinační terapie karcinomu ledviny), resp. 52 cyklů v režimu dávkování 240 mg každé dva týdny nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny (u kombinační terapie maligního melanomu), resp. maximálně po dobu 24 měsíců u kombinační terapie s ipilimumabem a chemoterapií na bázi platiny (u metastatického NSCLC). V léčbě metastatického kolorektálního karcinomu jsou hrazeny 4 cykly kombinované léčby s ipilimumabem, následně je hrazen nivolumab v monoterapii do progrese onemocnění nebo projevů nepřijatelné toxicity, pokud nastanou dříve. V případě předčasného ukončení léčby ipilimumabem z důvodu jeho toxicity je nadále hrazena terapie nivolumabem dle výše uvedených podmínek. V rámci kombinační terapie s kabozantinibem u pokročilého karcinomu ledviny je z prostředků veřejného zdravotního pojištění léčba nivolumabem hrazena maximálně po dobu 24 měsíců.",
           "typyNadoru": [
             "Karcinom ledvin"
           ]
@@ -11405,20 +11249,20 @@
           ]
         },
         {
-          "text": "Nivolumab je hrazen v kombinaci s chemoterapií na bázi fluorpyrimidinu a platiny k léčbě v první linii u dospělých pacientů s HER2-negativním lokálně pokročilým neresekovatelným nebo metastatickým adenokarcinomem žaludku, gastroezofageální junkce nebo jícnu s expresí PD-L1 na nádorových elementech s CPS (kombinované pozitivní skóre) větším nebo rovným 5.",
-          "uhrada": 62247.12,
-          "platnostDo": "2026-08-01T00:00:00",
-          "obecnePodminky": "Pro obě indikace platí následující: Pacienti musí mít výkonnostní stav ECOG 0-1. Léčba je hrazena do progrese onemocnění (verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imunoonkologické terapie) nebo maximálně po dobu 24 měsíců. \nV případě ukončení léčby jedné složky z kombinace nivolumabu z důvodu její toxicity je nadále hrazena terapie ostatními složkami kombinace dle výše uvedených podmínek.",
+          "text": "Nivolumab je hrazen v kombinaci s chemoterapií na bázi fluorpyrimidinu a platiny k léčbě v první linii u dospělých pacientů s HER2-negativním lokálně pokročilým neresekovatelným nebo metastatickým adenokarcinomem žaludku, gastroezofageální junkce nebo jícnu s expresí PD-L1 na nádorových elementech s CPS (kombinované pozitivní skóre) větším nebo rovným 5. Pacienti musí mít výkonnostní stav ECOG 0-1. Léčba je hrazena do progrese onemocnění (verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imunoonkologické terapie) nebo maximálně po dobu 24 měsíců. V případě ukončení léčby jedné složky z kombinace nivolumabu z důvodu její toxicity je nadále hrazena terapie ostatními složkami kombinace dle výše uvedených podmínek.",
+          "uhrada": 65537.88,
+          "platnostDo": "2028-08-01T00:00:00",
+          "obecnePodminky": null,
           "typyNadoru": [
             "Karcinom žaludku",
             "Karcinom jícnu"
           ]
         },
         {
-          "text": "Nivolumab je hrazen v kombinaci s ipilimumabem k léčbě dospělých pacientů s metastazujícím kolorektálním karcinomem s deficitní opravou chybného párování bází nebo vysokou mikrosatelitovou nestabilitou, u kterých došlo k progresi onemocnění během či po předchozí kombinované chemoterapii na bázi fluorpyrimidinu nebo tuto léčbu netolerovali. Jedná se o pacienty ve velmi dobrém stavu výkonnosti (ECOG 0-1), kteří dosud nebyli pro kolorektální karcinom léčeni checkpoint inhibitory. Jsou hrazeny 4 cykly kombinované léčby s ipilimumabem, následně je hrazen nivolumab v monoterapii do progrese onemocnění (verifikované opakovaným radiologickým vyšetřením v odstupu 4 - 8 týdnů z důvodu odlišného mechanismu účinku imunoonkologické terapie) nebo projevů nepřijatelné toxicity, pokud nastanou dříve. V případě předčasného ukončení léčby ipilimumabem z důvodu jeho toxicity je nadále hrazena terapie nivolumabem dle výše uvedených podmínek.",
-          "uhrada": 65537.88,
-          "platnostDo": "2026-08-01T00:00:00",
-          "obecnePodminky": null,
+          "text": "Nivolumab je hrazen v kombinaci s ipilimumabem k léčbě dospělých pacientů s metastazujícím kolorektálním karcinomem s deficitní opravou chybného párování bází nebo vysokou mikrosatelitovou nestabilitou, u kterých došlo k progresi onemocnění během či po předchozí kombinované chemoterapii na bázi fluorpyrimidinu nebo tuto léčbu netolerovali. Jedná se o pacienty, kteří dosud nebyli pro kolorektální karcinom léčeni checkpoint inhibitory.",
+          "uhrada": 28263.09,
+          "platnostDo": null,
+          "obecnePodminky": "Pro úhradu ve všech indikacích musí být kumulativně splněny následující podmínky (pokud není dále uvedeno jinak):\na) pacient má výkonnostní stav 0-1 dle ECOG;\nb) pacient nevykazuje přítomnost klinicky aktivních mozkových metastáz anebo mozkové metastázy jsou adekvátně léčené;\nc) pacient nevykazuje přítomnost primárního okulárního melanomu nebo primárního melanomu CNS (při použití v léčbě maligního melanomu);\nd) pro úhradu kombinované léčby v indikaci pokročilého melanomu musí u pacienta být přítomen alespoň jeden z níže uvedených stavů: 1. hladina LDH u pacienta je větší než ULN 2. stádium nemoci M1b a vyšší 3. dva a více zasažených orgánů metastázami 4. slizniční melanom;\ne) pacient netrpí aktivním intersticiálním onemocněním plic (při použití v léčbě NSCLC);\nf) u pacientů s neskvamózním NSCLC nebyly prokázány aktivační mutace EGFR ani přítomnost anaplastické lymfomové kinázy (ALK);\ng) pacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nh) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\ni) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu je menší nebo rovna 1,5x ULN, pro indikaci renálního karcinomu menší nebo rovna 3x ULN, hladina bilirubinu menší nebo rovna 1,5x ULN, u pacientů s Gilbertovým syndromem menší nebo rovna 3x ULN, hladina AST a ALT menší nebo rovna 3x ULN, v případě přítomnosti jaterních metastáz menší nebo rovna 5x ULN), a současně uspokojivé hodnoty krevního obrazu (hladina hemoglobinu větší nebo rovna 90 g/l, počet leukocytů větší nebo roven 2,5 x 10 na devátou /l, počet neutrofilů větší nebo roven 1,5 x 10 na devátou /l, počet trombocytů větší nebo roven 100 x 10 na devátou /l);\nj) pacient je indikován (s ohledem na stav a komorbidity) k léčbě inhibitory kontrolních bodů.\nLéčba nivolumabem je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie. V monoterapii karcinomu hlavy a krku, renálního karcinomu a NSCLC je hrazeno podání maximálně 52 cyklů léčby nivolumabem v režimu dávkování 240 mg každé dva týdny, nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny. V adjuvantní léčbě dospělých pacientů s maligním melanomem, uroteliálním karcinomem nebo karcinomem jícnu nebo gastroezofageální junkce je hrazena délka léčby maximálně po dobu 12 měsíců od jejího zahájení. V rámci kombinační terapie s ipilimumabem u pokročilého karcinomu ledviny a maligního melanomu je z prostředků veřejného zdravotního pojištění hrazeno podání maximálně 4 dávek ipilimumabu. V rámci kombinační terapie je léčba hrazena maximálně po dobu 60 měsíců (u kombinační terapie karcinomu ledviny), resp. 52 cyklů v režimu dávkování 240 mg každé dva týdny nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny (u kombinační terapie maligního melanomu), resp. maximálně po dobu 24 měsíců u kombinační terapie s ipilimumabem a chemoterapií na bázi platiny (u metastatického NSCLC). V léčbě metastatického kolorektálního karcinomu jsou hrazeny 4 cykly kombinované léčby s ipilimumabem, následně je hrazen nivolumab v monoterapii do progrese onemocnění nebo projevů nepřijatelné toxicity, pokud nastanou dříve. V případě předčasného ukončení léčby ipilimumabem z důvodu jeho toxicity je nadále hrazena terapie nivolumabem dle výše uvedených podmínek. V rámci kombinační terapie s kabozantinibem u pokročilého karcinomu ledviny je z prostředků veřejného zdravotního pojištění léčba nivolumabem hrazena maximálně po dobu 24 měsíců.",
           "typyNadoru": [
             "Kolorektální karcinom"
           ]
@@ -11443,9 +11287,9 @@
         },
         {
           "text": "Nivolumab je hrazen v monoterapii k adjuvantní léčbě dospělých pacientů s maligním melanomem s postižením lymfatických uzlin nebo vzdálenými metastázami po kompletní chirurgické resekci",
-          "uhrada": 26873.56,
+          "uhrada": 28263.09,
           "platnostDo": null,
-          "obecnePodminky": "Pro úhradu ve všech indikacích musí být kumulativně splněny následující podmínky (pokud není dále uvedeno jinak):\na) pacient má výkonnostní stav 0-1 dle ECOG;\nb) pacient nevykazuje přítomnost klinicky aktivních mozkových metastáz anebo mozkové metastázy jsou adekvátně léčené;\nc) pacient nevykazuje přítomnost primárního okulárního melanomu nebo primárního melanomu CNS (při použití v léčbě maligního melanomu);\nd) pro úhradu kombinované léčby v indikaci pokročilého melanomu musí u pacienta být přítomen alespoň jeden z níže uvedených stavů: 1. hladina LDH u pacienta je větší než ULN 2. stádium nemoci M1b a vyšší 3. dva a více zasažených orgánů metastázami 4. slizniční melanom;\ne) pacient netrpí aktivním intersticiálním onemocněním plic (při použití v léčbě NSCLC);\nf) u pacientů s neskvamózním NSCLC nebyly prokázány aktivační mutace EGFR ani přítomnost anaplastické lymfomové kinázy (ALK);\ng) pacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nh) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\ni) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu je menší nebo rovna 1,5x ULN, pro indikaci renálního karcinomu menší nebo rovna 3x ULN, hladina bilirubinu menší nebo rovna 1,5x ULN, u pacientů s Gilbertovým syndromem menší nebo rovna 3x ULN, hladina AST a ALT menší nebo rovna 3x ULN, v případě přítomnosti jaterních metastáz menší nebo rovna 5x ULN), a současně uspokojivé hodnoty krevního obrazu (hladina hemoglobinu větší nebo rovna 90 g/l, počet leukocytů větší nebo roven 2,5 x 10 na devátou /l, počet neutrofilů větší nebo roven 1,5 x 10 na devátou /l, počet trombocytů větší nebo roven 100 x 10 na devátou /l);\nj) pacient je indikován (s ohledem na stav a komorbidity) k léčbě inhibitory kontrolních bodů.\nLéčba nivolumabem je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie. V monoterapii karcinomu hlavy a krku, renálního karcinomu a NSCLC je hrazeno podání maximálně 52 cyklů léčby nivolumabem v režimu dávkování 240 mg každé dva týdny, nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny. V adjuvantní léčbě dospělých pacientů s maligním melanomem, uroteliálním karcinomem nebo karcinomem jícnu nebo gastroezofageální junkce je hrazena délka léčby maximálně po dobu 12 měsíců od jejího zahájení. V rámci kombinační terapie s ipilimumabem u pokročilého karcinomu ledviny a maligního melanomu je z prostředků veřejného zdravotního pojištění hrazeno podání maximálně 4 dávek ipilimumabu. V rámci kombinační terapie je léčba hrazena maximálně po dobu 60 měsíců (u kombinační terapie karcinomu ledviny), resp. 52 cyklů v režimu dávkování 240 mg každé dva týdny nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny (u kombinační terapie maligního melanomu), resp. maximálně po dobu 24 měsíců u kombinační terapie s ipilimumabem a chemoterapií na bázi platiny (u metastatického NSCLC). V případě předčasného ukončení léčby ipilimumabem z důvodu jeho toxicity je nadále hrazena terapie nivolumabem dle výše uvedených podmínek. V rámci kombinační terapie s kabozantinibem u pokročilého karcinomu ledviny je z prostředků veřejného zdravotního pojištění léčba nivolumabem hrazena maximálně po dobu 24 měsíců.",
+          "obecnePodminky": "Pro úhradu ve všech indikacích musí být kumulativně splněny následující podmínky (pokud není dále uvedeno jinak):\na) pacient má výkonnostní stav 0-1 dle ECOG;\nb) pacient nevykazuje přítomnost klinicky aktivních mozkových metastáz anebo mozkové metastázy jsou adekvátně léčené;\nc) pacient nevykazuje přítomnost primárního okulárního melanomu nebo primárního melanomu CNS (při použití v léčbě maligního melanomu);\nd) pro úhradu kombinované léčby v indikaci pokročilého melanomu musí u pacienta být přítomen alespoň jeden z níže uvedených stavů: 1. hladina LDH u pacienta je větší než ULN 2. stádium nemoci M1b a vyšší 3. dva a více zasažených orgánů metastázami 4. slizniční melanom;\ne) pacient netrpí aktivním intersticiálním onemocněním plic (při použití v léčbě NSCLC);\nf) u pacientů s neskvamózním NSCLC nebyly prokázány aktivační mutace EGFR ani přítomnost anaplastické lymfomové kinázy (ALK);\ng) pacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nh) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\ni) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu je menší nebo rovna 1,5x ULN, pro indikaci renálního karcinomu menší nebo rovna 3x ULN, hladina bilirubinu menší nebo rovna 1,5x ULN, u pacientů s Gilbertovým syndromem menší nebo rovna 3x ULN, hladina AST a ALT menší nebo rovna 3x ULN, v případě přítomnosti jaterních metastáz menší nebo rovna 5x ULN), a současně uspokojivé hodnoty krevního obrazu (hladina hemoglobinu větší nebo rovna 90 g/l, počet leukocytů větší nebo roven 2,5 x 10 na devátou /l, počet neutrofilů větší nebo roven 1,5 x 10 na devátou /l, počet trombocytů větší nebo roven 100 x 10 na devátou /l);\nj) pacient je indikován (s ohledem na stav a komorbidity) k léčbě inhibitory kontrolních bodů.\nLéčba nivolumabem je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie. V monoterapii karcinomu hlavy a krku, renálního karcinomu a NSCLC je hrazeno podání maximálně 52 cyklů léčby nivolumabem v režimu dávkování 240 mg každé dva týdny, nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny. V adjuvantní léčbě dospělých pacientů s maligním melanomem, uroteliálním karcinomem nebo karcinomem jícnu nebo gastroezofageální junkce je hrazena délka léčby maximálně po dobu 12 měsíců od jejího zahájení. V rámci kombinační terapie s ipilimumabem u pokročilého karcinomu ledviny a maligního melanomu je z prostředků veřejného zdravotního pojištění hrazeno podání maximálně 4 dávek ipilimumabu. V rámci kombinační terapie je léčba hrazena maximálně po dobu 60 měsíců (u kombinační terapie karcinomu ledviny), resp. 52 cyklů v režimu dávkování 240 mg každé dva týdny nebo maximálně 26 cyklů v režimu dávkování 480 mg každé čtyři týdny (u kombinační terapie maligního melanomu), resp. maximálně po dobu 24 měsíců u kombinační terapie s ipilimumabem a chemoterapií na bázi platiny (u metastatického NSCLC). V léčbě metastatického kolorektálního karcinomu jsou hrazeny 4 cykly kombinované léčby s ipilimumabem, následně je hrazen nivolumab v monoterapii do progrese onemocnění nebo projevů nepřijatelné toxicity, pokud nastanou dříve. V případě předčasného ukončení léčby ipilimumabem z důvodu jeho toxicity je nadále hrazena terapie nivolumabem dle výše uvedených podmínek. V rámci kombinační terapie s kabozantinibem u pokročilého karcinomu ledviny je z prostředků veřejného zdravotního pojištění léčba nivolumabem hrazena maximálně po dobu 24 měsíců.",
           "typyNadoru": [
             "Melanom"
           ]
@@ -12337,6 +12181,15 @@
           "text": "Enfortumab vedotin je hrazen v monoterapii k léčbě dospělých pacientů s lokálně pokročilým nebo metastazujícím uroteliálním karcinomem, kteří dříve podstoupili chemoterapii obsahující platinu a terapii inhibitorem receptoru 1 programované buněčné (PD-1) smrti nebo ligandu 1 programované buněčné smrti (PD-L1). Enfortumab vedotin je hrazen u pacientů v celkovém stavu (PS) 0-1 dle ECOG do progrese onemocnění nebo do výskytu nepřijatelné toxicity.",
           "uhrada": 25269.86,
           "platnostDo": "2027-03-01T00:00:00",
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Uroteliální karcinom"
+          ]
+        },
+        {
+          "text": "Enfortumab vedotin je v kombinaci s pembrolizumabem hrazen v první linii léčby dospělých pacientů s neresekovatelným nebo metastazujícím uroteliálním karcinomem v dobrém výkonnostním stavu (ECOG 0-1), kteří jsou způsobilí k podstoupení chemoterapie obsahující platinu. Léčba je hrazena do progrese onemocnění (v případě pembrolizumabu do potvrzení progrese onemocnění verifikované opakovaným radiologickým vyšetřením v odstupu 4-8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie) nebo do nepřijatelné toxicity. V případě nutnosti ukončení léčby jedním léčivem z podávané kombinace z důvodu její netolerance je možné pokračovat v podávání druhým léčivem. Léčba pembrolizumabem je hrazena v počtu maximálně 35 cyklů.",
+          "uhrada": 19637.58,
+          "platnostDo": "2029-08-01T00:00:00",
           "obecnePodminky": null,
           "typyNadoru": [
             "Uroteliální karcinom"
@@ -13859,6 +13712,15 @@
         }
       ],
       "indikace": [
+        {
+          "text": "Isatuximab je hrazen v kombinaci s bortezomibem, lenalidomidem a dexamethasonem k léčbě dospělých pacientů s nově diagnostikovaným mnohočetným myelomem, kteří splňují všechny následující podmínky: \na) jsou nevhodní pro transplantaci kostní dřeně, \nb) mají stav výkonnosti dle ECOG 0-2. \nTerapie isatuximabem je hrazena do progrese onemocnění dle platných kritérií IMWG (Mezinárodní pracovní skupiny pro myelom) nebo do projevů nepřijatelné toxicity. V případě nutnosti přerušení či ukončení terapie jednou z ostatních složek režimu je možné pokračovat v léčbě zbylými složkami režimu.",
+          "uhrada": 48550.15,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Mnohočetný myelom"
+          ]
+        },
         {
           "text": "Isatuximab je v kombinaci s pomalidomidem a dexamethasonem hrazen v léčbě dospělých pacientů s relabujícím a refrakterním mnohočetným myelomem (o stavu výkonnosti 0-2 dle ECOG), kteří absolvovali alespoň dvě předchozí léčebná schémata zahrnující jak lenalidomid, tak inhibitor proteazomu s progresí onemocnění při poslední terapii (tj. během terapie nebo do 60 dnů od jejího ukončení), u nichž nelze opětovně použít režim na bázi inhibitoru proteazomu, ani režim na bázi lenalidomidu a u kterých není indikována myeloablativní léčba s následnou transplantací krvetvorných buněk. Pokud předchozí léčba zahrnovala anti-CD38 terapii (např. daratumumab) nesmělo dojít k progresi na této terapii (tj. léčba musela být ukončena z jiného důvodu než progrese, např. pro intoleranci pacientem).  Terapie je hrazena do progrese onemocnění nebo nepřijatelné toxicity.\nV případě nutnosti přerušení či ukončení terapie jednou z ostatních složek režimu je možné pokračovat v léčbě zbylými složkami režimu.",
           "uhrada": 49903.19,
@@ -16070,8 +15932,8 @@
           "baleni": "100",
           "doplnek": "0,5MG CPS DUR 100",
           "uhrada": 4206.72,
-          "cenaPuvodce": 8322.12,
-          "maxCenaLekarna": 10430.57
+          "cenaPuvodce": 2780,
+          "maxCenaLekarna": 3726.46
         },
         {
           "kodSUKL": "0261003",
@@ -16080,8 +15942,8 @@
           "baleni": "100",
           "doplnek": "0,5MG CPS DUR 100",
           "uhrada": 4206.72,
-          "cenaPuvodce": 8322.12,
-          "maxCenaLekarna": 10430.57
+          "cenaPuvodce": 2780,
+          "maxCenaLekarna": 3726.46
         }
       ],
       "indikace": [
@@ -16383,16 +16245,16 @@
           "lekovaForma": "INF PLV CSL",
           "baleni": "1",
           "doplnek": "200MG INF PLV CSL 1",
-          "uhrada": 25394.01,
-          "cenaPuvodce": 23790.61,
-          "maxCenaLekarna": 28139.35
+          "uhrada": 25036.01,
+          "cenaPuvodce": 21167.31,
+          "maxCenaLekarna": 25142.49
         }
       ],
       "indikace": [
         {
-          "text": "Sacituzumab govitekan je hrazen u dospělých pacientů s neresekovatelným nebo metastazujícím triple-negativním karcinomem prsu, kteří podstoupili dvě nebo více předchozích systémových terapií, z nichž byla alespoň jedna pro pokročilé onemocnění. Léčba je hrazena do progrese onemocnění nebo neakceptovatelné toxicity. Pacient musí kumulativně splňovat následující podmínky: a) má výkonnostní stav 0-1 dle ECOG; b) předchozí terapie má zahrnovat antracyklin a taxan, kromě pacientů, kteří nebyli pro tuto léčbu vhodní; c) nevykazuje přítomnost klinicky aktivních mozkových metastáz anebo jsou mozkové metastázy adekvátně léčené.",
-          "uhrada": 25394.01,
-          "platnostDo": "2026-07-01T00:00:00",
+          "text": "Sacituzumab govitekan je hrazen u dospělých pacientů s neresekovatelným nebo metastazujícím triple-negativním karcinomem prsu, kteří podstoupili dvě nebo více předchozích systémových terapií, z nichž byla alespoň jedna pro pokročilé onemocnění. Léčba je hrazena do progrese onemocnění nebo neakceptovatelné toxicity. Pacient musí kumulativně splňovat následující podmínky: \na) má výkonnostní stav 0-1 dle ECOG; \nb) předchozí terapie má zahrnovat antracyklin a taxan, kromě pacientů, kteří nebyli pro tuto léčbu vhodní; \nc) nevykazuje přítomnost klinicky aktivních mozkových metastáz anebo jsou mozkové metastázy adekvátně léčené.",
+          "uhrada": 24376.09,
+          "platnostDo": "2028-07-01T00:00:00",
           "obecnePodminky": null,
           "typyNadoru": [
             "Karcinom prsu"
@@ -17779,8 +17641,8 @@
           ]
         },
         {
-          "text": "Ipilimumab je v monoterapii hrazen k léčbě pokročilého melanomu (neresekovatelného - stádia III nebo metastatického - stádia IV) u pacientů, kteří dostávali jedno nebo více léčiv a to pouze ze skupiny chemoterapeutik či cytokinů předchozí volby (dakarbazin, interleukin - 2, fotemustin, karboplatina nebo temozolomid) za kumulativního splnění následujících podmínek: \na) pacient má výkonnostní stav 0 - 1 dle ECOG; \nb) pacient nevykazuje přítomnost symptomatických mozkových metastáz (anebo mozkové metastázy jsou adekvátně léčené), primárního okulárního melanomu nebo primárního melanomu CNS; \nc) pacient není dlouhodobě léčen kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou; \nd) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu menší nebo rovna 2x ULN, hladina bilirubinu menší nebo rovna 2x ULN, hladina AST menší nebo rovna 2x ULN), a současně uspokojivé hodnoty krevního obrazu (hematokrit větší nebo roven 30 %, hladina hemoglobinu větší nebo rovna 100 g/l, počet leukocytů větší nebo roven 2,5x 10 na devátou/l, počet neutrofilů větší nebo roven 1,5x 10 na devátou/l, počet trombocytů větší nebo roven 100x 10 na devátou/l); \ne) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo). \nZ prostředků veřejného zdravotního pojištění je hrazeno podání maximálně čtyř samostatných dávek ipilimumabu 3 mg/kg hmotnosti pacienta, opakovaný (reindukční) režim není ze zdravotního pojištění",
-          "uhrada": 85347.83,
+          "text": "Ipilimumab je v monoterapii hrazen k léčbě pokročilého melanomu (neresekovatelného - stádia III nebo metastatického - stádia IV) u pacientů, kteří dostávali jedno nebo více léčiv a to pouze ze skupiny chemoterapeutik či cytokinů předchozí volby (dakarbazin, interleukin - 2, fotemustin, karboplatina nebo temozolomid) za kumulativního splnění následujících podmínek: \na) pacient má výkonnostní stav 0 - 1 dle ECOG; \nb) pacient nevykazuje přítomnost symptomatických mozkových metastáz (anebo mozkové metastázy jsou adekvátně léčené), primárního okulárního melanomu nebo primárního melanomu CNS; \nc) pacient není dlouhodobě léčen kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou; \nd) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu menší nebo rovna 2x ULN, hladina bilirubinu menší nebo rovna 2x ULN, hladina AST menší nebo rovna 2x ULN), a současně uspokojivé hodnoty krevního obrazu (hematokrit větší nebo roven 30 %, hladina hemoglobinu větší nebo rovna 100 g/l, počet leukocytů větší nebo roven 2,5x 10 na devátou/l, počet neutrofilů větší nebo roven 1,5x 10 na devátou/l, počet trombocytů větší nebo roven 100x 10 na devátou/l); \ne) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo). \nZ prostředků veřejného zdravotního pojištění je hrazeno podání maximálně čtyř samostatných dávek ipilimumabu 3 mg/kg hmotnosti pacienta, opakovaný (reindukční) režim není ze zdravotního pojištění hrazen.",
+          "uhrada": 333310.28,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -17788,8 +17650,8 @@
           ]
         },
         {
-          "text": "Ipilimumab je v monoterapii hrazen k léčbě pokročilého melanomu (neresekovatelného - stádia III nebo metastatického - stádia IV) u pacientů, kteří dostávali jedno nebo více léčiv a to pouze ze skupiny chemoterapeutik či cytokinů předchozí volby (dakarbazin, interleukin - 2, fotemustin, karboplatina nebo temozolomid) za kumulativního splnění následujících podmínek: \na) pacient má výkonnostní stav 0 - 1 dle ECOG; \nb) pacient nevykazuje přítomnost symptomatických mozkových metastáz (anebo mozkové metastázy jsou adekvátně léčené), primárního okulárního melanomu nebo primárního melanomu CNS; \nc) pacient není dlouhodobě léčen kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou; \nd) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu menší nebo rovna 2x ULN, hladina bilirubinu menší nebo rovna 2x ULN, hladina AST menší nebo rovna 2x ULN), a současně uspokojivé hodnoty krevního obrazu (hematokrit větší nebo roven 30 %, hladina hemoglobinu větší nebo rovna 100 g/l, počet leukocytů větší nebo roven 2,5x 10 na devátou/l, počet neutrofilů větší nebo roven 1,5x 10 na devátou/l, počet trombocytů větší nebo roven 100x 10 na devátou/l); \ne) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo). \nZ prostředků veřejného zdravotního pojištění je hrazeno podání maximálně čtyř samostatných dávek ipilimumabu 3 mg/kg hmotnosti pacienta, opakovaný (reindukční) režim není ze zdravotního pojištění hrazen.",
-          "uhrada": 333310.28,
+          "text": "Ipilimumab je v monoterapii hrazen k léčbě pokročilého melanomu (neresekovatelného - stádia III nebo metastatického - stádia IV) u pacientů, kteří dostávali jedno nebo více léčiv a to pouze ze skupiny chemoterapeutik či cytokinů předchozí volby (dakarbazin, interleukin - 2, fotemustin, karboplatina nebo temozolomid) za kumulativního splnění následujících podmínek: \na) pacient má výkonnostní stav 0 - 1 dle ECOG; \nb) pacient nevykazuje přítomnost symptomatických mozkových metastáz (anebo mozkové metastázy jsou adekvátně léčené), primárního okulárního melanomu nebo primárního melanomu CNS; \nc) pacient není dlouhodobě léčen kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou; \nd) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu menší nebo rovna 2x ULN, hladina bilirubinu menší nebo rovna 2x ULN, hladina AST menší nebo rovna 2x ULN), a současně uspokojivé hodnoty krevního obrazu (hematokrit větší nebo roven 30 %, hladina hemoglobinu větší nebo rovna 100 g/l, počet leukocytů větší nebo roven 2,5x 10 na devátou/l, počet neutrofilů větší nebo roven 1,5x 10 na devátou/l, počet trombocytů větší nebo roven 100x 10 na devátou/l); \ne) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo). \nZ prostředků veřejného zdravotního pojištění je hrazeno podání maximálně čtyř samostatných dávek ipilimumabu 3 mg/kg hmotnosti pacienta, opakovaný (reindukční) režim není ze zdravotního pojištění",
+          "uhrada": 85347.83,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
