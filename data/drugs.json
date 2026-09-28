@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "datumAktualizace": "2026-08-28",
-    "scauPlatnostOd": "2026-08-01",
-    "scauVerze": 2,
-    "pocetLeku": 299,
-    "pocetZaznamu": 699
+    "datumAktualizace": "2026-09-28",
+    "scauPlatnostOd": "2026-09-01",
+    "scauVerze": 1,
+    "pocetLeku": 297,
+    "pocetZaznamu": 696
   },
   "filtry": {
     "typyTerapie": [
@@ -1090,16 +1090,6 @@
       ],
       "baleni": [
         {
-          "kodSUKL": "0187541",
-          "sila": "1MG",
-          "lekovaForma": "TBL FLM",
-          "baleni": "100",
-          "doplnek": "1MG TBL FLM 100",
-          "uhrada": 744.14,
-          "cenaPuvodce": 3000,
-          "maxCenaLekarna": 4007.36
-        },
-        {
           "kodSUKL": "0187543",
           "sila": "1MG",
           "lekovaForma": "TBL FLM",
@@ -1732,8 +1722,8 @@
           "baleni": "1X20ML",
           "doplnek": "25MG/ML INF CNC SOL 1X20ML",
           "uhrada": 3553.38,
-          "cenaPuvodce": 22626,
-          "maxCenaLekarna": 26808.9
+          "cenaPuvodce": 15444.59,
+          "maxCenaLekarna": 18604.86
         },
         {
           "kodSUKL": "0209122",
@@ -1742,8 +1732,8 @@
           "baleni": "1X4ML",
           "doplnek": "25MG/ML INF CNC SOL 1X4ML",
           "uhrada": 710.68,
-          "cenaPuvodce": 4750,
-          "maxCenaLekarna": 6241.76
+          "cenaPuvodce": 3572.77,
+          "maxCenaLekarna": 4738.67
         }
       ],
       "indikace": [
@@ -2166,45 +2156,6 @@
       "indikace": [
         {
           "text": "Azacitidin je hrazen z prostředků veřejného zdravotního pojištění v první linii léčby dospělých pacientů se stavem výkonnosti dle ECOG 0-2, kteří nejsou způsobilí k transplantaci hematopoetických kmenových buněk a jejichž klinický stav umožňuje léčbu: \n- myelodysplastických syndromů (MDS) intermediárního rizika 2. stupně a vysokého rizika podle Mezinárodního prognostického skórovacího systému (IPSS);\n- chronické myelomonocytové leukémie (CMML) s 10-29 % blastů v kostní dřeni bez myeloproliferativního onemocnění;\n- akutní myeloidní leukémie (AML) s 20-30 % blastů a dysplazií ve více buněčných liniích, podle klasifikace Světové zdravotnické organizace (WHO).\nTerapie se ukončí kdykoliv z důvodu neakceptovatelné toxicity nebo progrese onemocnění (nárůst počtu blastů v kostní dřeni o více nebo rovno 25 %).\nPo 6 podaných cyklech se terapie ukončí, pokud není dosaženo alespoň hematologického zlepšení (pokles počtu blastů v kostní dřeni o více nebo rovno 25 %).\nPokud po 6 podaných cyklech došlo alespoň k hematologickému zlepšení (pokles počtu blastů v kostní dřeni o více nebo rovno 25 %), pacientům je hrazena terapie do neakceptovatelné toxicity nebo progrese onemocnění (nárůst počtu blastů v kostní dřeni o více nebo rovno 25 %).",
-          "uhrada": 3869.25,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Mnohočetný myelom",
-            "AML",
-            "MDS"
-          ]
-        }
-      ],
-      "typyNadoru": [
-        "AML",
-        "MDS",
-        "Mnohočetný myelom"
-      ],
-      "ucinnaLatka": "Azacitidin"
-    },
-    {
-      "nazev": "AZACITIDIN STADA ARZNEIMITTEL AG",
-      "atcKod": "L01BC07",
-      "typ": "Cílená léčba",
-      "formy": [
-        "25MG/ML INJ PLV SUS"
-      ],
-      "baleni": [
-        {
-          "kodSUKL": "0254033",
-          "sila": "25MG/ML",
-          "lekovaForma": "INJ PLV SUS",
-          "baleni": "1",
-          "doplnek": "25MG/ML INJ PLV SUS 1",
-          "uhrada": 3869.25,
-          "cenaPuvodce": 5233.58,
-          "maxCenaLekarna": 6833.03
-        }
-      ],
-      "indikace": [
-        {
-          "text": "Azacitidin je hrazen z prostředků veřejného zdravotního pojištění v první linii léčby dospělých pacientů se stavem výkonnosti dle ECOG 0-2, kteří nejsou způsobilí k transplantaci hematopoetických kmenových buněk a jejichž klinický stav umožňuje léčbu:  - myelodysplastických syndromů (MDS) intermediárního rizika 2. stupně a vysokého rizika podle Mezinárodního prognostického skórovacího systému (IPSS); - chronické myelomonocytové leukémie (CMML) s 10-29 % blastů v kostní dřeni bez myeloproliferativního onemocnění; - akutní myeloidní leukémie (AML) s 20-30 % blastů a dysplazií ve více buněčných liniích, podle klasifikace Světové zdravotnické organizace (WHO). Terapie se ukončí kdykoliv z důvodu neakceptovatelné toxicity nebo progrese onemocnění (nárůst počtu blastů v kostní dřeni o více nebo rovno 25 %). Po 6 podaných cyklech se terapie ukončí, pokud není dosaženo alespoň hematologického zlepšení (pokles počtu blastů v kostní dřeni o více nebo rovno 25 %). Pokud po 6 podaných cyklech došlo alespoň k hematologickému zlepšení (pokles počtu blastů v kostní dřeni o více nebo rovno 25 %), pacientům je hrazena terapie do neakceptovatelné toxicity nebo progrese onemocnění (nárůst počtu blastů v kostní dřeni o více nebo rovno 25 %).",
           "uhrada": 3869.25,
           "platnostDo": null,
           "obecnePodminky": null,
@@ -3734,9 +3685,20 @@
       "atcKod": "L02AE02",
       "typ": "Hormonální terapie",
       "formy": [
+        "21MG INJ SUS PRO",
         "42MG INJ SUS PRO"
       ],
       "baleni": [
+        {
+          "kodSUKL": "0290505",
+          "sila": "21MG",
+          "lekovaForma": "INJ SUS PRO",
+          "baleni": "1+1J",
+          "doplnek": "21MG INJ SUS PRO 1+1J",
+          "uhrada": 2690.02,
+          "cenaPuvodce": 4039.64,
+          "maxCenaLekarna": 5334.77
+        },
         {
           "kodSUKL": "0267853",
           "sila": "42MG",
@@ -6024,7 +5986,7 @@
           "lekovaForma": "INF CNC SOL",
           "baleni": "1X40ML",
           "doplnek": "1000MG INF CNC SOL 1X40ML",
-          "uhrada": 84130.59,
+          "uhrada": 59724.46,
           "cenaPuvodce": 75734.08,
           "maxCenaLekarna": 87479.57
         }
@@ -6032,7 +5994,7 @@
       "indikace": [
         {
           "text": "Obinutuzumab je hrazen:\n1) v kombinaci s chlorambucilem k léčbě dospělých pacientů s dříve neléčenou chronickou lymfocytární leukémií (CLL) a s komorbiditami, v důsledku kterých nemohou podstoupit léčbu na bázi fludarabinu v plné dávce. Léčba je hrazena do vyčerpání 6 cyklů terapie nebo do progrese onemocnění či výskytu nepřijatelné toxicity (co nastane dříve),\n2a) u dospělých pacientů s dosud neléčeným pokročilým folikulárním lymfomem (FL) grade 1 až 3a, se středním až vysokým rizikem podle FLIPI, a to v kombinaci s chemoterapií v indukční fázi léčby a následně v monoterapii v rámci udržovací fáze léčby (po dobu až 2 let léčby) u pacientů, u kterých bylo dosaženo alespoň částečné odpovědi na léčbu.\n2b) v kombinaci s bendamustinem (až 6 cyklů terapie) a v udržovací monoterapii (po dobu až 2 let léčby) u pacientů s folikulárním lymfomem (FL), kteří nedosáhli alespoň částečné odpovědi na léčbu zahrnující rituximab nebo zprogredovali do 6 měsíců po jejím ukončení.\nPodmínkou úhrady pro indikace léčby folikulárního lymfomu je stav výkonnosti pacientů podle škály ECOG 0-1, horší stav výkonnosti je přípustný pouze tehdy, pokud je prokazatelně způsoben pouze onemocněním folikulárním lymfomem (např. patologická zlomenina), což je nutno zdůvodnit v dokumentaci pacienta. Pokud dojde k progresi před vyčerpáním hrazené doby či počtu hrazených cyklů terapie, je léčba hrazena pouze do progrese.",
-          "uhrada": 84130.59,
+          "uhrada": 59724.46,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -6403,6 +6365,16 @@
           "maxCenaLekarna": 48496.22
         },
         {
+          "kodSUKL": "0290556",
+          "sila": "20MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "30",
+          "doplnek": "20MG TBL FLM 30",
+          "uhrada": 7163.52,
+          "cenaPuvodce": 44582.14,
+          "maxCenaLekarna": 51891.6
+        },
+        {
           "kodSUKL": "0194523",
           "sila": "30MG",
           "lekovaForma": "TBL FLM",
@@ -6413,6 +6385,16 @@
           "maxCenaLekarna": 47209.56
         },
         {
+          "kodSUKL": "0290557",
+          "sila": "30MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "30",
+          "doplnek": "30MG TBL FLM 30",
+          "uhrada": 10745.28,
+          "cenaPuvodce": 43375.41,
+          "maxCenaLekarna": 50513.03
+        },
+        {
           "kodSUKL": "0194526",
           "sila": "40MG",
           "lekovaForma": "TBL FLM",
@@ -6421,12 +6403,22 @@
           "uhrada": 13371.9,
           "cenaPuvodce": 40483.72,
           "maxCenaLekarna": 47209.56
+        },
+        {
+          "kodSUKL": "0290558",
+          "sila": "40MG",
+          "lekovaForma": "TBL FLM",
+          "baleni": "30",
+          "doplnek": "40MG TBL FLM 30",
+          "uhrada": 14327.04,
+          "cenaPuvodce": 43375.41,
+          "maxCenaLekarna": 50513.03
         }
       ],
       "indikace": [
         {
-          "text": "1) Afatinib je hrazen v první linii léčby pacientů s lokálně pokročilým nebo metastazujícím nemalobuněčným karcinomem plic (stádium IIIB nebo stádium IV), starších 18ti let, u kterých byly relevantní molekulárně biologickou metodou prokázány aktivační mutace EGFR. Pacienti nemají symptomatické CNS metastázy. Terapie je hrazena do progrese onemocnění. Přípravek je hrazen pro pacienty v celkovém stavu (PS) 0-2 dle ECOG.\n2) Afatinib je hrazen u pacientů s lokálně pokročilým nebo metastazujícím skvamózním nemalobuněčným karcinomem plic, v případě selhání předchozí chemoterapeutické léčby, a to pouze v případech, kdy nelze použít jinou než podpůrnou péči, za kumulativního splnění následujících podmínek:\na) nelze podat další linii chemoterapie\nb) nelze podat imunoterapii.\nZhodnocení dosavadního průběhu léčby a klinického stavu pacienta a důvody nepodání další linie chemoterapie nebo imunoterapie musí být zaznamenané do zdravotní dokumentace pacienta, kdy důvodem nemůže být pouhý nesouhlas pacienta, ale např. kontraindikace, nesplnění indikačních kritérií, celkový zdravotní stav pacienta.\nTerapie je hrazena do progrese onemocnění. Přípravek je hrazen pro pacienty v celkovém stavu (PS) 0-2 dle ECOG.",
-          "uhrada": 13371.9,
+          "text": "1) Afatinib je hrazen v první linii léčby pacientů s lokálně pokročilým nebo metastazujícím nemalobuněčným karcinomem plic (stádium IIIB nebo stádium IV), starších 18ti let, u kterých byly relevantní molekulárně biologickou metodou prokázány aktivační mutace EGFR. Pacienti nemají symptomatické CNS metastázy. Terapie je hrazena do progrese onemocnění. Přípravek je hrazen pro pacienty v celkovém stavu (PS) 0-2 dle ECOG. 2) Afatinib je hrazen u pacientů s lokálně pokročilým nebo metastazujícím skvamózním nemalobuněčným karcinomem plic, v případě selhání předchozí chemoterapeutické léčby, a to pouze v případech, kdy nelze použít jinou než podpůrnou péči, za kumulativního splnění následujících podmínek: a) nelze podat další linii chemoterapie b) nelze podat imunoterapii. Zhodnocení dosavadního průběhu léčby a klinického stavu pacienta a důvody nepodání další linie chemoterapie nebo imunoterapie musí být zaznamenané do zdravotní dokumentace pacienta, kdy důvodem nemůže být pouhý nesouhlas pacienta, ale např. kontraindikace, nesplnění indikačních kritérií, celkový zdravotní stav pacienta. Terapie je hrazena do progrese onemocnění. Přípravek je hrazen pro pacienty v celkovém stavu (PS) 0-2 dle ECOG.",
+          "uhrada": 14327.04,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -6786,24 +6778,6 @@
       ],
       "indikace": [
         {
-          "text": "Palbociklib je hrazen v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s letrozolem jako (iniciální) hormonální terapie u postmenopauzálních žen a mužů, kteří dosud nebyli léčeni hormonální ani jinou systémovou terapií pro pokročilé onemocnění. U pacientů po předchozí hormonální adjuvantní léčbě pomocí nesteroidního inhibitoru aromatázy muselo dojít k relapsu onemocnění nejdříve 12 měsíců po ukončení adjuvantní hormonální léčby.",
-          "uhrada": 41431.49,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Karcinom prsu"
-          ]
-        },
-        {
-          "text": "Palbociklib je hrazen v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s fulvestrantem u pacientů, kteří dostávali předchozí hormonální léčbu pro pokročilé onemocnění a jsou s ohledem na celkový stav vhodní k podání intenzivnější/účinnější kombinační léčby (podání monoterapie inhibitorem aromatázy by u nich znamenalo nedostatečnou léčbu). \nU pre-/peri-menopauzálních žen je třeba léčbu kombinovat s agonistou LHRH. U mužů je třeba léčbu kombinovat s kastrací (farmakologickou pomocí agonisty GnRH nebo chirurgickou). \nPro oba body platí: léčba je hrazena do progrese onemocnění.",
-          "uhrada": 41431.49,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Karcinom prsu"
-          ]
-        },
-        {
           "text": "Palbociklib je hrazen v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s letrozolem jako (iniciální) hormonální terapie u postmenopauzálních žen, které dosud nebyly léčeny hormonální ani jinou systémovou terapií pro pokročilé onemocnění. U pacientek po předchozí hormonální adjuvantní léčbě pomocí nesteroidního inhibitoru aromatázy muselo dojít k relapsu onemocnění nejdříve 12 měsíců po ukončení adjuvantní hormonální léčby.",
           "uhrada": 36599.14,
           "platnostDo": null,
@@ -6815,6 +6789,24 @@
         {
           "text": "Palbociklib je hrazen v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s fulvestrantem u žen, které vykazovaly senzitivitu na předchozí hormonální léčbu a jsou s ohledem na celkový stav vhodné k podání intenzivnější/účinnější kombinační léčby (podání monoterapie inhibitorem aromatázy by u nich znamenalo nedostatečnou léčbu). Senzitivita na předchozí hormonální léčbu je definována jako dosažení kompletní či parciální odpovědi nebo alespoň 24 týdnů trvající stabilizace onemocnění nejméně na jeden předchozí režim endokrinní léčby u metastatického onemocnění nebo podávání adjuvantní léčby po dobu nejméně 24 měsíců do výskytu rekurence onemocnění. U pre- nebo perimenopauzálních žen je třeba endokrinní léčbu kombinovat s agonistou hormonu uvolňujícího luteinizační hormon (LHRH - luteinizing hormone releasing hormone).\nPro oba body platí: léčba je hrazena do progrese onemocnění.",
           "uhrada": 36599.14,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prsu"
+          ]
+        },
+        {
+          "text": "Palbociklib je hrazen v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s letrozolem jako (iniciální) hormonální terapie u postmenopauzálních žen a mužů, kteří dosud nebyli léčeni hormonální ani jinou systémovou terapií pro pokročilé onemocnění. U pacientů po předchozí hormonální adjuvantní léčbě pomocí nesteroidního inhibitoru aromatázy muselo dojít k relapsu onemocnění nejdříve 12 měsíců po ukončení adjuvantní hormonální léčby.",
+          "uhrada": 41431.49,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom prsu"
+          ]
+        },
+        {
+          "text": "Palbociklib je hrazen v indikaci lokálně pokročilého (neresekovatelného) nebo metastazujícího karcinomu prsu pozitivního na hormonální receptory a negativního na receptor HER2, ve výkonnostním stavu dle ECOG 0-1 v kombinaci s fulvestrantem u pacientů, kteří dostávali předchozí hormonální léčbu pro pokročilé onemocnění a jsou s ohledem na celkový stav vhodní k podání intenzivnější/účinnější kombinační léčby (podání monoterapie inhibitorem aromatázy by u nich znamenalo nedostatečnou léčbu). \nU pre-/peri-menopauzálních žen je třeba léčbu kombinovat s agonistou LHRH. U mužů je třeba léčbu kombinovat s kastrací (farmakologickou pomocí agonisty GnRH nebo chirurgickou). \nPro oba body platí: léčba je hrazena do progrese onemocnění.",
+          "uhrada": 41431.49,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -7264,19 +7256,19 @@
       ],
       "indikace": [
         {
-          "text": "Durvalumab je hrazen v monoterapii v léčbě dospělých pacientů s lokálně pokročilým, neoperovatelným nemalobuněčným karcinomem plic exprimujícím PD-L1 na 1 a více % nádorových buněk, u kterých nedošlo k progresi onemocnění po konkomitantní chemo-radiační léčbě na bázi platiny, za kumulativního splnění následujících podmínek:\na)\tpacient má výkonnostní stav 0 - 1 dle ECOG;\nb)\tdurvalumab je podaný nejpozději 6 týdnů po ukončení chemoradioterapie;\nc)\tpacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nd)\tpacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\ne)\tpacient nevykazuje přítomnost intersticiální plicní choroby;\nf)\tpacient nemá prokázanou přítomnost aktivačních mutací EGFR nebo ALK (v případě známého stavu přítomnosti aktivačních mutací v tomto stadiu onemocnění).\n\nLéčba je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4 - 8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie nebo nepřijatelné toxicity, maximálně po dobu 12 měsíců.",
-          "uhrada": 16193.98,
+          "text": "Durvalumab je hrazen v monoterapii v léčbě dospělých pacientů s lokálně pokročilým, neoperovatelným nemalobuněčným karcinomem plic (NSCLC) exprimujícím PD-L1 na 1 a více % nádorových buněk, u kterých nedošlo k progresi onemocnění po konkomitantní chemo-radiační léčbě na bázi platiny",
+          "uhrada": 47272.44,
           "platnostDo": null,
-          "obecnePodminky": null,
+          "obecnePodminky": "Pro úhradu ve všech indikacích musí být kumulativně splněny následující podmínky (pokud není dále uvedeno jinak): \na) pacient má výkonnostní stav 0 - 1 dle ECOG;\nb) pacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nc) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\nd) pacient nevykazuje přítomnost intersticiální plicní choroby;\ne) u pacientů s NSCLC je durvalumab podaný nejpozději 6 týdnů po ukončení chemoradioterapie a zároveň nebyly prokázány aktivační mutace EGFR nebo ALK (v případě známého stavu přítomnosti aktivačních mutací v tomto stadiu onemocnění).\nLéčba je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4 - 8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie nebo nepřijatelné toxicity, v léčbě NSCLC maximálně po dobu 12 měsíců.",
           "typyNadoru": [
             "NSCLC"
           ]
         },
         {
-          "text": "Durvalumab je hrazen v monoterapii v léčbě dospělých pacientů s lokálně pokročilým, neoperovatelným nemalobuněčným karcinomem plic (NSCLC) exprimujícím PD-L1 na 1 a více % nádorových buněk, u kterých nedošlo k progresi onemocnění po konkomitantní chemo-radiační léčbě na bázi platiny",
-          "uhrada": 47272.44,
+          "text": "Durvalumab je hrazen v monoterapii v léčbě dospělých pacientů s lokálně pokročilým, neoperovatelným nemalobuněčným karcinomem plic exprimujícím PD-L1 na 1 a více % nádorových buněk, u kterých nedošlo k progresi onemocnění po konkomitantní chemo-radiační léčbě na bázi platiny, za kumulativního splnění následujících podmínek:\na)\tpacient má výkonnostní stav 0 - 1 dle ECOG;\nb)\tdurvalumab je podaný nejpozději 6 týdnů po ukončení chemoradioterapie;\nc)\tpacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nd)\tpacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\ne)\tpacient nevykazuje přítomnost intersticiální plicní choroby;\nf)\tpacient nemá prokázanou přítomnost aktivačních mutací EGFR nebo ALK (v případě známého stavu přítomnosti aktivačních mutací v tomto stadiu onemocnění).\n\nLéčba je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4 - 8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie nebo nepřijatelné toxicity, maximálně po dobu 12 měsíců.",
+          "uhrada": 16193.98,
           "platnostDo": null,
-          "obecnePodminky": "Pro úhradu ve všech indikacích musí být kumulativně splněny následující podmínky (pokud není dále uvedeno jinak): \na) pacient má výkonnostní stav 0 - 1 dle ECOG;\nb) pacient není dlouhodobě léčen systémovými kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou;\nc) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo);\nd) pacient nevykazuje přítomnost intersticiální plicní choroby;\ne) u pacientů s NSCLC je durvalumab podaný nejpozději 6 týdnů po ukončení chemoradioterapie a zároveň nebyly prokázány aktivační mutace EGFR nebo ALK (v případě známého stavu přítomnosti aktivačních mutací v tomto stadiu onemocnění).\nLéčba je hrazena do potvrzení progrese onemocnění, verifikované opakovaným radiologickým vyšetřením v odstupu 4 - 8 týdnů z důvodu odlišného mechanismu účinku imuno-onkologické terapie nebo nepřijatelné toxicity, v léčbě NSCLC maximálně po dobu 12 měsíců.",
+          "obecnePodminky": null,
           "typyNadoru": [
             "NSCLC"
           ]
@@ -8655,8 +8647,8 @@
           ]
         },
         {
-          "text": "Lenvatinib je hrazen jako monoterapie u dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění. Rezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
-          "uhrada": 18891.26,
+          "text": "Lenvatinib je hrazen v léčbě dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění. Rezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
+          "uhrada": 19467.84,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -8664,8 +8656,8 @@
           ]
         },
         {
-          "text": "Lenvatinib je hrazen v léčbě dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění. Rezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
-          "uhrada": 19467.84,
+          "text": "Lenvatinib je hrazen jako monoterapie u dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění. Rezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
+          "uhrada": 18891.26,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -8729,8 +8721,8 @@
           ]
         },
         {
-          "text": "Lenvatinib je hrazen v léčbě dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění.\nRezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
-          "uhrada": 31805.76,
+          "text": "Lenvatinib je hrazen jako monoterapie u dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění.\nRezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
+          "uhrada": 31229.18,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -8738,8 +8730,8 @@
           ]
         },
         {
-          "text": "Lenvatinib je hrazen jako monoterapie u dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění.\nRezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
-          "uhrada": 31229.18,
+          "text": "Lenvatinib je hrazen v léčbě dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění.\nRezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
+          "uhrada": 31805.76,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -9103,7 +9095,7 @@
           "lekovaForma": "TBL FLM",
           "baleni": "30",
           "doplnek": "100MG TBL FLM 30",
-          "uhrada": 100115.04,
+          "uhrada": 91408.46,
           "cenaPuvodce": 90220,
           "maxCenaLekarna": 104028.29
         },
@@ -9113,15 +9105,15 @@
           "lekovaForma": "TBL FLM",
           "baleni": "90",
           "doplnek": "25MG TBL FLM 90",
-          "uhrada": 95560.7,
+          "uhrada": 88891.61,
           "cenaPuvodce": 81234.41,
           "maxCenaLekarna": 93763.15
         }
       ],
       "indikace": [
         {
-          "text": "Lorlatinib je hrazen u dospělých pacientů s lokálně pokročilým (stadium IIIB) nebo metastazujícím (stadium IV) nemalobuněčným karcinomem plic v první linii léčby. \nU pacientů je validovaným laboratorním testem v referenční laboratoři prokázána přítomnost přestavby genu anaplastické lymfomové kinázy (ALK). Přípravek je hrazen u pacientů v celkovém stavu (PS) 0-2 dle ECOG. Terapie je hrazena do progrese onemocnění.",
-          "uhrada": 100115.04,
+          "text": "Lorlatinib je hrazen \n1)u dospělých pacientů s lokálně pokročilým (stadium IIIB) nebo metastazujícím (stadium IV) nemalobuněčným karcinomem plic v první linii léčby. \n2)v monoterapii u dospělých pacientů s pokročilým nemalobuněčným karcinomem plic, u nichž došlo k progresi onemocnění po: \n- léčbě alektinibem nebo ceritinibem jako první léčbě inhibitorem tyrozinkináz (TKI) ALK;\nnebo\n- léčbě krizotinibem a nejméně jedním dalším ALK TKI.\n\nPro všechny indikace platí: U pacientů je validovaným laboratorním testem v referenční laboratoři prokázána přítomnost přestavby genu anaplastické lymfomové kinázy (ALK). Přípravek je hrazen u pacientů v celkovém stavu (PS) 0-2 dle ECOG. Terapie je hrazena do progrese onemocnění.",
+          "uhrada": 91408.46,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -9148,16 +9140,16 @@
           "lekovaForma": "TBL FLM",
           "baleni": "240",
           "doplnek": "120MG TBL FLM 240",
-          "uhrada": 158155.33,
-          "cenaPuvodce": 137600.11,
-          "maxCenaLekarna": 158155.33
+          "uhrada": 107662.22,
+          "cenaPuvodce": 96685.23,
+          "maxCenaLekarna": 111414.17
         }
       ],
       "indikace": [
         {
           "text": "Sotorasib je hrazen v monoterapii u dospělých pacientů s lokálně pokročilým (stadium III neoperabilní) nebo metastazujícím (stadium IV) nemalobuněčným karcinomem plic s mutací KRAS G12C, u kterých došlo k progresi po alespoň jedné předchozí linii systémové léčby.   \nPřípravek je hrazen u pacientů ve stavu výkonnosti 0-1 dle ECOG. Pacient nevykazuje přítomnost klinicky aktivních mozkových metastáz anebo mozkové metastázy jsou adekvátně léčené. Terapie je hrazena do progrese onemocnění.",
-          "uhrada": 158155.33,
-          "platnostDo": "2026-09-01T00:00:00",
+          "uhrada": 107662.22,
+          "platnostDo": "2028-09-01T00:00:00",
           "obecnePodminky": null,
           "typyNadoru": [
             "NSCLC"
@@ -10620,6 +10612,81 @@
       ],
       "indikace": [
         {
+          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s jinými chronickými fibrotizujícími intersticiálními plicními onemocněními (ILD) s progresivním fenotypem navzdory stávajícímu individualizovanému léčebnému postupu, přičemž progresivní fenotyp je definován jako relativní pokles FVC o alespoň 10 % ve srovnání s předchozí hodnotou nebo relativní pokles FVC o alespoň 5 % ve srovnání s předchozí hodnotou se současným zhoršováním respiračních symptomů či zvětšováním fibrotického postižení plic, nebo zhoršování respiračních symptomů a současně zvětšování fibrotického postižení plic; vše hodnoceno kdykoli během posledních 24 měsíců před zahájením léčby nintedanibem. Diagnóza ILD musí být potvrzena multidisciplinárním týmem příslušného specializovaného centra. Pacienti musí dále mít FVC alespoň 45 % predikovaných hodnot, TLCO alespoň 30 % a dominující fibrotické změny na HRCT.",
+          "uhrada": 12766.17,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Ostatní"
+          ]
+        },
+        {
+          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s idiopatickou plicní fibrózou (IPF), kteří dodržují zákaz kouření.",
+          "uhrada": 23835.41,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Ostatní"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Ostatní"
+      ],
+      "ucinnaLatka": "Nintedanib-esilát"
+    },
+    {
+      "nazev": "NINTEDANIB GLENMARK",
+      "atcKod": "L01EX09",
+      "typ": "Cílená léčba",
+      "formy": [
+        "100MG CPS MOL",
+        "150MG CPS MOL"
+      ],
+      "baleni": [
+        {
+          "kodSUKL": "0280838",
+          "sila": "100MG",
+          "lekovaForma": "CPS MOL",
+          "baleni": "30X1",
+          "doplnek": "100MG CPS MOL 30X1",
+          "uhrada": 8510.78,
+          "cenaPuvodce": 8490.55,
+          "maxCenaLekarna": 10626.75
+        },
+        {
+          "kodSUKL": "0280839",
+          "sila": "100MG",
+          "lekovaForma": "CPS MOL",
+          "baleni": "60X1",
+          "doplnek": "100MG CPS MOL 60X1",
+          "uhrada": 15890.27,
+          "cenaPuvodce": 28301.82,
+          "maxCenaLekarna": 33292.96
+        },
+        {
+          "kodSUKL": "0280841",
+          "sila": "150MG",
+          "lekovaForma": "CPS MOL",
+          "baleni": "30X1",
+          "doplnek": "150MG CPS MOL 30X1",
+          "uhrada": 12766.17,
+          "cenaPuvodce": 15434.11,
+          "maxCenaLekarna": 18592.89
+        },
+        {
+          "kodSUKL": "0280842",
+          "sila": "150MG",
+          "lekovaForma": "CPS MOL",
+          "baleni": "60X1",
+          "doplnek": "150MG CPS MOL 60X1",
+          "uhrada": 23835.41,
+          "cenaPuvodce": 51447.03,
+          "maxCenaLekarna": 59734.05
+        }
+      ],
+      "indikace": [
+        {
           "text": "Léčba nintedanibem je hrazena u dospělých pacientů s idiopatickou plicní fibrózou (IPF), kteří dodržují zákaz kouření.",
           "uhrada": 23835.41,
           "platnostDo": null,
@@ -10641,7 +10708,7 @@
       "typyNadoru": [
         "Ostatní"
       ],
-      "ucinnaLatka": "Nintedanib-esilát"
+      "ucinnaLatka": "Nintedanib"
     },
     {
       "nazev": "NINTEDANIB SANDOZ",
@@ -10695,8 +10762,8 @@
       ],
       "indikace": [
         {
-          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s jinými chronickými fibrotizujícími intersticiálními plicními onemocněními (ILD) s progresivním fenotypem navzdory stávajícímu individualizovanému léčebnému postupu, přičemž progresivní fenotyp je definován jako relativní pokles FVC o alespoň 10 % ve srovnání s předchozí hodnotou nebo relativní pokles FVC o alespoň 5 % ve srovnání s předchozí hodnotou se současným zhoršováním respiračních symptomů či zvětšováním fibrotického postižení plic, nebo zhoršování respiračních symptomů a současně zvětšování fibrotického postižení plic; vše hodnoceno kdykoli během posledních 24 měsíců před zahájením léčby nintedanibem. Diagnóza ILD musí být potvrzena multidisciplinárním týmem příslušného specializovaného centra. Pacienti musí dále mít FVC alespoň 45 % predikovaných hodnot, TLCO alespoň 30 % a dominující fibrotické změny na HRCT.",
-          "uhrada": 12766.17,
+          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s idiopatickou plicní fibrózou (IPF), kteří dodržují zákaz kouření.",
+          "uhrada": 23835.41,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -10704,8 +10771,8 @@
           ]
         },
         {
-          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s idiopatickou plicní fibrózou (IPF), kteří dodržují zákaz kouření.",
-          "uhrada": 23835.41,
+          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s jinými chronickými fibrotizujícími intersticiálními plicními onemocněními (ILD) s progresivním fenotypem navzdory stávajícímu individualizovanému léčebnému postupu, přičemž progresivní fenotyp je definován jako relativní pokles FVC o alespoň 10 % ve srovnání s předchozí hodnotou nebo relativní pokles FVC o alespoň 5 % ve srovnání s předchozí hodnotou se současným zhoršováním respiračních symptomů či zvětšováním fibrotického postižení plic, nebo zhoršování respiračních symptomů a současně zvětšování fibrotického postižení plic; vše hodnoceno kdykoli během posledních 24 měsíců před zahájením léčby nintedanibem. Diagnóza ILD musí být potvrzena multidisciplinárním týmem příslušného specializovaného centra. Pacienti musí dále mít FVC alespoň 45 % predikovaných hodnot, TLCO alespoň 30 % a dominující fibrotické změny na HRCT.",
+          "uhrada": 12766.17,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -11112,6 +11179,7 @@
       "typ": "Imunoterapie",
       "formy": [
         "10MG/ML INF CNC SOL",
+        "300MG INJ SOL",
         "600MG INJ SOL"
       ],
       "baleni": [
@@ -11394,9 +11462,20 @@
       "atcKod": "L01FF01",
       "typ": "Imunoterapie",
       "formy": [
+        "300MG INJ SOL",
         "600MG INJ SOL"
       ],
       "baleni": [
+        {
+          "kodSUKL": "0290504",
+          "sila": "300MG",
+          "lekovaForma": "INJ SOL",
+          "baleni": "1X2,5ML",
+          "doplnek": "300MG INJ SOL 1X2,5ML",
+          "uhrada": 33915.72,
+          "cenaPuvodce": 31942.79,
+          "maxCenaLekarna": 37452.4
+        },
         {
           "kodSUKL": "0286265",
           "sila": "600MG",
@@ -12434,96 +12513,6 @@
       "ucinnaLatka": "Pemigatinib"
     },
     {
-      "nazev": "PEMETREXED ACCORD",
-      "atcKod": "L01BA04",
-      "typ": "Cílená léčba",
-      "formy": [
-        "1000MG INF PLV CSL",
-        "100MG INF PLV CSL",
-        "25MG/ML INF CNC SOL",
-        "500MG INF PLV CSL"
-      ],
-      "baleni": [
-        {
-          "kodSUKL": "0250022",
-          "sila": "25MG/ML",
-          "lekovaForma": "INF CNC SOL",
-          "baleni": "1X20ML",
-          "doplnek": "25MG/ML INF CNC SOL 1X20ML",
-          "uhrada": 3553.38,
-          "cenaPuvodce": 10448.56,
-          "maxCenaLekarna": 12897.39
-        },
-        {
-          "kodSUKL": "0250223",
-          "sila": "25MG/ML",
-          "lekovaForma": "INF CNC SOL",
-          "baleni": "1X40ML",
-          "doplnek": "25MG/ML INF CNC SOL 1X40ML",
-          "uhrada": 7106.76,
-          "cenaPuvodce": 21034.62,
-          "maxCenaLekarna": 24990.91
-        },
-        {
-          "kodSUKL": "0250021",
-          "sila": "25MG/ML",
-          "lekovaForma": "INF CNC SOL",
-          "baleni": "1X4ML",
-          "doplnek": "25MG/ML INF CNC SOL 1X4ML",
-          "uhrada": 710.68,
-          "cenaPuvodce": 2092.46,
-          "maxCenaLekarna": 2834.92
-        },
-        {
-          "kodSUKL": "0209131",
-          "sila": "1000MG",
-          "lekovaForma": "INF PLV CSL",
-          "baleni": "1",
-          "doplnek": "1000MG INF PLV CSL 1",
-          "uhrada": 7106.76,
-          "cenaPuvodce": 12063.68,
-          "maxCenaLekarna": 14742.51
-        },
-        {
-          "kodSUKL": "0209129",
-          "sila": "100MG",
-          "lekovaForma": "INF PLV CSL",
-          "baleni": "1",
-          "doplnek": "100MG INF PLV CSL 1",
-          "uhrada": 710.68,
-          "cenaPuvodce": 681.63,
-          "maxCenaLekarna": 975.47
-        },
-        {
-          "kodSUKL": "0209130",
-          "sila": "500MG",
-          "lekovaForma": "INF PLV CSL",
-          "baleni": "1",
-          "doplnek": "500MG INF PLV CSL 1",
-          "uhrada": 3553.38,
-          "cenaPuvodce": 3408.16,
-          "maxCenaLekarna": 4528.5
-        }
-      ],
-      "indikace": [
-        {
-          "text": "Pemetrexed je hrazen:\n1) V kombinační léčbě s cisplatinou u pacientů s neresekovatelným maligním mezoteliomem pleury.\n2) V 1. linii léčby v kombinaci s cisplatinou lokálně pokročilého nebo metastazujícího karcinomu plic pouze diagnosticky prokázaného adenokarcinomu a velkobuněčného histologického typu. Přípravek je podáván až do progrese onemocnění, z prostředků veřejného zdravotního pojištění jsou hrazeny maximálně 4 cykly léčby.\n3) V monoterapii v rámci udržovací fáze léčby lokálně pokročilého nebo metastazujícího karcinomu plic histologického typu adenokarcinomu nebo velkobuněčného karcinomu u pacientů o výkonnostním stavu ECOG 0-1, kteří po 4 cyklech léčby 1. linie kombinací pemetrexedu a cisplatiny dosáhli objektivní odpovědi nebo stabilizace onemocnění. Léčba je hrazena do progrese onemocnění.\n4) V 2. linii léčby lokálně pokročilého nebo metastazujícího nemalobuněčného karcinomu plic histologického typu adenokarcinomu nebo velkobuněčného karcinomu.",
-          "uhrada": 7106.76,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "NSCLC",
-            "Mezoteliom"
-          ]
-        }
-      ],
-      "typyNadoru": [
-        "Mezoteliom",
-        "NSCLC"
-      ],
-      "ucinnaLatka": "Dihemihydrát disodné soli pemetrexedu"
-    },
-    {
       "nazev": "PEMETREXED EVER PHARMA",
       "atcKod": "L01BA04",
       "typ": "Cílená léčba",
@@ -12978,16 +12967,6 @@
       ],
       "baleni": [
         {
-          "kodSUKL": "0246046",
-          "sila": "10,8MG",
-          "lekovaForma": "IMP ISP",
-          "baleni": "1",
-          "doplnek": "10,8MG IMP ISP 1",
-          "uhrada": 2690.02,
-          "cenaPuvodce": 3048.61,
-          "maxCenaLekarna": 4069.43
-        },
-        {
           "kodSUKL": "0265024",
           "sila": "10,8MG",
           "lekovaForma": "IMP ISP",
@@ -12996,16 +12975,6 @@
           "uhrada": 2690.02,
           "cenaPuvodce": 3048.61,
           "maxCenaLekarna": 4069.43
-        },
-        {
-          "kodSUKL": "0246044",
-          "sila": "3,6MG",
-          "lekovaForma": "IMP ISP",
-          "baleni": "1",
-          "doplnek": "3,6MG IMP ISP 1",
-          "uhrada": 896.67,
-          "cenaPuvodce": 979.2,
-          "maxCenaLekarna": 1375.4
         },
         {
           "kodSUKL": "0265022",
@@ -16505,52 +16474,6 @@
       "ucinnaLatka": "Rituximab"
     },
     {
-      "nazev": "TUKYSA",
-      "atcKod": "L01EH03",
-      "typ": "Cílená léčba",
-      "formy": [
-        "150MG TBL FLM",
-        "50MG TBL FLM"
-      ],
-      "baleni": [
-        {
-          "kodSUKL": "0250443",
-          "sila": "150MG",
-          "lekovaForma": "TBL FLM",
-          "baleni": "84",
-          "doplnek": "150MG TBL FLM 84",
-          "uhrada": 156040.57,
-          "cenaPuvodce": 135748.97,
-          "maxCenaLekarna": 156040.58
-        },
-        {
-          "kodSUKL": "0250442",
-          "sila": "50MG",
-          "lekovaForma": "TBL FLM",
-          "baleni": "88",
-          "doplnek": "50MG TBL FLM 88",
-          "uhrada": 63473.39,
-          "cenaPuvodce": 47403.77,
-          "maxCenaLekarna": 55115.03
-        }
-      ],
-      "indikace": [
-        {
-          "text": "Tukatinib je hrazen v kombinaci s trastuzumabem a kapecitabinem k léčbě dospělých pacientů s HER2 pozitivním, lokálně pokročilým nebo metastazujícím karcinomem prsu, kteří absolvovali alespoň 2 předchozí anti-HER2 léčebné režimy pro metastatické onemocnění. Pacienti musí kumulativně splnit tyto podmínky: a) výkonnostní stav 0-1 dle ECOG; b) prokázaná HER2 pozitivita validní laboratorní metodou. Léčba je hrazena do progrese onemocnění nebo neakceptovatelné toxicity.",
-          "uhrada": 156040.57,
-          "platnostDo": "2026-09-01T00:00:00",
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Karcinom prsu"
-          ]
-        }
-      ],
-      "typyNadoru": [
-        "Karcinom prsu"
-      ],
-      "ucinnaLatka": "Tukatinib"
-    },
-    {
       "nazev": "TYVERB",
       "atcKod": "L01EH01",
       "typ": "Cílená léčba",
@@ -17641,8 +17564,8 @@
           ]
         },
         {
-          "text": "Ipilimumab je v monoterapii hrazen k léčbě pokročilého melanomu (neresekovatelného - stádia III nebo metastatického - stádia IV) u pacientů, kteří dostávali jedno nebo více léčiv a to pouze ze skupiny chemoterapeutik či cytokinů předchozí volby (dakarbazin, interleukin - 2, fotemustin, karboplatina nebo temozolomid) za kumulativního splnění následujících podmínek: \na) pacient má výkonnostní stav 0 - 1 dle ECOG; \nb) pacient nevykazuje přítomnost symptomatických mozkových metastáz (anebo mozkové metastázy jsou adekvátně léčené), primárního okulárního melanomu nebo primárního melanomu CNS; \nc) pacient není dlouhodobě léčen kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou; \nd) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu menší nebo rovna 2x ULN, hladina bilirubinu menší nebo rovna 2x ULN, hladina AST menší nebo rovna 2x ULN), a současně uspokojivé hodnoty krevního obrazu (hematokrit větší nebo roven 30 %, hladina hemoglobinu větší nebo rovna 100 g/l, počet leukocytů větší nebo roven 2,5x 10 na devátou/l, počet neutrofilů větší nebo roven 1,5x 10 na devátou/l, počet trombocytů větší nebo roven 100x 10 na devátou/l); \ne) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo). \nZ prostředků veřejného zdravotního pojištění je hrazeno podání maximálně čtyř samostatných dávek ipilimumabu 3 mg/kg hmotnosti pacienta, opakovaný (reindukční) režim není ze zdravotního pojištění hrazen.",
-          "uhrada": 333310.28,
+          "text": "Ipilimumab je v monoterapii hrazen k léčbě pokročilého melanomu (neresekovatelného - stádia III nebo metastatického - stádia IV) u pacientů, kteří dostávali jedno nebo více léčiv a to pouze ze skupiny chemoterapeutik či cytokinů předchozí volby (dakarbazin, interleukin - 2, fotemustin, karboplatina nebo temozolomid) za kumulativního splnění následujících podmínek: \na) pacient má výkonnostní stav 0 - 1 dle ECOG; \nb) pacient nevykazuje přítomnost symptomatických mozkových metastáz (anebo mozkové metastázy jsou adekvátně léčené), primárního okulárního melanomu nebo primárního melanomu CNS; \nc) pacient není dlouhodobě léčen kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou; \nd) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu menší nebo rovna 2x ULN, hladina bilirubinu menší nebo rovna 2x ULN, hladina AST menší nebo rovna 2x ULN), a současně uspokojivé hodnoty krevního obrazu (hematokrit větší nebo roven 30 %, hladina hemoglobinu větší nebo rovna 100 g/l, počet leukocytů větší nebo roven 2,5x 10 na devátou/l, počet neutrofilů větší nebo roven 1,5x 10 na devátou/l, počet trombocytů větší nebo roven 100x 10 na devátou/l); \ne) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo). \nZ prostředků veřejného zdravotního pojištění je hrazeno podání maximálně čtyř samostatných dávek ipilimumabu 3 mg/kg hmotnosti pacienta, opakovaný (reindukční) režim není ze zdravotního pojištění",
+          "uhrada": 85347.83,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -17650,8 +17573,8 @@
           ]
         },
         {
-          "text": "Ipilimumab je v monoterapii hrazen k léčbě pokročilého melanomu (neresekovatelného - stádia III nebo metastatického - stádia IV) u pacientů, kteří dostávali jedno nebo více léčiv a to pouze ze skupiny chemoterapeutik či cytokinů předchozí volby (dakarbazin, interleukin - 2, fotemustin, karboplatina nebo temozolomid) za kumulativního splnění následujících podmínek: \na) pacient má výkonnostní stav 0 - 1 dle ECOG; \nb) pacient nevykazuje přítomnost symptomatických mozkových metastáz (anebo mozkové metastázy jsou adekvátně léčené), primárního okulárního melanomu nebo primárního melanomu CNS; \nc) pacient není dlouhodobě léčen kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou; \nd) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu menší nebo rovna 2x ULN, hladina bilirubinu menší nebo rovna 2x ULN, hladina AST menší nebo rovna 2x ULN), a současně uspokojivé hodnoty krevního obrazu (hematokrit větší nebo roven 30 %, hladina hemoglobinu větší nebo rovna 100 g/l, počet leukocytů větší nebo roven 2,5x 10 na devátou/l, počet neutrofilů větší nebo roven 1,5x 10 na devátou/l, počet trombocytů větší nebo roven 100x 10 na devátou/l); \ne) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo). \nZ prostředků veřejného zdravotního pojištění je hrazeno podání maximálně čtyř samostatných dávek ipilimumabu 3 mg/kg hmotnosti pacienta, opakovaný (reindukční) režim není ze zdravotního pojištění",
-          "uhrada": 85347.83,
+          "text": "Ipilimumab je v monoterapii hrazen k léčbě pokročilého melanomu (neresekovatelného - stádia III nebo metastatického - stádia IV) u pacientů, kteří dostávali jedno nebo více léčiv a to pouze ze skupiny chemoterapeutik či cytokinů předchozí volby (dakarbazin, interleukin - 2, fotemustin, karboplatina nebo temozolomid) za kumulativního splnění následujících podmínek: \na) pacient má výkonnostní stav 0 - 1 dle ECOG; \nb) pacient nevykazuje přítomnost symptomatických mozkových metastáz (anebo mozkové metastázy jsou adekvátně léčené), primárního okulárního melanomu nebo primárního melanomu CNS; \nc) pacient není dlouhodobě léčen kortikosteroidy v dávce prednisonu nad 10 mg denně (či odpovídajícím ekvivalentem) nebo jinou imunosupresivní léčbou; \nd) pacient má přijatelnou funkci ledvin a jater (hladina kreatininu menší nebo rovna 2x ULN, hladina bilirubinu menší nebo rovna 2x ULN, hladina AST menší nebo rovna 2x ULN), a současně uspokojivé hodnoty krevního obrazu (hematokrit větší nebo roven 30 %, hladina hemoglobinu větší nebo rovna 100 g/l, počet leukocytů větší nebo roven 2,5x 10 na devátou/l, počet neutrofilů větší nebo roven 1,5x 10 na devátou/l, počet trombocytů větší nebo roven 100x 10 na devátou/l); \ne) pacient nemá diagnostikované závažné aktivní systémové autoimunitní onemocnění s výjimkou následujících onemocnění: diabetes mellitus I. typu, autoimunitní zánět štítné žlázy, kožní autoimunitní onemocnění (např. psoriáza, atopický ekzém, ložisková alopecie, vitiligo). \nZ prostředků veřejného zdravotního pojištění je hrazeno podání maximálně čtyř samostatných dávek ipilimumabu 3 mg/kg hmotnosti pacienta, opakovaný (reindukční) režim není ze zdravotního pojištění hrazen.",
+          "uhrada": 333310.28,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
