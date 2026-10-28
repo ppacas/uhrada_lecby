@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "datumAktualizace": "2026-09-28",
-    "scauPlatnostOd": "2026-09-01",
+    "datumAktualizace": "2026-10-28",
+    "scauPlatnostOd": "2026-10-01",
     "scauVerze": 1,
     "pocetLeku": 297,
-    "pocetZaznamu": 696
+    "pocetZaznamu": 698
   },
   "filtry": {
     "typyTerapie": [
@@ -883,6 +883,15 @@
           ]
         },
         {
+          "text": "Brentuximab vedotin je hrazen v kombinaci s etoposidem, cyklofosfamidem, doxorubicinem, dakarbazinem a dexamethasonem u dospělých pacientů do 60 let s nově diagnostikovaným klasickým Hodgkinovým lymfomem pokročilého klinického stadia, které je definováno jako stádium IIB s rizikovými faktory, stádium III, a stádium IV. Jedná se o pacienty o stavu výkonnosti 0-1 dle ECOG. Brentuximab vedotin je hrazen do progrese onemocnění, projevů nepřijatelné toxicity nebo do vyčerpání maximálního počtu 6 cyklů kombinační chemoterapie dle toho, co nastane dříve.",
+          "uhrada": 66568.26,
+          "platnostDo": "2029-10-01T00:00:00",
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Hodgkinův lymfom"
+          ]
+        },
+        {
           "text": "Brentuximab vedotin je hrazen v léčbě dospělých pacientů s relabujícím nebo refrakterním systémovým anaplastickým velkobuněčným lymfomem (sALCL) ve stavu výkonnosti 0-1 dle ECOG, kteří dosud nepodstoupili alogenní transplantaci hematopoetických kmenových buněk.\nVe všech uvedených indikacích je léčba hrazena do progrese onemocnění, do vyčerpání 16 cyklů (tj. 16 infuzí) terapie, či do projevů nepřijatelné toxicity dle toho, co nastane dříve.",
           "uhrada": 67250.29,
           "platnostDo": null,
@@ -1322,8 +1331,8 @@
           "baleni": "100",
           "doplnek": "0,5MG CPS DUR 100",
           "uhrada": 4206.72,
-          "cenaPuvodce": 8655,
-          "maxCenaLekarna": 10818.3
+          "cenaPuvodce": 2710.56,
+          "maxCenaLekarna": 3637.8
         }
       ],
       "indikace": [
@@ -1392,8 +1401,8 @@
           "baleni": "100",
           "doplnek": "0,5MG CPS DUR 100",
           "uhrada": 4206.72,
-          "cenaPuvodce": 8322.12,
-          "maxCenaLekarna": 10430.57
+          "cenaPuvodce": 2298,
+          "maxCenaLekarna": 3104.26
         }
       ],
       "indikace": [
@@ -1670,16 +1679,6 @@
         "1MG TBL FLM"
       ],
       "baleni": [
-        {
-          "kodSUKL": "0231850",
-          "sila": "1MG",
-          "lekovaForma": "TBL FLM",
-          "baleni": "28",
-          "doplnek": "1MG TBL FLM 28",
-          "uhrada": 208.36,
-          "cenaPuvodce": 500,
-          "maxCenaLekarna": 731.36
-        },
         {
           "kodSUKL": "0253468",
           "sila": "1MG",
@@ -5401,41 +5400,6 @@
       "ucinnaLatka": "Erlotinib-hydrochlorid"
     },
     {
-      "nazev": "ERLOTINIB ZENTIVA",
-      "atcKod": "L01EB02",
-      "typ": "Cílená léčba",
-      "formy": [
-        "100MG TBL FLM"
-      ],
-      "baleni": [
-        {
-          "kodSUKL": "0245913",
-          "sila": "100MG",
-          "lekovaForma": "TBL FLM",
-          "baleni": "30",
-          "doplnek": "100MG TBL FLM 30",
-          "uhrada": 9551.36,
-          "cenaPuvodce": 36155.68,
-          "maxCenaLekarna": 42265.21
-        }
-      ],
-      "indikace": [
-        {
-          "text": "1) Erlotinib je hrazen v první linii léčby pacientů s lokálně pokročilým nebo metastazujícím nemalobuněčným karcinomem plic (stádium IIIB nebo stádium IV), starších 18 let, u kterých byly relevantní molekulárně biologickou metodou prokázány aktivační mutace EGFR. Pacienti nemají symptomatické CNS metastázy. Terapie je hrazena do progrese onemocnění. Přípravek je hrazen pro pacienty v celkovém stavu (PS) 0-2 dle ECOG.\n2) Erlotinib je hrazen u pacientů s lokálně pokročilým nebo metastazujícím nemalobuněčným karcinomem plic, v případě selhání předchozí chemoterapeutické léčby.\nU pacientů, kteří nemají relevantní molekulárně biologickou metodou prokázány aktivační mutace EGFR (pacienti s EGFR wild-type NSCLC, pacienti, u kterých nebylo možné nádorovou tkáň otestovat, pacienti se skvamózním NSCLC), je erlotinib hrazen pouze v případech, kdy nelze použít jinou než podpůrnou péči, za kumulativního splnění následujících podmínek:\na) nelze podat další linii chemoterapie\nb) nelze podat imunoterapii.\nZhodnocení dosavadního průběhu léčby a klinického stavu pacienta a důvody nepodání další linie chemoterapie nebo imunoterapie musí být zaznamenané do zdravotní dokumentace pacienta, kdy důvodem nemůže být pouhý nesouhlas pacienta, ale např. kontraindikace, nesplnění indikačních kritérií, celkový zdravotní stav pacienta.\nTerapie je hrazena do progrese onemocnění. Přípravek je hrazen pro pacienty v celkovém stavu (PS) 0-2 dle ECOG.",
-          "uhrada": 9551.36,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "NSCLC"
-          ]
-        }
-      ],
-      "typyNadoru": [
-        "NSCLC"
-      ],
-      "ucinnaLatka": "Erlotinib-hydrochlorid"
-    },
-    {
       "nazev": "ETRUZIL",
       "atcKod": "L02BG04",
       "typ": "Hormonální terapie",
@@ -8647,8 +8611,8 @@
           ]
         },
         {
-          "text": "Lenvatinib je hrazen v léčbě dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění. Rezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
-          "uhrada": 19467.84,
+          "text": "Lenvatinib je hrazen jako monoterapie u dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění. Rezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
+          "uhrada": 18891.26,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -8656,8 +8620,8 @@
           ]
         },
         {
-          "text": "Lenvatinib je hrazen jako monoterapie u dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění. Rezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
-          "uhrada": 18891.26,
+          "text": "Lenvatinib je hrazen v léčbě dospělých pacientů dosud neléčených pro karcinom štítné žlázy inhibitorem tyrozinkináz nebo léčených jedním předchozím léčebným režimem obsahujícím inhibitor tyrozinkináz. Pacienti musejí splňovat všechny tyto podmínky: stav výkonnosti dle ECOG 0-1, diagnóza progresivního, lokálně pokročilého nebo metastazujícího diferencovaného karcinomu štítné žlázy (papilární/folikulární/z Hürthleho buněk), který je rezistentní na léčbu radiojódem a u kterého není možné nebo vhodné použití alternativní lokoregionální terapeutické alternativy (zevní radioterapie, embolizace, intraluminální radiofrekvenční termoablace). Terapie je hrazena do progrese onemocnění. Rezistence na radiojód (RAI) je definována následovně: léze bez vychytávání jodu na RAI snímku nebo progrese po RAI léčbě během 12 měsíců po podání terapie RAI nebo podaná kumulativní dávka RAI větší nebo rovna 22,2 GBq.",
+          "uhrada": 19467.84,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -10185,6 +10149,53 @@
       "ucinnaLatka": "Paklitaxel"
     },
     {
+      "nazev": "NAVIREL",
+      "atcKod": "L01CA04",
+      "typ": "Cílená léčba",
+      "formy": [
+        "10MG/ML INF CNC SOL"
+      ],
+      "baleni": [
+        {
+          "kodSUKL": "0030336",
+          "sila": "10MG/ML",
+          "lekovaForma": "INF CNC SOL",
+          "baleni": "1X1ML",
+          "doplnek": "10MG/ML INF CNC SOL 1X1ML",
+          "uhrada": 415.75,
+          "cenaPuvodce": 376.64,
+          "maxCenaLekarna": 560.04
+        },
+        {
+          "kodSUKL": "0051830",
+          "sila": "10MG/ML",
+          "lekovaForma": "INF CNC SOL",
+          "baleni": "1X5ML",
+          "doplnek": "10MG/ML INF CNC SOL 1X5ML",
+          "uhrada": 2078.74,
+          "cenaPuvodce": 1271.87,
+          "maxCenaLekarna": 1759.62
+        }
+      ],
+      "indikace": [
+        {
+          "text": "Vinorelbin je hrazen v terapii metastatického karcinomu prsu a v 1. linii terapie nemalobuněčného karcinomu plic.",
+          "uhrada": 2078.74,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "NSCLC",
+            "Karcinom prsu"
+          ]
+        }
+      ],
+      "typyNadoru": [
+        "Karcinom prsu",
+        "NSCLC"
+      ],
+      "ucinnaLatka": "Vinorelbin-ditartarát"
+    },
+    {
       "nazev": "NERLYNX",
       "atcKod": "L01EH02",
       "typ": "Cílená léčba",
@@ -10762,8 +10773,8 @@
       ],
       "indikace": [
         {
-          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s idiopatickou plicní fibrózou (IPF), kteří dodržují zákaz kouření.",
-          "uhrada": 23835.41,
+          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s jinými chronickými fibrotizujícími intersticiálními plicními onemocněními (ILD) s progresivním fenotypem navzdory stávajícímu individualizovanému léčebnému postupu, přičemž progresivní fenotyp je definován jako relativní pokles FVC o alespoň 10 % ve srovnání s předchozí hodnotou nebo relativní pokles FVC o alespoň 5 % ve srovnání s předchozí hodnotou se současným zhoršováním respiračních symptomů či zvětšováním fibrotického postižení plic, nebo zhoršování respiračních symptomů a současně zvětšování fibrotického postižení plic; vše hodnoceno kdykoli během posledních 24 měsíců před zahájením léčby nintedanibem. Diagnóza ILD musí být potvrzena multidisciplinárním týmem příslušného specializovaného centra. Pacienti musí dále mít FVC alespoň 45 % predikovaných hodnot, TLCO alespoň 30 % a dominující fibrotické změny na HRCT.",
+          "uhrada": 12766.17,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -10771,8 +10782,8 @@
           ]
         },
         {
-          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s jinými chronickými fibrotizujícími intersticiálními plicními onemocněními (ILD) s progresivním fenotypem navzdory stávajícímu individualizovanému léčebnému postupu, přičemž progresivní fenotyp je definován jako relativní pokles FVC o alespoň 10 % ve srovnání s předchozí hodnotou nebo relativní pokles FVC o alespoň 5 % ve srovnání s předchozí hodnotou se současným zhoršováním respiračních symptomů či zvětšováním fibrotického postižení plic, nebo zhoršování respiračních symptomů a současně zvětšování fibrotického postižení plic; vše hodnoceno kdykoli během posledních 24 měsíců před zahájením léčby nintedanibem. Diagnóza ILD musí být potvrzena multidisciplinárním týmem příslušného specializovaného centra. Pacienti musí dále mít FVC alespoň 45 % predikovaných hodnot, TLCO alespoň 30 % a dominující fibrotické změny na HRCT.",
-          "uhrada": 12766.17,
+          "text": "Léčba nintedanibem je hrazena u dospělých pacientů s idiopatickou plicní fibrózou (IPF), kteří dodržují zákaz kouření.",
+          "uhrada": 23835.41,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -12089,15 +12100,6 @@
       ],
       "indikace": [
         {
-          "text": "P: Paklitaxel je hrazen u pacientů v léčbě metastatického/ pokročilého inoperabilního karcinomu prsu (u HER2 pozitivních pacientek v kombinaci s trastuzumabem) a u vysoce rizikových pacientek v adjuvantní nebo (alternativně) neoadjuvantní léčbě karcinomu prsu,",
-          "uhrada": 239.57,
-          "platnostDo": null,
-          "obecnePodminky": null,
-          "typyNadoru": [
-            "Karcinom prsu"
-          ]
-        },
-        {
           "text": "Paklitaxel je hrazen u pacientů v léčbě metastatického/ pokročilého inoperabilního karcinomu prsu (u HER2 pozitivních pacientek v kombinaci s trastuzumabem) a u vysoce rizikových pacientek v adjuvantní nebo (alternativně) neoadjuvantní léčbě karcinomu prsu,",
           "uhrada": 2395.68,
           "platnostDo": null,
@@ -12107,12 +12109,12 @@
           ]
         },
         {
-          "text": "P: Paklitaxel je hrazen u pacientů a) v primární kombinované chemoterapii časných stadií karcinomu ovaria zvýšeného rizika (I.a,b, G3, Ic, G2-3) nebo pokročilých stadií karcinomu ovaria, \nb) po selhání primární léčby karcinomů ovaria senzitivních k cisplatině (při recidivě v odstupu delším než 6 měsíců),",
+          "text": "P: Paklitaxel je hrazen u pacientů v léčbě metastatického/ pokročilého inoperabilního karcinomu prsu (u HER2 pozitivních pacientek v kombinaci s trastuzumabem) a u vysoce rizikových pacientek v adjuvantní nebo (alternativně) neoadjuvantní léčbě karcinomu prsu,",
           "uhrada": 239.57,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
-            "Karcinom vaječníků"
+            "Karcinom prsu"
           ]
         },
         {
@@ -12125,8 +12127,17 @@
           ]
         },
         {
-          "text": "P: Paklitaxel je hrazen u pacientů a) v (neo)adjuvantní léčbě nemalobuněčného karcinomu plic v kombinaci s karboplatinou,\nb) v první linii terapie lokálně pokročilého nebo metastazujícího nemalobuněčného karcinomu plic v kombinaci s cisplatinou.",
+          "text": "P: Paklitaxel je hrazen u pacientů a) v primární kombinované chemoterapii časných stadií karcinomu ovaria zvýšeného rizika (I.a,b, G3, Ic, G2-3) nebo pokročilých stadií karcinomu ovaria, \nb) po selhání primární léčby karcinomů ovaria senzitivních k cisplatině (při recidivě v odstupu delším než 6 měsíců),",
           "uhrada": 239.57,
+          "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "Karcinom vaječníků"
+          ]
+        },
+        {
+          "text": "Paklitaxel je hrazen u pacientů a) v (neo)adjuvantní léčbě nemalobuněčného karcinomu plic v kombinaci s karboplatinou,\nb) v první linii terapie lokálně pokročilého nebo metastazujícího nemalobuněčného karcinomu plic v kombinaci s cisplatinou.",
+          "uhrada": 2395.68,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -12134,8 +12145,8 @@
           ]
         },
         {
-          "text": "Paklitaxel je hrazen u pacientů a) v (neo)adjuvantní léčbě nemalobuněčného karcinomu plic v kombinaci s karboplatinou,\nb) v první linii terapie lokálně pokročilého nebo metastazujícího nemalobuněčného karcinomu plic v kombinaci s cisplatinou.",
-          "uhrada": 2395.68,
+          "text": "P: Paklitaxel je hrazen u pacientů a) v (neo)adjuvantní léčbě nemalobuněčného karcinomu plic v kombinaci s karboplatinou,\nb) v první linii terapie lokálně pokročilého nebo metastazujícího nemalobuněčného karcinomu plic v kombinaci s cisplatinou.",
+          "uhrada": 239.57,
           "platnostDo": null,
           "obecnePodminky": null,
           "typyNadoru": [
@@ -16759,6 +16770,15 @@
           "text": "Venetoklax je hrazen v kombinačním režimu s rituximabem u dospělých pacientů s relabující nebo refrakterní chronickou lymfocytární leukémií (CLL) o stavu výkonnosti 0-1 dle ECOG, kteří splňují alespoň jedno z následujících kritérií: \n(a) jsou refrakterní na poslední léčbu; \n(b) došlo u nich k relapsu do 24 měsíců po ukončení předcházející léčby; \n(c) došlo u nich k relapsu a nejsou vhodní na chemo-imunoterapii; \n(d) je u nich prokázaná mutace TP53 nebo del17p. \nPřípravek je hrazen do progrese onemocnění (tj. i po vyčerpání 6 předepsaných cyklů rituximabu) nebo do projevů nepřijatelné toxicity, nejdéle po dobu 24 měsíců od 1. dne 1. cyklu s podáním rituximabu, dle toho, co nastane dříve.",
           "uhrada": 116626.4,
           "platnostDo": null,
+          "obecnePodminky": null,
+          "typyNadoru": [
+            "CLL/SLL"
+          ]
+        },
+        {
+          "text": "Venetoklax je hrazen v kombinačním režimu s obinutuzumabem u pacientů ve velmi dobrém stavu výkonnosti (ECOG 0-1) s dříve neléčenou chronickou lymfocytární leukémií (CLL) ve věku menší nebo rovno 65 let s nemutovaným IGHV genem bez prokázané del17p/TP53 mutace s nízkou zátěží komorbidit. \nPřípravek je hrazen do vyčerpání 12 cyklů terapie nebo do progrese onemocnění či výskytu nepřijatelné toxicity, dle toho, co nastane dříve.",
+          "uhrada": 114648.42,
+          "platnostDo": "2029-10-01T00:00:00",
           "obecnePodminky": null,
           "typyNadoru": [
             "CLL/SLL"
